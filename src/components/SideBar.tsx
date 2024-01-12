@@ -1,10 +1,13 @@
 import { FunctionComponent, useCallback, useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom"
 
 type SideBarType = {
   onClose?: () => void;
 };
 
 const SideBar: FunctionComponent<SideBarType> = ({ onClose }) => {
+  const navigate = useNavigate();
+
   useEffect(() => {
     const scrollAnimElements = document.querySelectorAll(
       "[data-animate-on-scroll]"
@@ -34,6 +37,10 @@ const SideBar: FunctionComponent<SideBarType> = ({ onClose }) => {
       }
     };
   }, []);
+  
+  const onWhoWeAreClick = useCallback(() => {
+    navigate("/About");
+  }, [navigate]);
 
   const onHowItWorksClick = useCallback(() => {
     // Please sync "flow" to the project

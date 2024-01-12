@@ -51,9 +51,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<About />} />
-      <Route path="/home" element={<Home />} />
-    </Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      </Routes>
   );
 }
 export default App;

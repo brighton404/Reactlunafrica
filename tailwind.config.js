@@ -40,7 +40,7 @@ module.exports = {
         max: "960px",
       },
       sm: {
-        max: "420px",
+        max: "500px",
       },
     },
   },

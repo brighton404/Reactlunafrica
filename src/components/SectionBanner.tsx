@@ -3,7 +3,7 @@ import { FunctionComponent } from "react";
 const SectionBanner: FunctionComponent = () => {
   return (
     <div
-      className="bg-base-black w-[1440px] overflow-hidden flex flex-row items-center justify-start pt-10 px-5 pb-0 box-border gap-[20px] text-left text-13xl text-primary-pallete-primary font-wide-screen-heading lg:w-[1200px] md:w-[960px] sm:w-[420px] sm:flex-col"
+      className="bg-base-black w-full overflow-hidden flex flex-row items-center justify-start pt-10 px-5 pb-0 box-border gap-[20px] text-left text-13xl text-primary-pallete-primary font-wide-screen-heading lg:w-[1200px] md:w-[960px] sm:w-[420px] sm:flex-col"
       id="banner-cta"
     >
       <div className="flex-1 flex flex-col items-start justify-center sm:flex-[unset] sm:self-stretch">

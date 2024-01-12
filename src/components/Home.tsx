@@ -6,8 +6,9 @@ import SectionBanner from "./SectionBanner";
 const Home: FunctionComponent = () => {
   return (
     <div className="relative bg-base-black-secondary w-full overflow-hidden flex flex-col items-center justify-start text-left text-xl text-contemporary-contemporary-var-2 font-wide-screen-heading">
+      <Header />
       <section
-        className="self-stretch h-[900px] flex flex-col items-center justify-end py-[30px] px-[50px] box-border bg-[url('/public/section-hero@3x.png')] bg-cover bg-no-repeat bg-[top] text-center text-30xl text-base-white-secondary font-wide-screen-heading"
+        className="self-stretch h-[87vh] flex flex-col items-center justify-end py-[30px] px-[50px] box-border bg-[url('/public/section-hero@3x.png')] bg-cover bg-no-repeat bg-[top] text-center text-30xl text-base-white-secondary font-wide-screen-heading"
         id="hero"
       >
         <p className="m-0 [background:linear-gradient(-90deg,_rgba(0,_0,_0,_0),_rgba(0,_0,_0,_0.06)_22.4%,_rgba(0,_0,_0,_0.12)_48.96%,_rgba(0,_0,_0,_0.12)_78.65%,_rgba(0,_0,_0,_0))] [backdrop-filter:blur(6px)] w-[700px] flex flex-col items-center justify-center py-[15px] px-5 box-border gap-[50px] sm:self-stretch sm:w-auto">
@@ -41,7 +42,7 @@ const Home: FunctionComponent = () => {
         id="partners"
       >
         <div className="flex flex-row items-start justify-start py-[5px] px-2.5">
-          <h3 className="m-0 relative text-inherit font-semibold font-inherit">
+          <h3 className="m-0 relative text-inherit font-semibold font-inherit w-max">
             Our Partners
           </h3>
         </div>
@@ -111,8 +112,7 @@ const Home: FunctionComponent = () => {
             <span className="relative">{`Allan & Gill Gray`}</span>
           </div>
           <div className="h-10 overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 box-border gap-[10px]">
-            <img
-              className="self-stretch relative max-h-full w-10 object-cover"
+            <img className="self-stretch relative max-h-full w-10 object-cover"
               alt=""
               src="/partner09@2x.png"
             />
@@ -126,29 +126,20 @@ const Home: FunctionComponent = () => {
       >
         <div className="self-stretch flex flex-row items-start justify-start py-2.5 px-5">
           <div className="self-stretch flex-1 flex flex-col items-start justify-center">
-            <h2 className="m-0 self-stretch relative text-inherit font-semibold font-inherit">
-              Our Solutions
-            </h2>
+            <h2 className="m-0 self-stretch relative text-inherit font-semibold font-inherit"> Our Solutions </h2>
           </div>
         </div>
         <div className="self-stretch bg-base-black-secondary flex flex-col items-start justify-start py-0 px-2.5">
           <div className="self-stretch flex flex-row items-start justify-start py-0 px-2.5 gap-[20px] sm:flex-col">
             <article className="flex-1 box-border h-[315px] flex flex-col items-start justify-start p-[15px] text-left text-3xl text-brand-brand-var-1 font-wide-screen-heading border-[2px] border-solid border-base-gray sm:flex-[unset] sm:self-stretch">
               <div className="self-stretch flex-1 flex flex-col items-start justify-start gap-[15px]">
-                <h3 className="m-0 relative text-inherit font-semibold font-inherit">
-                  Health
-                </h3>
+                <h3 className="m-0 relative text-inherit font-semibold font-inherit"> Health </h3>
                 <div className="self-stretch flex-1 flex flex-col items-start justify-start gap-[10px] text-primary-pallete-primary">
-                  <span className="self-stretch relative">
-                    Services offered:
-                  </span>
+                  <span className="self-stretch relative"> Services offered: </span>
                   <li className="self-stretch relative text-lg">
                     <ul className="m-0 font-inherit text-inherit pl-6">
                       <li className="mb-0">Teleconsultation</li>
-                      <li className="mb-0">
-                        Talk to our range of professionals, experts and
-                        specialists from all backgrounds and experiences
-                      </li>
+                      <li className="mb-0">Talk to our range of professionals, experts and specialists from all backgrounds and experiences</li>
                       <li>Anywehere in the world</li>
                     </ul>
                   </li>

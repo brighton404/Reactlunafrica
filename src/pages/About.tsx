@@ -6,6 +6,7 @@ import SectionBanner from "../components/SectionBanner";
 const About: FunctionComponent = () => {
   return (
     <main className="relative bg-base-black-secondary w-full overflow-hidden flex flex-col items-start justify-start lg:w-[1200px] md:w-[960px] sm:w-[420px]">
+      <Header />
       <section className="self-stretch flex flex-col items-start justify-center pt-[50px] px-5 pb-5">
         <article className="self-stretch flex flex-col items-start justify-start p-5 gap-[20px] text-left text-7xl text-primary-pallete-primary font-wide-screen-heading">
           <h1 className="m-0 relative text-53xl font-normal font-inherit">
@@ -274,6 +275,8 @@ const About: FunctionComponent = () => {
           </div>
         </div>
       </section>
+      <SectionBanner />
+      <Footer />
     </main>
   );
 };

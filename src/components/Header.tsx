@@ -8,6 +8,10 @@ const Header: FunctionComponent = () => {
   const [isSideBarOpen, setSideBarOpen] = useState(false);
 
   const onWhoWeAreClick = useCallback(() => {
+    navigate("/About");
+  }, [navigate]);
+
+  const onHome = useCallback(() => {
     navigate("/");
   }, [navigate]);
 
@@ -30,7 +34,7 @@ const Header: FunctionComponent = () => {
   return (
     <>
       <header
-        className="bg-base-black w-[1440px] h-[70px] overflow-hidden flex flex-row items-center justify-center py-0 px-[50px] box-border text-left text-[11.2px] text-primary-pallete-primary font-montserrat lg:w-[1200px] md:w-[960px] sm:w-[420px]"
+        className="bg-base-black w-full h-[70px] overflow-hidden flex flex-row items-center justify-center py-0 px-[50px] box-border text-left text-[11.2px] text-primary-pallete-primary font-montserrat lg:w-[1200px] md:w-[960px] sm:w-[420px]"
         id="header"
       >
         <div className="self-stretch flex-1 flex flex-row items-center justify-start relative gap-[10px]">
@@ -39,11 +43,9 @@ const Header: FunctionComponent = () => {
               className="m-0 flex-1 flex flex-row items-center justify-center gap-[35px] text-left text-xl text-primary-pallete-primary font-wide-screen-heading sm:hidden"
               id="pagenavbar"
             >
-              <Link
-                className="cursor-pointer [text-decoration:none] relative text-[inherit]"
-                to="/"
-                onClick={onWhoWeAreClick}
-              >
+              <Link className="cursor-pointer [text-decoration:none] relative text-[inherit]"
+                to="/About"
+                onClick={onWhoWeAreClick}>
                 Who we are
               </Link>
               <Link
@@ -62,30 +64,22 @@ const Header: FunctionComponent = () => {
               </Link>
             </nav>
           </div>
-          <div className="my-0 mx-[!important] absolute top-[0px] left-[1033px] flex flex-row items-center justify-start gap-[10px] z-[1]">
-            <div className="h-[70px] flex flex-row items-center justify-start gap-[10px]">
-              <a
-                className="[text-decoration:none] relative w-[30px] h-[30px] bg-[url('/public/socials01@2x.png')] bg-cover bg-no-repeat bg-[top]"
+          <div className="my-0 mx-[!important] absolute top-[0px] right-[20px] flex flex-row items-center justify-start gap-[10px] z-[1]">
+            <div className="h-[70px] flex flex-row items-center justify-start gap-[10px] sm:hidden">
+              <a className="[text-decoration:none] relative w-[30px] h-[30px] bg-[url('/public/socials01@2x.png')] bg-cover bg-no-repeat bg-[top]"
+                href="https://lunafrica.com"/>
+              <a className="[text-decoration:none] relative w-[30px] h-[30px] bg-[url('/public/socials02@2x.png')] bg-cover bg-no-repeat bg-[top]"
                 href="https://lunafrica.com"
-              />
-              <a
-                className="[text-decoration:none] relative w-[30px] h-[30px] bg-[url('/public/socials02@2x.png')] bg-cover bg-no-repeat bg-[top]"
+                target="_blank"/>
+              <a className="[text-decoration:none] relative w-[30px] h-[30px] bg-[url('/public/socials03@2x.png')] bg-cover bg-no-repeat bg-[top]"
                 href="https://lunafrica.com"
-                target="_blank"
-              />
-              <a
-                className="[text-decoration:none] relative w-[30px] h-[30px] bg-[url('/public/socials03@2x.png')] bg-cover bg-no-repeat bg-[top]"
+                target="_blank"/>
+              <a className="[text-decoration:none] relative w-[30px] h-[30px] bg-[url('/public/socials04@2x.png')] bg-cover bg-no-repeat bg-[top]"
                 href="https://lunafrica.com"
-                target="_blank"
-              />
-              <a
-                className="[text-decoration:none] relative w-[30px] h-[30px] bg-[url('/public/socials04@2x.png')] bg-cover bg-no-repeat bg-[top]"
-                href="https://lunafrica.com"
-                target="_blank"
-              />
+                target="_blank"/>
             </div>
             <button
-              className="cursor-pointer [border:none] py-[5px] px-2.5 bg-primary-pallete-primary flex flex-row items-center justify-center"
+              className="cursor-pointer [border:none] py-[5px] px-2.5 bg-primary-pallete-primary flex flex-row items-center justify-center sm:hidden"
               id="consultNow"
             >
               <span className="relative text-xl font-wide-screen-heading text-base-black-secondary text-left">
@@ -93,7 +87,7 @@ const Header: FunctionComponent = () => {
               </span>
             </button>
           </div>
-          <div className="my-0 mx-[!important] absolute top-[14.3px] left-[0px] flex flex-col items-center justify-center z-[2]">
+          <div className="my-0 mx-[!important] absolute top-[14.3px] left-[0px] flex flex-col items-center justify-center z-[2]" onClick={onHome}>
             <div className="relative w-[61px] h-[41.5px]">
               <div className="absolute h-[100.48%] w-[90.16%] top-[0.24%] right-[-100.98%] bottom-[-0.72%] left-[110.82%] hidden">
                 <div className="absolute top-[0%] left-[0%] tracking-[-0.01em] leading-[100.9%] font-extrabold">
