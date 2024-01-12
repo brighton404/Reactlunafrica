@@ -4,7 +4,7 @@ const Footer: FunctionComponent = () => {
   const [textFieldValue, setTextFieldValue] = useState("");
   return (
     <footer
-      className="bg-base-black w-full flex flex-col items-start justify-start py-[30px] px-5 box-border text-left text-xl text-primary-pallete-primary font-small-screen-subheading lg:w-[1200px] md:w-[960px] sm:w-[420px]"
+      className="bg-base-black w-[1440px] flex flex-col items-start justify-start py-[30px] px-5 box-border text-left text-xl text-primary-pallete-primary font-wide-screen-heading lg:w-[1200px] md:w-[960px] sm:w-[420px]"
       id="footer"
     >
       <div className="self-stretch flex flex-row items-start justify-start gap-[20px] sm:flex-col">
@@ -58,11 +58,11 @@ const Footer: FunctionComponent = () => {
             Sign Up for our Newsletter
           </label>
           <form
-            className="m-0 self-stretch bg-base-white flex flex-row items-center justify-end gap-[10px]"
+            className="m-0 self-stretch bg-primary-pallete-primary flex flex-row items-center justify-end gap-[10px]"
             id="NewsletterForm"
           >
             <input
-              className="[border:none] [outline:none] font-wide-screen-title-bold text-3xl bg-[transparent] self-stretch flex-1 flex flex-row items-center justify-start py-2.5 px-[15px] text-base-black-secondary"
+              className="[border:none] [outline:none] font-wide-screen-heading text-3xl bg-[transparent] self-stretch flex-1 flex flex-row items-center justify-start py-2.5 px-[15px] text-base-black-secondary"
               id="AddToNewsletter"
               placeholder="your email"
               type="email"
@@ -73,7 +73,7 @@ const Footer: FunctionComponent = () => {
               className="cursor-pointer [border:none] p-2.5 bg-contemporary-contemporary-var-2 flex flex-row items-center justify-start"
               id="submitEmail"
             >
-              <span className="relative text-3xl font-wide-screen-title-bold text-base-black-secondary text-left">
+              <span className="relative text-3xl font-wide-screen-heading text-base-black-secondary text-left">
                 Submit
               </span>
             </button>

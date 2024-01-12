@@ -8,7 +8,7 @@ const Header: FunctionComponent = () => {
   const [isSideBarOpen, setSideBarOpen] = useState(false);
 
   const onWhoWeAreClick = useCallback(() => {
-    navigate("/about");
+    navigate("/");
   }, [navigate]);
 
   const onHowItWorksClick = useCallback(() => {
@@ -30,32 +30,32 @@ const Header: FunctionComponent = () => {
   return (
     <>
       <header
-        className="bg-base-black w-[1440px] h-[70px] overflow-hidden flex flex-row items-center justify-center py-0 px-[50px] box-border text-left text-[11.2px] text-base-white font-montserrat lg:w-[1200px] md:w-[960px] sm:w-[420px]"
+        className="bg-base-black w-[1440px] h-[70px] overflow-hidden flex flex-row items-center justify-center py-0 px-[50px] box-border text-left text-[11.2px] text-primary-pallete-primary font-montserrat lg:w-[1200px] md:w-[960px] sm:w-[420px]"
         id="header"
       >
         <div className="self-stretch flex-1 flex flex-row items-center justify-start relative gap-[10px]">
           <div className="flex-1 flex flex-row items-center justify-center z-[0]">
             <nav
-              className="m-0 flex-1 flex flex-row items-center justify-center gap-[35px] text-left text-xl text-base-white font-wide-screen-title-bold sm:hidden"
+              className="m-0 flex-1 flex flex-row items-center justify-center gap-[35px] text-left text-xl text-primary-pallete-primary font-wide-screen-heading sm:hidden"
               id="pagenavbar"
             >
               <Link
                 className="cursor-pointer [text-decoration:none] relative text-[inherit]"
-                to="/about"
+                to="/"
                 onClick={onWhoWeAreClick}
               >
                 Who we are
               </Link>
               <Link
                 className="cursor-pointer [text-decoration:none] relative text-[inherit]"
-                to="/about"
+                to="/"
                 onClick={onHowItWorksClick}
               >
                 How it works
               </Link>
               <Link
                 className="cursor-pointer [text-decoration:none] relative text-[inherit]"
-                to="/about"
+                to="/"
                 onClick={onResourcesClick}
               >
                 Resources
@@ -85,10 +85,10 @@ const Header: FunctionComponent = () => {
               />
             </div>
             <button
-              className="cursor-pointer [border:none] py-[5px] px-2.5 bg-base-white flex flex-row items-center justify-center"
+              className="cursor-pointer [border:none] py-[5px] px-2.5 bg-primary-pallete-primary flex flex-row items-center justify-center"
               id="consultNow"
             >
-              <span className="relative text-xl font-wide-screen-title-bold text-base-black-secondary text-left">
+              <span className="relative text-xl font-wide-screen-heading text-base-black-secondary text-left">
                 Consult now
               </span>
             </button>

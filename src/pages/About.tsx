@@ -7,7 +7,7 @@ const About: FunctionComponent = () => {
   return (
     <main className="relative bg-base-black-secondary w-full overflow-hidden flex flex-col items-start justify-start lg:w-[1200px] md:w-[960px] sm:w-[420px]">
       <section className="self-stretch flex flex-col items-start justify-center pt-[50px] px-5 pb-5">
-        <article className="self-stretch flex flex-col items-start justify-start p-5 gap-[20px] text-left text-7xl text-base-white font-wide-screen-title-bold">
+        <article className="self-stretch flex flex-col items-start justify-start p-5 gap-[20px] text-left text-7xl text-primary-pallete-primary font-wide-screen-heading">
           <h1 className="m-0 relative text-53xl font-normal font-inherit">
             about LUNA
           </h1>
@@ -19,7 +19,7 @@ const About: FunctionComponent = () => {
           </p>
         </article>
       </section>
-      <section className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-10 text-left text-13xl text-base-white font-wide-screen-title-bold">
+      <section className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-10 text-left text-13xl text-primary-pallete-primary font-wide-screen-heading">
         <div className="self-stretch flex flex-row items-center justify-start py-0 px-[30px]">
           <h2 className="m-0 flex-1 relative text-inherit font-normal font-inherit">
             Meet the Team
@@ -33,7 +33,7 @@ const About: FunctionComponent = () => {
               src="/berabose-joyce@2x.png"
             />
             <div className="self-stretch flex flex-col items-start justify-start py-2.5 px-0 gap-[10px]">
-              <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-white" />
+              <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-primary-pallete-primary" />
               <div className="self-stretch flex flex-col items-start justify-start">
                 <div className="self-stretch relative">Berabose A. Joyce</div>
                 <div className="self-stretch relative text-xl text-base-gray">
@@ -49,7 +49,7 @@ const About: FunctionComponent = () => {
               src="/chibudu-background@2x.png"
             />
             <div className="self-stretch flex flex-col items-start justify-start py-2.5 px-0 gap-[10px]">
-              <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-white" />
+              <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-primary-pallete-primary" />
               <div className="self-stretch flex flex-col items-start justify-start">
                 <div className="self-stretch relative">Chibudu S. Nyiro</div>
                 <div className="self-stretch relative text-xl text-base-gray">
@@ -65,7 +65,7 @@ const About: FunctionComponent = () => {
               src="/dusabimana@2x.png"
             />
             <div className="self-stretch flex flex-col items-start justify-start py-2.5 px-0 gap-[10px]">
-              <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-white" />
+              <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-primary-pallete-primary" />
               <div className="self-stretch flex flex-col items-start justify-start">
                 <div className="self-stretch relative">Dusabimana Ange</div>
                 <div className="self-stretch relative text-xl text-base-gray">
@@ -81,7 +81,7 @@ const About: FunctionComponent = () => {
               src="/julius-brighton@2x.png"
             />
             <div className="self-stretch flex flex-col items-start justify-start py-2.5 px-0 gap-[10px]">
-              <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-white" />
+              <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-primary-pallete-primary" />
               <div className="self-stretch flex flex-col items-start justify-start">
                 <div className="self-stretch relative">Julius Brighton</div>
                 <div className="self-stretch relative text-xl text-base-gray">
@@ -97,7 +97,7 @@ const About: FunctionComponent = () => {
               src="/glory-alphonsus@2x.png"
             />
             <div className="self-stretch flex flex-col items-start justify-start py-2.5 px-0 gap-[10px]">
-              <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-white" />
+              <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-primary-pallete-primary" />
               <div className="self-stretch flex flex-col items-start justify-start">
                 <div className="self-stretch relative">Glory Alphonsus</div>
                 <div className="self-stretch relative text-xl text-base-gray">
@@ -108,7 +108,7 @@ const About: FunctionComponent = () => {
           </div>
         </div>
       </section>
-      <section className="self-stretch flex flex-col items-start justify-start py-10 px-0 text-left text-13xl text-base-white font-wide-screen-title-bold">
+      <section className="self-stretch flex flex-col items-start justify-start py-10 px-0 text-left text-13xl text-primary-pallete-primary font-wide-screen-heading">
         <div className="self-stretch flex flex-row items-center justify-start py-0 px-[30px]">
           <h2 className="m-0 flex-1 relative text-inherit font-normal font-inherit">
             Meet our advisors
@@ -122,7 +122,7 @@ const About: FunctionComponent = () => {
               src="/glory-alphonsus2@2x.png"
             />
             <div className="self-stretch flex flex-col items-start justify-start py-2.5 px-0 gap-[10px]">
-              <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-white" />
+              <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-primary-pallete-primary" />
               <div className="self-stretch flex flex-col items-start justify-start">
                 <div className="self-stretch relative">{`Michael Szymanski `}</div>
                 <div className="self-stretch relative text-xl text-base-gray">
@@ -138,7 +138,7 @@ const About: FunctionComponent = () => {
               src="/glory-alphonsus3@2x.png"
             />
             <div className="self-stretch flex flex-col items-start justify-start py-2.5 px-0 gap-[10px]">
-              <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-white" />
+              <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-primary-pallete-primary" />
               <div className="self-stretch flex flex-col items-start justify-start">
                 <div className="self-stretch relative">Warren Cronje</div>
                 <div className="self-stretch relative text-xl text-base-gray">
@@ -154,7 +154,7 @@ const About: FunctionComponent = () => {
               src="/julius-brighton2@2x.png"
             />
             <div className="self-stretch flex flex-col items-start justify-start py-2.5 px-0 gap-[10px]">
-              <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-white" />
+              <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-primary-pallete-primary" />
               <div className="self-stretch flex flex-col items-start justify-start">
                 <div className="self-stretch relative">James Brown</div>
                 <div className="self-stretch relative text-xl text-base-gray">
@@ -170,7 +170,7 @@ const About: FunctionComponent = () => {
               src="/dusabimana2@2x.png"
             />
             <div className="self-stretch flex flex-col items-start justify-start py-2.5 px-0 gap-[10px]">
-              <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-white" />
+              <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-primary-pallete-primary" />
               <div className="self-stretch flex flex-col items-start justify-start">
                 <div className="self-stretch relative">Fredeline Muller</div>
                 <div className="self-stretch relative text-xl text-base-gray">
@@ -186,7 +186,7 @@ const About: FunctionComponent = () => {
               src="/chibudu-background2@2x.png"
             />
             <div className="self-stretch flex flex-col items-start justify-start py-2.5 px-0 gap-[10px]">
-              <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-white" />
+              <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-primary-pallete-primary" />
               <div className="self-stretch flex flex-col items-start justify-start">
                 <div className="self-stretch relative">Chidi Afulezi</div>
                 <div className="self-stretch relative text-xl text-base-gray">
@@ -202,7 +202,7 @@ const About: FunctionComponent = () => {
               src="/berabose-joyce2@2x.png"
             />
             <div className="self-stretch flex flex-col items-start justify-start py-2.5 px-0 gap-[10px]">
-              <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-white" />
+              <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-primary-pallete-primary" />
               <div className="self-stretch flex flex-col items-start justify-start">
                 <div className="self-stretch relative">Chandini Sood</div>
                 <div className="self-stretch relative text-xl text-base-gray">
@@ -213,7 +213,7 @@ const About: FunctionComponent = () => {
           </div>
         </div>
       </section>
-      <section className="self-stretch bg-base-white-secondary flex flex-col items-start justify-center py-5 px-[30px] gap-[20px] text-left text-29xl text-base-black font-wide-screen-title-bold">
+      <section className="self-stretch bg-base-white-secondary flex flex-col items-start justify-center py-5 px-[30px] gap-[20px] text-left text-29xl text-base-black font-wide-screen-heading">
         <h2 className="m-0 self-stretch relative text-inherit font-normal font-inherit">
           <span>{`We are serving women from `}</span>
           <span className="text-firebrick">period</span>
@@ -245,7 +245,7 @@ const About: FunctionComponent = () => {
                   <div className="relative">1 KN 78 st, Kigali, Rwanda</div>
                 </div>
               </div>
-              <div className="bg-base-white flex flex-row items-center justify-start py-[5px] px-5 gap-[20px]">
+              <div className="bg-primary-pallete-primary flex flex-row items-center justify-start py-[5px] px-5 gap-[20px]">
                 <div className="flex flex-row items-center justify-start gap-[10px]">
                   <img
                     className="relative w-[18px] h-5"
