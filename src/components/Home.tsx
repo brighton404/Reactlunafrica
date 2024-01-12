@@ -29,7 +29,7 @@ const Home: FunctionComponent = () => {
   return (
     <>
       <a
-        className="[text-decoration:none] bg-base-black-secondary w-[1440px] overflow-hidden flex flex-col items-center justify-start text-left text-xl text-contemporary-contemporary-var-2 font-small-screen-subheading"
+        className="[text-decoration:none] bg-base-black-secondary w-[100vw] overflow-hidden flex flex-col items-center justify-start text-left text-xl text-contemporary-contemporary-var-2 font-small-screen-subheading"
         id="home"
       >
         <header
