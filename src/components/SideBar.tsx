@@ -45,7 +45,7 @@ const SideBar: FunctionComponent<SideBarType> = ({ onClose }) => {
 
   return (
     <div
-      className="bg-base-black h-full overflow-hidden flex flex-row items-start justify-start p-5 box-border [&.animate]:animate-[0.25s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0] max-w-[90%] text-left text-xl text-primary-pallete-primary font-small-screen-subheading"
+      className="bg-base-black h-full overflow-hidden flex flex-row items-start justify-start p-5 box-border [&.animate]:animate-[0.25s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0] max-w-[90%] text-left text-xl text-base-white font-wide-screen-title-bold"
       data-animate-on-scroll
     >
       <div className="self-stretch flex flex-col items-start justify-start gap-[20px]">
@@ -69,7 +69,7 @@ const SideBar: FunctionComponent<SideBarType> = ({ onClose }) => {
           </div>
         </div>
         <div className="self-stretch flex-1 hidden flex-col items-start justify-start text-base-black-secondary">
-          <div className="bg-primary-pallete-primary flex flex-row items-center justify-center py-[5px] px-5">
+          <div className="bg-base-white flex flex-row items-center justify-center py-[5px] px-5">
             <div className="relative font-semibold">Join Now</div>
           </div>
         </div>

@@ -2,9 +2,9 @@ import { FunctionComponent } from "react";
 
 const Home: FunctionComponent = () => {
   return (
-    <div className="relative bg-base-black-secondary w-full overflow-hidden flex flex-col items-center justify-start text-left text-xl text-contemporary-contemporary-var-2 font-small-screen-subheading">
+    <div className="relative bg-base-black-secondary w-full overflow-hidden flex flex-col items-center justify-start text-left text-xl text-contemporary-contemporary-var-2 font-wide-screen-title-bold">
       <section
-        className="self-stretch h-[900px] flex flex-col items-center justify-end py-[30px] px-[50px] box-border bg-[url('/public/section-hero@3x.png')] bg-cover bg-no-repeat bg-[top] text-center text-30xl text-base-white-secondary font-small-screen-subheading"
+        className="self-stretch h-[900px] flex flex-col items-center justify-end py-[30px] px-[50px] box-border bg-[url('/public/section-hero@3x.png')] bg-cover bg-no-repeat bg-[top] text-center text-30xl text-base-white-secondary font-wide-screen-title-bold"
         id="hero"
       >
         <p className="m-0 [background:linear-gradient(-90deg,_rgba(0,_0,_0,_0),_rgba(0,_0,_0,_0.06)_22.4%,_rgba(0,_0,_0,_0.12)_48.96%,_rgba(0,_0,_0,_0.12)_78.65%,_rgba(0,_0,_0,_0))] [backdrop-filter:blur(6px)] w-[700px] flex flex-col items-center justify-center py-[15px] px-5 box-border gap-[50px] sm:self-stretch sm:w-auto">
@@ -23,10 +23,10 @@ const Home: FunctionComponent = () => {
               conversations on health?
             </span>
             <button
-              className="cursor-pointer [border:none] py-[5px] px-5 bg-primary-pallete-primary flex flex-row items-center justify-center"
+              className="cursor-pointer [border:none] py-[5px] px-5 bg-base-white flex flex-row items-center justify-center"
               id="JoinUs"
             >
-              <span className="relative text-xl font-semibold font-small-screen-subheading text-base-black-secondary text-left">
+              <span className="relative text-xl font-semibold font-wide-screen-title-bold text-base-black-secondary text-left">
                 Join Us
               </span>
             </button>
@@ -42,7 +42,7 @@ const Home: FunctionComponent = () => {
             Our Partners
           </h3>
         </div>
-        <div className="flex flex-row items-start justify-start text-lg text-primary-pallete-primary">
+        <div className="flex flex-row items-start justify-start text-lg text-base-white">
           <div className="h-10 overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 box-border gap-[10px]">
             <img
               className="self-stretch relative max-h-full w-[55px] object-cover"
@@ -118,7 +118,7 @@ const Home: FunctionComponent = () => {
         </div>
       </div>
       <section
-        className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-5 text-left text-13xl text-primary-pallete-primary font-small-screen-subheading"
+        className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-5 text-left text-13xl text-base-white font-wide-screen-title-bold"
         id="solutions"
       >
         <div className="self-stretch flex flex-row items-start justify-start py-2.5 px-5">
@@ -130,12 +130,12 @@ const Home: FunctionComponent = () => {
         </div>
         <div className="self-stretch bg-base-black-secondary flex flex-col items-start justify-start py-0 px-2.5">
           <div className="self-stretch flex flex-row items-start justify-start py-0 px-2.5 gap-[20px] sm:flex-col">
-            <article className="flex-1 box-border h-[315px] flex flex-col items-start justify-start p-[15px] text-left text-3xl text-brand-brand-var-1 font-small-screen-subheading border-[2px] border-solid border-base-gray sm:flex-[unset] sm:self-stretch">
+            <article className="flex-1 box-border h-[315px] flex flex-col items-start justify-start p-[15px] text-left text-3xl text-brand-brand-var-1 font-wide-screen-title-bold border-[2px] border-solid border-base-gray sm:flex-[unset] sm:self-stretch">
               <div className="self-stretch flex-1 flex flex-col items-start justify-start gap-[15px]">
                 <h3 className="m-0 relative text-inherit font-semibold font-inherit">
                   Health
                 </h3>
-                <div className="self-stretch flex-1 flex flex-col items-start justify-start gap-[10px] text-primary-pallete-primary">
+                <div className="self-stretch flex-1 flex flex-col items-start justify-start gap-[10px] text-base-white">
                   <span className="self-stretch relative">
                     Services offered:
                   </span>
@@ -151,7 +151,7 @@ const Home: FunctionComponent = () => {
                   </li>
                 </div>
                 <button className="cursor-pointer [border:none] p-0 bg-base-black-secondary flex flex-row items-center justify-start gap-[10px]">
-                  <span className="relative text-lg [text-decoration:underline] font-small-screen-subheading text-primary-pallete-primary text-left">
+                  <span className="relative text-lg [text-decoration:underline] font-wide-screen-title-bold text-base-white text-left">
                     Learn More
                   </span>
                   <img
@@ -162,12 +162,12 @@ const Home: FunctionComponent = () => {
                 </button>
               </div>
             </article>
-            <article className="flex-1 box-border h-[315px] flex flex-col items-start justify-start p-[15px] text-left text-3xl text-contemporary-contemporary-var-2 font-small-screen-subheading border-[2px] border-solid border-base-gray sm:flex-[unset] sm:self-stretch">
+            <article className="flex-1 box-border h-[315px] flex flex-col items-start justify-start p-[15px] text-left text-3xl text-contemporary-contemporary-var-2 font-wide-screen-title-bold border-[2px] border-solid border-base-gray sm:flex-[unset] sm:self-stretch">
               <div className="self-stretch flex-1 flex flex-col items-start justify-start gap-[15px]">
                 <h3 className="m-0 relative text-inherit font-semibold font-inherit">
                   Shop
                 </h3>
-                <div className="self-stretch flex-1 flex flex-col items-start justify-start gap-[10px] text-primary-pallete-primary">
+                <div className="self-stretch flex-1 flex flex-col items-start justify-start gap-[10px] text-base-white">
                   <span className="self-stretch relative">
                     Tailored Features:
                   </span>
@@ -180,7 +180,7 @@ const Home: FunctionComponent = () => {
                   </li>
                 </div>
                 <button className="cursor-pointer [border:none] p-0 bg-base-black-secondary flex flex-row items-center justify-start gap-[5px]">
-                  <span className="relative text-lg [text-decoration:underline] font-small-screen-subheading text-primary-pallete-primary text-left">
+                  <span className="relative text-lg [text-decoration:underline] font-wide-screen-title-bold text-base-white text-left">
                     Learn More
                   </span>
                   <img
@@ -191,7 +191,7 @@ const Home: FunctionComponent = () => {
                 </button>
               </div>
             </article>
-            <article className="flex-1 box-border h-[315px] flex flex-col items-start justify-start p-[15px] text-left text-3xl text-primary-pallete-primary font-small-screen-subheading border-[2px] border-solid border-base-gray sm:flex-[unset] sm:self-stretch">
+            <article className="flex-1 box-border h-[315px] flex flex-col items-start justify-start p-[15px] text-left text-3xl text-base-white font-wide-screen-title-bold border-[2px] border-solid border-base-gray sm:flex-[unset] sm:self-stretch">
               <div className="self-stretch flex-1 flex flex-col items-start justify-start gap-[15px]">
                 <h3 className="m-0 relative text-inherit font-semibold font-inherit">
                   Community
@@ -209,7 +209,7 @@ const Home: FunctionComponent = () => {
                   </li>
                 </div>
                 <button className="cursor-pointer [border:none] p-0 bg-base-black-secondary flex flex-row items-center justify-start gap-[10px]">
-                  <span className="relative text-lg [text-decoration:underline] font-small-screen-subheading text-primary-pallete-primary text-left">
+                  <span className="relative text-lg [text-decoration:underline] font-wide-screen-title-bold text-base-white text-left">
                     Learn More
                   </span>
                   <img
@@ -224,7 +224,7 @@ const Home: FunctionComponent = () => {
         </div>
       </section>
       <section
-        className="self-stretch bg-base-white-secondary flex flex-col items-start justify-center pt-0 px-2.5 pb-[30px] text-left text-13xl text-base-black-secondary font-small-screen-subheading"
+        className="self-stretch bg-base-white-secondary flex flex-col items-start justify-center pt-0 px-2.5 pb-[30px] text-left text-13xl text-base-black-secondary font-wide-screen-title-bold"
         id="packages"
       >
         <div className="self-stretch flex flex-col items-start justify-start pt-5 px-2.5 pb-2.5">
@@ -233,21 +233,21 @@ const Home: FunctionComponent = () => {
           </h2>
         </div>
         <div className="self-stretch flex flex-row items-start justify-start py-0 px-2.5 gap-[30px] sm:flex-col">
-          <article className="flex-1 bg-base-white-secondary shadow-[8px_8px_0px_#000] box-border h-[420px] flex flex-col items-start justify-start p-5 gap-[20px] text-left text-lg text-base-black-secondary font-small-screen-subheading border-[3px] border-solid border-base-black-secondary sm:flex-[unset] sm:self-stretch">
+          <article className="flex-1 bg-base-white-secondary shadow-[8px_8px_0px_#000] box-border h-[420px] flex flex-col items-start justify-start p-5 gap-[20px] text-left text-lg text-base-black-secondary font-wide-screen-title-bold border-[3px] border-solid border-base-black-secondary sm:flex-[unset] sm:self-stretch">
             <span className="relative">-10$</span>
             <h3 className="m-0 self-stretch relative text-3xl font-semibold font-inherit">
               Mental health at your workspace
             </h3>
             <p className="m-0 self-stretch flex-1 relative">{`ut labore et dolore magna aliqua. Orci a scelerisque purus semper eget duis at tellus. Sed nisi lacus sed viverra. Metus dictum at tempor commodo ullamcorper a lacus vestibulum. `}</p>
           </article>
-          <article className="flex-1 bg-base-white-secondary shadow-[8px_8px_0px_#000] box-border h-[420px] flex flex-col items-start justify-start p-5 gap-[20px] text-left text-lg text-base-black-secondary font-small-screen-subheading border-[3px] border-solid border-base-black-secondary sm:flex-[unset] sm:self-stretch">
+          <article className="flex-1 bg-base-white-secondary shadow-[8px_8px_0px_#000] box-border h-[420px] flex flex-col items-start justify-start p-5 gap-[20px] text-left text-lg text-base-black-secondary font-wide-screen-title-bold border-[3px] border-solid border-base-black-secondary sm:flex-[unset] sm:self-stretch">
             <span className="relative">-10$</span>
             <h3 className="m-0 self-stretch relative text-3xl font-semibold font-inherit">
               Get the PCOS Deal
             </h3>
             <p className="m-0 self-stretch flex-1 relative">{`ut labore et dolore magna aliqua. Orci a scelerisque purus semper eget duis at tellus. Sed nisi lacus sed viverra. Metus dictum at tempor commodo ullamcorper a lacus vestibulum. `}</p>
           </article>
-          <article className="flex-1 bg-base-white-secondary shadow-[8px_8px_0px_#000] box-border h-[420px] flex flex-col items-start justify-start p-5 gap-[20px] text-left text-lg text-base-black-secondary font-small-screen-subheading border-[3px] border-solid border-base-black-secondary sm:flex-[unset] sm:self-stretch">
+          <article className="flex-1 bg-base-white-secondary shadow-[8px_8px_0px_#000] box-border h-[420px] flex flex-col items-start justify-start p-5 gap-[20px] text-left text-lg text-base-black-secondary font-wide-screen-title-bold border-[3px] border-solid border-base-black-secondary sm:flex-[unset] sm:self-stretch">
             <span className="relative">-10$</span>
             <h3 className="m-0 self-stretch relative text-3xl font-semibold font-inherit">
               Go premium to access Full LUNA services
@@ -265,7 +265,7 @@ const Home: FunctionComponent = () => {
             As seen in
           </h3>
         </div>
-        <div className="flex-1 overflow-hidden flex flex-row items-center justify-start text-primary-pallete-primary">
+        <div className="flex-1 overflow-hidden flex flex-row items-center justify-start text-base-white">
           <div className="h-10 overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 box-border gap-[10px]">
             <img
               className="self-stretch relative max-h-full w-[55px] object-cover"
@@ -277,7 +277,7 @@ const Home: FunctionComponent = () => {
         </div>
       </div>
       <section
-        className="self-stretch flex flex-col items-start justify-start pt-[30px] px-5 pb-2.5 gap-[10px] text-left text-13xl text-primary-pallete-primary font-small-screen-subheading"
+        className="self-stretch flex flex-col items-start justify-start pt-[30px] px-5 pb-2.5 gap-[10px] text-left text-13xl text-base-white font-wide-screen-title-bold"
         id="impact"
       >
         <div className="self-stretch flex flex-col items-start justify-start pt-0 px-2.5 pb-2.5">
@@ -292,7 +292,7 @@ const Home: FunctionComponent = () => {
                 SUSTAINABLE DEVELOPMENT GOALS
               </h3>
             </div>
-            <div className="self-stretch flex flex-col items-start justify-start text-7xl text-primary-pallete-primary">
+            <div className="self-stretch flex flex-col items-start justify-start text-7xl text-base-white">
               <p className="m-0 self-stretch relative">
                 We align our vision with Global goals. Here are the areas we are
                 contributing to:
@@ -319,7 +319,7 @@ const Home: FunctionComponent = () => {
         </div>
       </section>
       <section
-        className="self-stretch flex flex-col items-center justify-center py-2.5 px-5 text-left text-53xl text-base-white-secondary font-small-screen-subheading"
+        className="self-stretch flex flex-col items-center justify-center py-2.5 px-5 text-left text-53xl text-base-white-secondary font-wide-screen-title-bold"
         id="stats"
       >
         <div className="self-stretch flex flex-row items-center justify-center py-px px-0 gap-[10px] sm:flex-col">
@@ -411,7 +411,7 @@ const Home: FunctionComponent = () => {
         </div>
       </div>
       <section
-        className="self-stretch bg-base-white-secondary flex flex-col items-start justify-start p-5 gap-[20px] text-left text-13xl text-base-black font-small-screen-subheading"
+        className="self-stretch bg-base-white-secondary flex flex-col items-start justify-start p-5 gap-[20px] text-left text-13xl text-base-black font-wide-screen-title-bold"
         id="faq"
       >
         <span className="self-stretch relative">
@@ -430,7 +430,7 @@ const Home: FunctionComponent = () => {
                 <div className="relative">+</div>
               </div>
             </div>
-            <div className="self-stretch hidden flex-row items-start justify-start p-5 text-3xl text-primary-pallete-primary">
+            <div className="self-stretch hidden flex-row items-start justify-start p-5 text-3xl text-base-white">
               <div className="flex-1 relative">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -450,7 +450,7 @@ const Home: FunctionComponent = () => {
                 <div className="relative">+</div>
               </div>
             </div>
-            <div className="self-stretch hidden flex-row items-start justify-start p-5 text-3xl text-primary-pallete-primary">
+            <div className="self-stretch hidden flex-row items-start justify-start p-5 text-3xl text-base-white">
               <div className="flex-1 relative">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -470,7 +470,7 @@ const Home: FunctionComponent = () => {
                 <div className="relative">+</div>
               </div>
             </div>
-            <div className="self-stretch hidden flex-row items-start justify-start p-5 text-3xl text-primary-pallete-primary">
+            <div className="self-stretch hidden flex-row items-start justify-start p-5 text-3xl text-base-white">
               <div className="flex-1 relative">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -490,7 +490,7 @@ const Home: FunctionComponent = () => {
                 <div className="relative">+</div>
               </div>
             </div>
-            <div className="self-stretch hidden flex-row items-start justify-start p-5 text-3xl text-primary-pallete-primary">
+            <div className="self-stretch hidden flex-row items-start justify-start p-5 text-3xl text-base-white">
               <div className="flex-1 relative">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
