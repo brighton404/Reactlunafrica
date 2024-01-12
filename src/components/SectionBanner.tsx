@@ -16,10 +16,10 @@ const SectionBanner: FunctionComponent = () => {
         </span>
       </div>
       <div className="flex flex-row items-center justify-start gap-[20px] text-xl text-base-black-secondary">
-        <div className="bg-primary-pallete-primary flex flex-row items-center justify-center py-2.5 px-5">
+        <div className="bg-base-white flex flex-row items-center justify-center py-2.5 px-5">
           <div className="relative font-semibold">Get Started</div>
         </div>
-        <div className="flex flex-row items-center justify-center py-2.5 px-5 text-primary-pallete-primary border-[2px] border-solid border-base-gray">
+        <div className="flex flex-row items-center justify-center py-2.5 px-5 text-base-white border-[2px] border-solid border-base-gray">
           <div className="relative font-semibold">Consult with team</div>
         </div>
       </div>
