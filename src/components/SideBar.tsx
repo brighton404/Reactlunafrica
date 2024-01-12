@@ -1,4 +1,4 @@
-import { FunctionComponent, useEffect } from "react";
+import { FunctionComponent, useCallback, useEffect } from "react";
 
 type SideBarType = {
   onClose?: () => void;
@@ -34,9 +34,18 @@ const SideBar: FunctionComponent<SideBarType> = ({ onClose }) => {
       }
     };
   }, []);
+
+  const onHowItWorksClick = useCallback(() => {
+    // Please sync "flow" to the project
+  }, []);
+
+  const onResourcesTextClick = useCallback(() => {
+    // Please sync "blog" to the project
+  }, []);
+
   return (
     <div
-      className="relative bg-base-black h-full overflow-hidden flex flex-row items-start justify-start p-5 box-border [&.animate]:animate-[0.25s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0] max-w-[90%] text-left text-xl text-base-white font-small-screen-subheading"
+      className="bg-base-black h-full overflow-hidden flex flex-row items-start justify-start p-5 box-border [&.animate]:animate-[0.25s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0] max-w-[90%] text-left text-xl text-primary-pallete-primary font-small-screen-subheading"
       data-animate-on-scroll
     >
       <div className="self-stretch flex flex-col items-start justify-start gap-[20px]">
@@ -49,11 +58,18 @@ const SideBar: FunctionComponent<SideBarType> = ({ onClose }) => {
         </div>
         <div className="flex-1 flex flex-col items-start justify-start gap-[35px]">
           <div className="relative">Who we are</div>
-          <div className="relative">How it works</div>
-          <div className="relative">Resources</div>
+          <div className="relative cursor-pointer" onClick={onHowItWorksClick}>
+            How it works
+          </div>
+          <div
+            className="relative cursor-pointer"
+            onClick={onResourcesTextClick}
+          >
+            Resources
+          </div>
         </div>
         <div className="self-stretch flex-1 hidden flex-col items-start justify-start text-base-black-secondary">
-          <div className="bg-base-white flex flex-row items-center justify-center py-[5px] px-5">
+          <div className="bg-primary-pallete-primary flex flex-row items-center justify-center py-[5px] px-5">
             <div className="relative font-semibold">Join Now</div>
           </div>
         </div>

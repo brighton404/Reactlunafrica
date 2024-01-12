@@ -5,7 +5,8 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import SideBar from "./components/SideBar";
+import Home from "./components/Home";
+import About from "./pages/About";
 
 function App() {
   const action = useNavigationType();
@@ -27,6 +28,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/about":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -45,7 +50,8 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<SideBar />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
     </Routes>
   );
 }
