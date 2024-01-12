@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./pages/About";
+import Header from "./components/Header";
+import path from "path";
 
 function App() {
   const action = useNavigationType();

@@ -1,8 +1,12 @@
 import { FunctionComponent } from "react";
+import Header from "./Header";
+import Footer from "./Footer";
+import SectionBanner from "./SectionBanner";
 
 const Home: FunctionComponent = () => {
   return (
     <div className="relative bg-base-black-secondary w-full overflow-hidden flex flex-col items-center justify-start text-left text-xl text-contemporary-contemporary-var-2 font-small-screen-subheading">
+      <Header />
       <section
         className="self-stretch h-[900px] flex flex-col items-center justify-end py-[30px] px-[50px] box-border bg-[url('/public/section-hero@3x.png')] bg-cover bg-no-repeat bg-[top] text-center text-30xl text-base-white-secondary font-small-screen-subheading"
         id="hero"
@@ -503,6 +507,8 @@ const Home: FunctionComponent = () => {
           </div>
         </div>
       </section>
+      <SectionBanner />
+      <Footer />
     </div>
   );
 };

@@ -1,8 +1,12 @@
 import { FunctionComponent } from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import SectionBanner from "../components/SectionBanner";
 
 const About: FunctionComponent = () => {
   return (
     <main className="relative bg-base-black-secondary w-full overflow-hidden flex flex-col items-start justify-start text-left text-xl text-primary-pallete-primary font-small-screen-subheading lg:w-[1200px] md:w-[960px] sm:w-[420px]">
+      <Header />
       <section className="self-stretch flex flex-col items-start justify-center pt-[50px] px-5 pb-5 z-[0] text-left text-7xl text-primary-pallete-primary font-small-screen-subheading">
         <div className="self-stretch flex flex-col items-start justify-start p-5 gap-[20px]">
           <h1 className="m-0 relative text-53xl font-normal font-inherit">
@@ -314,6 +318,8 @@ const About: FunctionComponent = () => {
           </div>
         </div>
       </div>
+      <SectionBanner />
+      <Footer />
     </main>
   );
 };
