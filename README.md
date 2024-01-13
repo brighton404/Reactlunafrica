@@ -27,12 +27,12 @@ Welcome to the repository for [LUNA] website built with React.
 
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-## Prerequisites
+### Prerequisites
 
 - [Node.js](https://nodejs.org/) installed on your machine.
 - [npm](https://www.npmjs.com/) (Node Package Manager) installed.
 
-## Installation
+### Installation
 
 1. Clone the repository:
 
@@ -52,13 +52,11 @@ Follow these instructions to get a copy of the project up and running on your lo
    npm install
    ```
 
-## Development
+4. To run the development server:
 
-To run the development server:
-
-```bash
-npm start
-```
+   ```bash
+   npm start
+   ```
 
 Visit `http://localhost:3000` in your browser to view the application.
 
