@@ -16,7 +16,7 @@ Welcome to the repository for [LUNA] website built with React.
 
 ## About
 
-[LUNA] website is a React-based web application that provides teleservices for women that are safe and trusted by the community.
+The LUNA is an african company providing teleservices for african women that are safe and trusted by the community.
 
 ## Features
 
