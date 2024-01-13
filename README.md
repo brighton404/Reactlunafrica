@@ -16,7 +16,7 @@ Welcome to the repository for [LUNA] website built with React.
 
 ## About
 
-The LUNA is an african company providing teleservices for african women that are safe and trusted by the community.
+[LUNA] is an african company providing teleservices for african women that are safe and trusted by the community.
 
 ## Features
 
@@ -31,9 +31,6 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 - [Node.js](https://nodejs.org/) installed on your machine.
 - [npm](https://www.npmjs.com/) (Node Package Manager) installed.
-
-To preview and run the project on your device:
-1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
 
 ### Installation
 
