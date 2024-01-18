@@ -34,7 +34,7 @@ const Header: FunctionComponent = () => {
   return (
     <>
       <header
-        className="bg-base-black w-full h-[70px] overflow-hidden flex flex-row items-center justify-center py-0 px-[50px] box-border text-left text-[11.2px] text-primary-pallete-primary font-montserrat lg:w-[1200px] md:w-[960px] sm:w-[420px]"
+        className="bg-base-black w-full h-[70px] overflow-hidden flex flex-row items-center justify-center py-0 px-[50px] box-border text-left text-[11.2px] text-primary-pallete-primary font-montserrat"
         id="header"
       >
         <div className="self-stretch flex-1 flex flex-row items-center justify-start relative gap-[10px]">
@@ -48,18 +48,14 @@ const Header: FunctionComponent = () => {
                 onClick={onWhoWeAreClick}>
                 Who we are
               </Link>
-              <Link
-                className="cursor-pointer [text-decoration:none] relative text-[inherit]"
+              <Link className="cursor-pointer [text-decoration:none] relative text-[inherit]"
                 to="/"
-                onClick={onHowItWorksClick}
-              >
+                onClick={onHowItWorksClick}>
                 How it works
               </Link>
-              <Link
-                className="cursor-pointer [text-decoration:none] relative text-[inherit]"
+              <Link className="cursor-pointer [text-decoration:none] relative text-[inherit]"
                 to="/"
-                onClick={onResourcesClick}
-              >
+                onClick={onResourcesClick}>
                 Resources
               </Link>
             </nav>
@@ -67,24 +63,16 @@ const Header: FunctionComponent = () => {
           <div className="my-0 mx-[!important] absolute top-[0px] right-[20px] flex flex-row items-center justify-start gap-[10px] z-[1]">
             <div className="h-[70px] flex flex-row items-center justify-start gap-[10px] sm:hidden">
               <a className="[text-decoration:none] relative w-[30px] h-[30px] bg-[url('/public/socials01@2x.png')] bg-cover bg-no-repeat bg-[top]"
-                href="https://lunafrica.com"/>
+                href="https://www.instagram.com/luna4africa/" target="_blank"/>
               <a className="[text-decoration:none] relative w-[30px] h-[30px] bg-[url('/public/socials02@2x.png')] bg-cover bg-no-repeat bg-[top]"
-                href="https://lunafrica.com"
-                target="_blank"/>
+                href="https://twitter.com/luna4africa" target="_blank"/>
               <a className="[text-decoration:none] relative w-[30px] h-[30px] bg-[url('/public/socials03@2x.png')] bg-cover bg-no-repeat bg-[top]"
-                href="https://lunafrica.com"
-                target="_blank"/>
+                href="https://www.linkedin.com/company/luna4africa/" target="_blank"/>
               <a className="[text-decoration:none] relative w-[30px] h-[30px] bg-[url('/public/socials04@2x.png')] bg-cover bg-no-repeat bg-[top]"
-                href="https://lunafrica.com"
-                target="_blank"/>
+                href="https://www.tiktok.com/@luna4africa" target="_blank"/>
             </div>
-            <button
-              className="cursor-pointer [border:none] py-[5px] px-2.5 bg-primary-pallete-primary flex flex-row items-center justify-center sm:hidden"
-              id="consultNow"
-            >
-              <span className="relative text-xl font-wide-screen-heading text-base-black-secondary text-left">
-                Consult now
-              </span>
+            <button className="cursor-pointer [border:none] py-[5px] px-2.5 bg-primary-pallete-primary flex flex-row items-center justify-center sm:hidden" id="consultNow">
+              <span className="relative text-xl font-wide-screen-heading text-base-black-secondary text-left">Consult now</span>
             </button>
           </div>
           <div className="my-0 mx-[!important] absolute top-[14.3px] left-[0px] flex flex-col items-center justify-center z-[2]" onClick={onHome}>

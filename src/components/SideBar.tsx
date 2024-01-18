@@ -81,26 +81,14 @@ const SideBar: FunctionComponent<SideBarType> = ({ onClose }) => {
           </div>
         </div>
         <div className="self-stretch h-[30px] flex flex-row items-center justify-start gap-[10px]">
-          <img
-            className="relative w-[30px] h-[30px] object-cover"
-            alt=""
-            src="/socials01@2x.png"
-          />
-          <img
-            className="relative w-[30px] h-[30px] object-cover"
-            alt=""
-            src="/socials02@2x.png"
-          />
-          <img
-            className="relative w-[30px] h-[30px] object-cover"
-            alt=""
-            src="/socials03@2x.png"
-          />
-          <img
-            className="relative w-[30px] h-[30px] object-cover"
-            alt=""
-            src="/socials04@2x.png"
-          />
+        <a className="[text-decoration:none] relative w-[30px] h-[30px] bg-[url('/public/socials01@2x.png')] bg-cover bg-no-repeat bg-[top]"
+                href="https://www.instagram.com/luna4africa/" target="_blank"/>
+              <a className="[text-decoration:none] relative w-[30px] h-[30px] bg-[url('/public/socials02@2x.png')] bg-cover bg-no-repeat bg-[top]"
+                href="https://twitter.com/luna4africa" target="_blank"/>
+              <a className="[text-decoration:none] relative w-[30px] h-[30px] bg-[url('/public/socials03@2x.png')] bg-cover bg-no-repeat bg-[top]"
+                href="https://www.linkedin.com/company/luna4africa/" target="_blank"/>
+              <a className="[text-decoration:none] relative w-[30px] h-[30px] bg-[url('/public/socials04@2x.png')] bg-cover bg-no-repeat bg-[top]"
+                href="https://www.tiktok.com/@luna4africa" target="_blank"/>
         </div>
       </div>
     </div>
