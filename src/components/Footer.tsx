@@ -1,10 +1,11 @@
 import { FunctionComponent, useState } from "react";
+import NewsletterForm from "../components/newsletterForm";
 
 const Footer: FunctionComponent = () => {
   const [textFieldValue, setTextFieldValue] = useState("");
   return (
     <footer
-      className="bg-base-black w-full flex flex-col items-start justify-start py-[30px] px-5 box-border text-left text-xl text-primary-pallete-primary font-wide-screen-heading"
+      className="bg-base-blacks-var-1 w-full flex flex-col items-start justify-start py-[30px] px-5 box-border text-left text-xl text-base-whites-var-1 font-wide-screen-heading"
       id="footer"
     >
       <div className="self-stretch flex flex-row items-start justify-start gap-[20px] sm:flex-col">
@@ -53,32 +54,7 @@ const Footer: FunctionComponent = () => {
           <div className="relative">KN 78 Street, No.1</div>
           <div className="relative">Norrsken House Kigali</div>
         </div>
-        <div className="flex-1 overflow-hidden flex flex-col items-center justify-start gap-[10px] text-3xl sm:flex-[unset] sm:self-stretch">
-          <label className="cursor-pointer relative" htmlFor="NewsletterForm">
-            Sign Up for our Newsletter
-          </label>
-          <form
-            className="m-0 self-stretch bg-primary-pallete-primary flex flex-row items-center justify-end gap-[10px]"
-            id="NewsletterForm"
-          >
-            <input
-              className="[border:none] [outline:none] font-wide-screen-heading text-3xl bg-[transparent] self-stretch flex-1 flex flex-row items-center justify-start py-2.5 px-[15px] text-base-black-secondary"
-              id="AddToNewsletter"
-              placeholder="your email"
-              type="email"
-              value={textFieldValue}
-              onChange={(event) => setTextFieldValue(event.target.value)}
-            />
-            <button
-              className="cursor-pointer [border:none] p-2.5 bg-contemporary-contemporary-var-2 flex flex-row items-center justify-start"
-              id="submitEmail"
-            >
-              <span className="relative text-3xl font-wide-screen-heading text-base-black-secondary text-left">
-                Submit
-              </span>
-            </button>
-          </form>
-        </div>
+        <NewsletterForm />
       </div>
     </footer>
   );

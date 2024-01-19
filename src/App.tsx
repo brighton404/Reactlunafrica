@@ -5,9 +5,10 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import Home from "./pages/Home";
+import Blog from "./pages/Blog";
+import Flow from "./pages/Flow";
 import About from "./pages/About";
-import Home from "./components/Home";
-
 
 function App() {
   const action = useNavigationType();
@@ -29,7 +30,15 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/home":
+      case "/blog":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/flow":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/about":
         title = "";
         metaDescription = "";
         break;
@@ -52,8 +61,10 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/blog" element={<Blog />} />
+      <Route path="/flow" element={<Flow />} />
       <Route path="/about" element={<About />} />
-      </Routes>
+    </Routes>
   );
 }
 export default App;
