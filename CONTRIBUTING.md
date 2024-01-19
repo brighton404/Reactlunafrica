@@ -28,7 +28,7 @@ We encourage you to contribute enhancements and bug fixes by submitting pull req
 
 ### Development Setup
 
-To setup into development please check the [Readme](Readme.md).
+To setup into development please check the [Readme](README.md).
 
 ## Coding Standards
 
