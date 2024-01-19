@@ -1,8 +1,11 @@
 import { FunctionComponent } from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const Flow: FunctionComponent = () => {
   return (
     <div className="relative bg-base-blacks-var-2 w-full overflow-hidden flex flex-col items-start justify-start text-left text-53xl text-base-whites-var-1 font-wide-screen-body-small">
+      <Header />
       <div className="self-stretch flex flex-col items-start justify-center pt-[50px] px-10 pb-2.5 gap-[10px]">
         <div className="relative">How it works</div>
         <div className="self-stretch overflow-hidden flex flex-row items-start justify-start pt-0 px-0 pb-2.5 gap-[10px] text-lg-6 text-base-blacks-var-1">
@@ -80,6 +83,7 @@ const Flow: FunctionComponent = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

@@ -1,8 +1,13 @@
 import { FunctionComponent } from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import TeamMember from "../components/Team";
+import AdvisorCard from "../components/Advisors";
 
 const About: FunctionComponent = () => {
   return (
-    <div className="relative bg-base-blacks-var-2 w-full overflow-hidden flex flex-col items-start justify-start">
+    <div className="relative bg-base-blacks-var-2 w-full overflow-hidden flex flex-col items-start justify-start text-left text-xl text-contemporary-var-2 font-wide-screen-body-small">
+      <Header />
       <section className="self-stretch flex flex-col items-start justify-center pt-[50px] px-5 pb-5">
         <article className="self-stretch flex flex-col items-start justify-start p-5 gap-[20px] text-left text-7xl text-base-whites-var-1 font-wide-screen-body-small">
           <h1 className="m-0 relative text-53xl font-normal font-inherit">
@@ -22,7 +27,13 @@ const About: FunctionComponent = () => {
             Meet the Team
           </h2>
         </div>
-        <div className="self-stretch bg-base-blacks-var-2" />
+        <div className="self-stretch bg-base-blacks-var-2 flex flex-row">
+          <TeamMember team="berabose"/>
+          <TeamMember team="chibudu"/>
+          <TeamMember team="dusabimana"/>
+          <TeamMember team="julius"/>
+          <TeamMember team="glory"/>
+        </div>
       </section>
       <section className="self-stretch overflow-x-auto flex flex-col items-start justify-start py-10 px-0 text-left text-13xl text-base-whites-var-1 font-wide-screen-body-small">
         <div className="self-stretch flex flex-row items-center justify-start py-0 px-[30px]">
@@ -30,7 +41,14 @@ const About: FunctionComponent = () => {
             Meet our advisors
           </h2>
         </div>
-        <div className="self-stretch bg-base-blacks-var-2" />
+        <div className="self-stretch bg-base-blacks-var-2 flex flex-row">
+          <AdvisorCard advisor="michael"/>
+          <AdvisorCard advisor="warren"/>
+          <AdvisorCard advisor="james"/>
+          <AdvisorCard advisor="fredeline"/>
+          <AdvisorCard advisor="chidi"/>
+          <AdvisorCard advisor="chandini"/>
+        </div>
       </section>
       <section className="self-stretch bg-base-whites-var-2 flex flex-col items-start justify-center py-5 px-[30px] gap-[20px] text-left text-29xl text-base-blacks-var-1 font-wide-screen-body-small">
         <h2 className="m-0 self-stretch relative text-inherit font-normal font-inherit">
@@ -51,7 +69,7 @@ const About: FunctionComponent = () => {
                   <img
                     className="relative w-[18px] h-5"
                     alt=""
-                    src="/vector.svg"
+                    src="/images/icons/home.svg"
                   />
                   <div className="relative">NORRSKEN HOUSE KIGALI</div>
                 </div>
@@ -59,7 +77,7 @@ const About: FunctionComponent = () => {
                   <img
                     className="relative w-[18px] h-[22px]"
                     alt=""
-                    src="/vector.svg"
+                    src="/images/icons/location.svg"
                   />
                   <div className="relative">1 KN 78 st, Kigali, Rwanda</div>
                 </div>
@@ -69,7 +87,7 @@ const About: FunctionComponent = () => {
                   <img
                     className="relative w-[18px] h-5"
                     alt=""
-                    src="/vector.svg"
+                    src="/images/icons/home.svg"
                   />
                   <div className="relative">Nairobi Garage</div>
                 </div>
@@ -77,7 +95,7 @@ const About: FunctionComponent = () => {
                   <img
                     className="relative w-[18px] h-[22px]"
                     alt=""
-                    src="/vector.svg"
+                    src="/images/icons/location.svg"
                   />
                   <div className="relative">PRM2+RG Nairobi, Kenya</div>
                 </div>
@@ -89,6 +107,7 @@ const About: FunctionComponent = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

@@ -63,7 +63,16 @@ const SideBar: FunctionComponent<SideBarType> = ({ onClose }) => {
             Resources
           </div>
         </div>
-        <div className="self-stretch h-[30px]" />
+        <div className=" w-full self-stretch h-[30px] flex flex-row gap-2.5">
+        <a className="[text-decoration:none] relative w-[25px] h-[25px] bg-[url('/public/images/icons/instagram.svg')] bg-contain bg-no-repeat bg-center"
+                href="https://www.instagram.com/luna4africa/" target="_blank"/>
+              <a className="[text-decoration:none] relative w-[25px] h-[25px] bg-[url('/public/images/icons/twitter.svg')] bg-contain bg-no-repeat bg-center"
+                href="https://twitter.com/luna4africa" target="_blank"/>
+              <a className="[text-decoration:none] relative w-[25px] h-[25px] bg-[url('/public/images/icons/linkedin.svg')] bg-contain bg-no-repeat bg-center"
+                href="https://www.linkedin.com/company/luna4africa/" target="_blank"/>
+              <a className="[text-decoration:none] relative w-[25px] h-[25px] bg-[url('/public/images/icons/tiktok.svg')] bg-contain bg-no-repeat bg-center"
+                href="https://www.tiktok.com/@luna4africa" target="_blank"/>
+        </div>
       </div>
     </div>
   );

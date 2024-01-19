@@ -1,13 +1,16 @@
 import { FunctionComponent } from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Banner from "../components/Banner";
+import AccordionCard from "../components/Accordion";
+import PartnerSection from "../components/HomePartner";
 
 const Home: FunctionComponent = () => {
   return (
     <div className="relative bg-base-blacks-var-2 w-full overflow-hidden flex flex-col items-center justify-start text-left text-xl text-contemporary-var-2 font-wide-screen-body-small">
-      <section
-        className="self-stretch h-[900px] flex flex-col items-center justify-end py-[30px] px-[50px] box-border bg-[url('/public/section-hero@3x.png')] bg-cover bg-no-repeat bg-[top] text-center text-[49px] text-base-whites-var-2 font-wide-screen-body-small"
-        id="hero"
-      >
-        <p className="m-0 [background:linear-gradient(-90deg,_rgba(0,_0,_0,_0),_rgba(0,_0,_0,_0.06)_22.4%,_rgba(0,_0,_0,_0.12)_48.96%,_rgba(0,_0,_0,_0.12)_78.65%,_rgba(0,_0,_0,_0))] [backdrop-filter:blur(6px)] w-[700px] flex flex-col items-center justify-center py-[15px] px-5 box-border gap-[50px] sm:self-stretch sm:w-auto">
+      <Header />
+      <section className="self-stretch h-[85vh] flex flex-col items-center justify-end py-[30px] px-[50px] box-border bg-[url('/public/heroBackground.png')] bg-cover bg-no-repeat bg-[top] text-center text-[49px] text-base-whites-var-2 font-wide-screen-body-small" id="hero">
+        <div className="m-0 [background:linear-gradient(-90deg,_rgba(0,_0,_0,_0),_rgba(0,_0,_0,_0.06)_22.4%,_rgba(0,_0,_0,_0.12)_48.96%,_rgba(0,_0,_0,_0.12)_78.65%,_rgba(0,_0,_0,_0))] [backdrop-filter:blur(6px)] w-[700px] flex flex-col items-center justify-center py-[15px] px-5 box-border gap-[50px] sm:self-stretch sm:w-auto">
           <div className="self-stretch flex flex-col items-center justify-center gap-[15px] sm:items-start sm:justify-center">
             <h1 className="m-0 self-stretch relative text-inherit font-bold font-inherit sm:text-center">
               WELCOME TO LUNA
@@ -31,19 +34,9 @@ const Home: FunctionComponent = () => {
               </span>
             </button>
           </div>
-        </p>
-      </section>
-      <div
-        className="self-stretch flex flex-row items-center justify-start py-[5px] px-2.5 gap-[10px]"
-        id="partners"
-      >
-        <div className="flex flex-row items-start justify-start py-[5px] px-2.5">
-          <h3 className="m-0 relative text-inherit font-semibold font-inherit">
-            Our Partners
-          </h3>
         </div>
-        <div />
-      </div>
+      </section>
+      <PartnerSection />
       <section
         className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-5 text-left text-13xl text-base-whites-var-1 font-wide-screen-body-small"
         id="solutions"
@@ -182,7 +175,7 @@ const Home: FunctionComponent = () => {
             <img
               className="self-stretch relative max-h-full w-[55px] object-cover"
               alt=""
-              src="/partner01@2x.png"
+              src="/images/partners/partner01@2x.png"
             />
             <span className="relative">company logo</span>
           </div>
@@ -215,17 +208,17 @@ const Home: FunctionComponent = () => {
             <img
               className="relative w-[184px] h-[184px] object-cover"
               alt="sdg number 3: good health and well being"
-              src="/3@2x.png"
+              src="/images/sdg/SDG-3.png"
             />
             <img
               className="relative w-[184px] h-[184px] object-cover"
               alt="sdg number 5: gender equality"
-              src="/ewebgoal05-1@2x.png"
+              src="/images/sdg/SDG-5.png"
             />
             <img
               className="relative w-[184px] h-[182px] object-cover"
               alt="sdg number 10: reduced inequalities"
-              src="/ewebgoal10-1@2x.png"
+              src="/images/sdg/SDG-10.png"
             />
           </div>
         </div>
@@ -261,36 +254,26 @@ const Home: FunctionComponent = () => {
           </div>
         </div>
       </section>
-      <div
-        className="self-stretch bg-contemporary-var-2 overflow-hidden flex flex-row items-center justify-start py-2.5 pr-[50px] pl-0 gap-[20px] text-7xl text-base-blacks-var-2"
-        id="demo"
-      >
-        <div className="flex flex-row items-center justify-start">
-          <div className="relative">GET A DEMO</div>
-        </div>
-        <div className="flex flex-row items-center justify-start">
-          <div className="relative">GET A DEMO</div>
-        </div>
-        <div className="flex flex-row items-center justify-start">
-          <div className="relative">GET A DEMO</div>
-        </div>
-        <div className="flex flex-row items-center justify-start">
-          <div className="relative">GET A DEMO</div>
-        </div>
-        <div className="flex flex-row items-center justify-start">
-          <div className="relative">GET A DEMO</div>
-        </div>
-        <div className="flex flex-row items-center justify-start">
-          <div className="relative">GET A DEMO</div>
-        </div>
-        <div className="flex flex-row items-center justify-start">
-          <div className="relative">GET A DEMO</div>
-        </div>
-        <div className="flex flex-row items-center justify-start">
-          <div className="relative">GET A DEMO</div>
-        </div>
-        <div className="flex flex-row items-center justify-start">
-          <div className="relative">GET A DEMO</div>
+      <div className="self-stretch bg-contemporary-var-2 overflow-hidden flex flex-row items-center justify-start py-2.5 pr-[50px] pl-0 gap-[20px] text-7xl text-base-blacks-var-2 horizontal-scroll-text"> {/* To be modified to a component*/}
+        <div className="flex flex-row gap-[20px]">
+          <div className="flex flex-row items-center justify-start"><div className="relative">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div></div>
+          <div className="flex flex-row items-center justify-start"><div className="relative">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div></div>
+          <div className="flex flex-row items-center justify-start"><div className="relative">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div></div>
+          <div className="flex flex-row items-center justify-start"><div className="relative">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div></div>
+          <div className="flex flex-row items-center justify-start"><div className="relative">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div></div>
+          <div className="flex flex-row items-center justify-start"><div className="relative">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div></div>
+          <div className="flex flex-row items-center justify-start"><div className="relative">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div></div>
+          <div className="flex flex-row items-center justify-start"><div className="relative">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div></div>          
+          <div className="flex flex-row items-center justify-start"><div className="relative">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div></div>&nbsp;
+          <div className="flex flex-row items-center justify-start"><div className="relative">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div></div>
+          <div className="flex flex-row items-center justify-start"><div className="relative">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div></div>
+          <div className="flex flex-row items-center justify-start"><div className="relative">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div></div>
+          <div className="flex flex-row items-center justify-start"><div className="relative">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div></div>
+          <div className="flex flex-row items-center justify-start"><div className="relative">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div></div>
+          <div className="flex flex-row items-center justify-start"><div className="relative">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div></div>
+          <div className="flex flex-row items-center justify-start"><div className="relative">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div></div>
+          <div className="flex flex-row items-center justify-start"><div className="relative">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div></div>
+          <div className="flex flex-row items-center justify-start"><div className="relative">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div></div>&nbsp;
         </div>
       </div>
       <section
@@ -300,8 +283,12 @@ const Home: FunctionComponent = () => {
         <span className="self-stretch relative">
           Find the answers to all of our most frequently asked questions.
         </span>
-        <div className="self-stretch" id="accordion" />
+        <div className="self-stretch" id="accordion">
+          <AccordionCard accordion="open" />
+        </div>
       </section>
+      <Banner />
+      <Footer />
     </div>
   );
 };

@@ -1,4 +1,5 @@
-import { FunctionComponent, useMemo, type CSSProperties } from "react";
+import { FunctionComponent, useCallback, useMemo, type CSSProperties } from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 type LUNALOGOType = {
   dimensions?: string;
@@ -24,9 +25,6 @@ type LUNALOGOType = {
   lUNATop?: CSSProperties["top"];
   lUNALeft?: CSSProperties["left"];
   lUNAFontSize?: CSSProperties["fontSize"];
-
-  /** Action props */
-  onCompanyLogoContainerClick?: () => void;
 };
 
 const LUNALOGO: FunctionComponent<LUNALOGOType> = ({
@@ -51,8 +49,12 @@ const LUNALOGO: FunctionComponent<LUNALOGOType> = ({
   lUNATop,
   lUNALeft,
   lUNAFontSize,
-  onCompanyLogoContainerClick,
 }) => {
+  const navigate = useNavigate();
+  const onHome = useCallback(() => {
+    navigate("/");
+  }, [navigate]);
+
   const lUNALOGOsmallWhiteStyle: CSSProperties = useMemo(() => {
     return {
       width: lUNALOGOsmallWhiteWidth,
@@ -121,47 +123,30 @@ const LUNALOGO: FunctionComponent<LUNALOGOType> = ({
   }, [lUNATop, lUNALeft, lUNAFontSize]);
 
   return (
-    <div
-      className="w-[125px] h-[85px] text-left text-[23px] text-base-whites-var-1 font-montserrat"
-      style={lUNALOGOsmallWhiteStyle}
-      onClick={onCompanyLogoContainerClick}
-    >
-      <div
-        className="absolute h-[100.12%] w-[90.4%] top-[0.12%] right-[-101.2%] bottom-[-0.24%] left-[110.8%] hidden"
-        style={groupDivStyle}
-      >
-        <div
-          className="absolute top-[0%] left-[0%] tracking-[-0.01em] leading-[100.9%] font-extrabold"
-          style={sAFEANDTRUSTEDContainerStyle}
-        >
+    <div className="my-0 mx-[!important] absolute top-[14.3px] left-[0px] flex flex-col items-center justify-center z-[2] cursor-pointer group" onClick={onHome}>
+    <div className="relative w-[61px] h-[41.5px]">
+      <div className="absolute h-[100.48%] w-[90.16%] top-[0.24%] right-[-100.98%] bottom-[-0.72%] left-[110.82%] hidden group-hover:block">
+        <div className="absolute top-[0%] left-[0%] tracking-[-0.01em] leading-[100.9%] font-extrabold">
           <p className="m-0">SAFE</p>
           <p className="m-0">AND</p>
           <p className="m-0">TRUSTED</p>
         </div>
-        <div
-          className="absolute top-[83.55%] left-[0%] text-[14.2px] tracking-[0.38em] leading-[100.9%]"
-          style={bRANDStyle}
-        >
+        <div className="absolute top-[83.21%] left-[0%] text-[6.9px] tracking-[0.38em] leading-[100.9%]">
           BRAND
         </div>
       </div>
-      <div
-        className="absolute h-[82.59%] w-[94.72%] top-[10.82%] right-[5.28%] bottom-[6.59%] left-[0%] text-[30.4px]"
-        style={groupDiv1Style}
-      >
+      <div className="absolute h-[82.41%] w-[94.75%] top-[10.84%] right-[5.25%] bottom-[6.75%] left-[0%] text-[14.8px]">
         <img
           className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
           alt=""
-          src={dimensions}
+          src="/images/icons/lunalogo.svg"
         />
-        <div
-          className="absolute top-[23.36%] left-[9.21%] tracking-[0.07em] font-black"
-          style={lUNAStyle}
-        >
+        <div className="absolute top-[20%] left-[14%] tracking-[0.07em] font-black">
           LUNA
         </div>
       </div>
     </div>
+  </div>
   );
 };
 

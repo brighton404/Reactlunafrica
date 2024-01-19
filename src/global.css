@@ -22,3 +22,26 @@ body {
     opacity: 1;
   }
 }
+
+.horizontal-scroll-container {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.horizontal-scroll-text {
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  transition: all 1s ease;
+  & > div {
+    display: flex;
+    animation: scrollText 10s infinite linear;
+  }
+}
+
+@keyframes scrollText {
+  from   { transform: translateX(0%); }
+  to { transform: translateX(-50%); }
+}

@@ -1,102 +1,107 @@
-import { FunctionComponent } from "react";
-import PartnerCard from "./PartnerCard";
+import { FunctionComponent, useState, useMemo, type CSSProperties } from "react";
+import LUNALOGO from "./LUNALOGO";
 
-const Partners: FunctionComponent = () => {
-  return (
-    <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-start gap-[20px] text-left text-lg text-base-whites-var-1 font-wide-screen-body-small">
-      <div className="rounded-8xs bg-base-blacks-var-2 overflow-hidden flex flex-row items-start justify-start py-[5px] px-2.5 gap-[20px]">
-        <PartnerCard logo="/logo@2x.png" yWCA="Tamu" propWidth="40px" />
-        <PartnerCard logo="/logo@2x.png" yWCA="Ikunde" propWidth="40px" />
-        <PartnerCard logo="/logo@2x.png" yWCA="ALU" propWidth="70px" />
-        <PartnerCard logo="/logo@2x.png" yWCA="Vuki" propWidth="24px" />
-        <PartnerCard logo="/logo@2x.png" yWCA="femtech lab" propWidth="24px" />
-        <PartnerCard logo="/logo@2x.png" yWCA="Jasiri" propWidth="30px" />
-        <PartnerCard logo="/logo@2x.png" yWCA="Eve's Apple" propWidth="70px" />
-        <PartnerCard
-          logo="/logo@2x.png"
-          yWCA={`Allan & Gray`}
-          propWidth="32.9px"
-        />
-        <PartnerCard logo="/logo@2x.png" yWCA="YWCA" propWidth="30px" />
-      </div>
-      <div className="rounded-8xs bg-base-blacks-var-2 overflow-hidden flex flex-row items-start justify-start p-5 gap-[20px]">
-        <img
-          className="relative w-10 h-[30px] object-cover"
-          alt=""
-          src="/logo@2x.png"
-        />
-        <img
-          className="relative w-10 h-[30px] object-cover"
-          alt=""
-          src="/logo@2x.png"
-        />
-        <img
-          className="relative w-6 h-[30px] object-cover"
-          alt=""
-          src="/logo@2x.png"
-        />
-        <img
-          className="relative w-[70px] h-[30px] object-cover"
-          alt=""
-          src="/logo@2x.png"
-        />
-        <img
-          className="relative w-6 h-[30px] object-cover"
-          alt=""
-          src="/logo@2x.png"
-        />
-        <img
-          className="relative w-[30px] h-[30px] object-cover"
-          alt=""
-          src="/logo@2x.png"
-        />
-        <img
-          className="relative w-[70px] h-[30px] object-cover"
-          alt=""
-          src="/logo@2x.png"
-        />
-        <img
-          className="relative w-[32.9px] h-[30px] object-cover"
-          alt=""
-          src="/logo@2x.png"
-        />
-        <img
-          className="relative w-[30px] h-[30px] object-cover"
-          alt=""
-          src="/logo@2x.png"
-        />
-      </div>
-      <div className="rounded-8xs bg-base-blacks-var-2 overflow-hidden flex flex-row items-start justify-start p-5 gap-[20px]">
-        <div className="flex flex-row items-start justify-start">
-          <span className="relative">Tamu</span>
-        </div>
-        <div className="flex flex-row items-start justify-start">
-          <span className="relative">Ikunde</span>
-        </div>
-        <div className="flex flex-row items-start justify-start">
-          <span className="relative">ALU</span>
-        </div>
-        <div className="flex flex-row items-start justify-start">
-          <span className="relative">Vuki</span>
-        </div>
-        <div className="flex flex-row items-start justify-start">
-          <span className="relative">femtech lab</span>
-        </div>
-        <div className="flex flex-row items-start justify-start">
-          <span className="relative">Jasiri</span>
-        </div>
-        <div className="flex flex-row items-start justify-start">
-          <span className="relative">Eve's Apple</span>
-        </div>
-        <div className="flex flex-row items-start justify-start">
-          <span className="relative">{`Allan & Gray`}</span>
-        </div>
-        <div className="flex flex-row items-start justify-start">
-          <span className="relative">YWCA</span>
-        </div>
-      </div>
+type Partners = 'default' | 'Tamu' | 'Ikunde' | 'ALU' | 'Vuki' | 'Femtech lab' | 'Jasiri' | 'Eves Apple' | 'Allan & Gray' | 'YWCA';
+
+interface PartnerProps {
+  partners?: Partners;
+}
+
+const PartnerCard: React.FC<PartnerProps> = ({ partners = 'default' }) => {
+ let content;
+
+ switch (partners) {
+  case 'Tamu':
+    content = 
+    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-lg text-base-whites-var-1 font-wide-screen-body-small">
+    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="./images/partners/partner01@2x.png"/>
+    <div className="flex flex-row items-start justify-start">
+      <span className="relative">Tamu</span>
     </div>
-  );
+  </div>;
+  break;
+  case 'Ikunde':
+    content = 
+    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-lg text-base-whites-var-1 font-wide-screen-body-small">
+    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="./images/partners/partner02@2x.png"/>
+    <div className="flex flex-row items-start justify-start">
+      <span className="relative">Ikunde</span>
+    </div>
+  </div>;
+  break;
+  case 'ALU':
+    content = 
+    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-lg text-base-whites-var-1 font-wide-screen-body-small">
+    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="./images/partners/images/partners/partner03@2x.png"/>
+    <div className="flex flex-row items-start justify-start">
+      <span className="relative">ALU</span>
+    </div>
+  </div>;
+  break;
+  case 'Vuki':
+    content = 
+    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-lg text-base-whites-var-1 font-wide-screen-body-small">
+    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="./images/partners/partner04@2x.png"/>
+    <div className="flex flex-row items-start justify-start">
+      <span className="relative">Vuki</span>
+    </div>
+  </div>;
+  break;
+  case 'Femtech lab':
+    content = 
+    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-lg text-base-whites-var-1 font-wide-screen-body-small">
+    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="./images/partners/partner05@2x.png"/>
+    <div className="flex flex-row items-start justify-start">
+      <span className="relative">Femtech lab</span>
+    </div>
+  </div>;
+  break;
+  case 'Jasiri':
+    content = 
+    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-lg text-base-whites-var-1 font-wide-screen-body-small">
+    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="./images/partners/partner06@2x.png"/>
+    <div className="flex flex-row items-start justify-start">
+      <span className="relative">Jasiri</span>
+    </div>
+  </div>;
+  break;
+  case 'Eves Apple':
+    content = 
+    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-lg text-base-whites-var-1 font-wide-screen-body-small">
+    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="./images/partners/partner07@2x.png"/>
+    <div className="flex flex-row items-start justify-start">
+      <span className="relative">Eve's Apple</span>
+    </div>
+  </div>;
+  break;
+  case 'Allan & Gray':
+    content = 
+    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-lg text-base-whites-var-1 font-wide-screen-body-small">
+    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="./images/partners/partner08@2x.png"/>
+    <div className="flex flex-row items-start justify-start">
+      <span className="relative">Allan & Gray</span>
+    </div>
+  </div>;
+  break;
+  case 'YWCA':
+    content = 
+    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-lg text-base-whites-var-1 font-wide-screen-body-small">
+    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="./images/partners/partner09@2x.png"/>
+    <div className="flex flex-row items-start justify-start">
+      <span className="relative">YWCA</span>
+    </div>
+  </div>;
+  break;
+  default:
+    content = 
+    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-lg text-base-whites-var-1 font-wide-screen-body-small">
+    <LUNALOGO />
+    <div className="flex flex-row items-start justify-start">
+      <span className="relative">LUNA PARTNER</span>
+    </div>
+  </div>;
+ }
+  return (<div className={`partner-card ${partners}`}>{content}</div>);
 };
 
-export default Partners;
+export default PartnerCard;

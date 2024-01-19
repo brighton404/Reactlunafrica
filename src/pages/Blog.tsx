@@ -1,8 +1,11 @@
 import { FunctionComponent } from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const Blog: FunctionComponent = () => {
   return (
     <div className="relative bg-base-blacks-var-2 w-full flex flex-col items-start justify-start gap-[15px] text-left text-lg text-base-whites-var-1 font-wide-screen-body-small">
+      <Header />
       <div className="self-stretch flex flex-col items-start justify-center pt-[50px] px-5 pb-5 gap-[20px]">
         <div className="relative text-29xl">Articles</div>
         <div className="self-stretch bg-base-blacks-var-2 flex flex-row items-start justify-start p-5 gap-[20px] border-[1px] border-solid border-base-greys-var-1">
@@ -93,6 +96,7 @@ const Blog: FunctionComponent = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

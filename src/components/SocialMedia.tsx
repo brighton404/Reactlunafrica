@@ -9,7 +9,7 @@ type SocialMediaType = {
   propMixBlendMode?: CSSProperties["mixBlendMode"];
 
   /** Action props */
-  onSocialMediaLinkyoutubeClick?: () => void;
+  onSocialMediaLinkClick?: () => void;
 };
 
 const SocialMedia: FunctionComponent<SocialMediaType> = ({
@@ -17,7 +17,7 @@ const SocialMedia: FunctionComponent<SocialMediaType> = ({
   propFlexDirection,
   propWidth,
   propMixBlendMode,
-  onSocialMediaLinkyoutubeClick,
+  onSocialMediaLinkClick,
 }) => {
   const socialMediaLinkyoutubeStyle: CSSProperties = useMemo(() => {
     return {
@@ -35,7 +35,7 @@ const SocialMedia: FunctionComponent<SocialMediaType> = ({
   return (
     <div
       className="flex flex-col items-start justify-start cursor-pointer"
-      onClick={onSocialMediaLinkyoutubeClick}
+      onClick={onSocialMediaLinkClick}
       style={socialMediaLinkyoutubeStyle}
     >
       <img
