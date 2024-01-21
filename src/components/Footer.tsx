@@ -5,7 +5,7 @@ const Footer: FunctionComponent = () => {
   const [textFieldValue, setTextFieldValue] = useState("");
   return (
     <footer
-      className="bg-base-blacks-var-1 w-full flex flex-col items-start justify-start py-[30px] px-5 box-border text-left text-xl text-base-whites-var-1 font-wide-screen-heading"
+      className="bg-base-blacks-var-1 w-full flex flex-col items-start justify-start py-[30px] px-5 box-border text-left text-xl text-base-whites-var-1 font-Poppins"
       id="footer"
     >
       <div className="self-stretch flex flex-row items-start justify-start gap-[20px] sm:flex-col">

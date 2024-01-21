@@ -3,9 +3,9 @@ import PartnerCard from "../components/Partners";
 
 const PartnerSection: React.FC = () => {
   return (
-    <div className="self-stretch flex flex-row items-center justify-start py-[5px] gap-[10px] horizontal-scroll-container">
+    <div className="self-stretch flex flex-row items-center justify-start py-[5px] gap-[10px] horizontal-scroll-container font-Poppins text-contemporary-var-2">
     <div className="flex flex-row items-start justify-start py-[5px] px-2.5 bg-base-blacks-var-2 z-10">
-      <h3 className="m-0 text-inherit font-semibold font-inherit">Our Partners</h3>
+      <h3 className="m-0 text-inherit font-semibold">Our Partners</h3>
     </div>
     <div className="flex flex-row horizontal-scroll-text">
       <div className="flex flex-row">

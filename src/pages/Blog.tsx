@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 const Blog: FunctionComponent = () => {
   return (
-    <div className="relative bg-base-blacks-var-2 w-full flex flex-col items-start justify-start gap-[15px] text-left text-lg text-base-whites-var-1 font-wide-screen-body-small">
+    <div className="relative bg-base-blacks-var-2 w-full flex flex-col items-start justify-start gap-[15px] text-left text-lg text-base-whites-var-1 font-Poppins">
       <Header />
       <div className="self-stretch flex flex-col items-start justify-center pt-[50px] px-5 pb-5 gap-[20px]">
         <div className="relative text-29xl">Articles</div>

@@ -18,7 +18,7 @@ module.exports = {
       spacing: {},
       fontFamily: {
         montserrat: "Montserrat",
-        "wide-screen-body-small": "Poppins",
+        Poppins: "Poppins",
         inherit: "inherit",
       },
       borderRadius: {
@@ -27,6 +27,7 @@ module.exports = {
       },
     },
     fontSize: {
+      /*existing css sizing */
       "3xl": "22px",
       xl: "20px",
       "13xl": "32px",
@@ -36,6 +37,28 @@ module.exports = {
       "29xl": "48px",
       "lg-6": "18.6px",
       inherit: "inherit",
+
+      /*sizing from design board that needs to be implemented*/
+      /*wide screen */
+      "wide-screen-title": "72px",
+      "wide-screen-heading": "48px",
+      "wide-screen-subheading": "32px",
+      "wide-screen-body": "26px",
+      "wide-screen-body-medium": "24px",
+      "wide-screen-body-small": "22px",
+      "wide-screen-body-x": "20px",
+      "wide-screen-body-2x": "18px",
+      "wide-screen-body-3x": "16px",
+      "wide-screen-body-4x": "14px",
+      /*small screens*/
+      "small-screen-title": "28px",
+      "small-screen-heading": "26px",
+      "small-screen-subheading": "20px",
+      "small-screen-body": "16px",
+      "small-screen-body-medium": "14px",
+      "small-screen-body-small": "12px",
+      "small-screen-body-x": "10px",
+      "small-screen-body-2x": "8px",
     },
     screens: {
       lg: {

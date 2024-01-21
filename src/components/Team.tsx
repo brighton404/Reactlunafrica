@@ -13,7 +13,7 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
  switch (team) {
   case 'berabose':
     content = 
-    <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-wide-screen-body-small">
+    <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-Poppins">
       <div className="flex flex-col items-start justify-start">
         <img className="relative w-[200px] h-[250px] object-cover"
           alt=""
@@ -35,7 +35,7 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
   break;
   case 'chibudu':
     content = 
-    <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-wide-screen-body-small">
+    <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-Poppins">
       <div className="flex flex-col items-start justify-start">
         <img className="relative w-[200px] h-[250px] object-cover"
           alt=""
@@ -58,7 +58,7 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
   break;
   case 'dusabimana':
     content = 
-    <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-wide-screen-body-small">
+    <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-Poppins">
       <div className="flex flex-col items-start justify-start">
         <img className="relative w-[200px] h-[250px] object-cover"
           alt=""
@@ -81,7 +81,7 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
   break;
   case 'julius':
     content = 
-    <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-wide-screen-body-small">
+    <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-Poppins">
       <div className="flex flex-col items-start justify-start">
         <img className="relative w-[200px] h-[250px] object-cover"
           alt=""
@@ -104,7 +104,7 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
   break;
   case 'glory':
     content = 
-    <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-wide-screen-body-small">
+    <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-Poppins">
       <div className="flex flex-col items-start justify-start">
         <img className="relative w-[200px] h-[250px] object-cover"
           alt=""
@@ -127,7 +127,7 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
   break;
   default:
     content = 
-    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-lg text-base-whites-var-1 font-wide-screen-body-small">
+    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-lg text-base-whites-var-1 font-Poppins">
     <LUNALOGO />
     <div className="flex flex-row items-start justify-start">
       <span className="relative">LUNA PARTNER</span>

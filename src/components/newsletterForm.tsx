@@ -18,7 +18,7 @@ const NewsletterForm: React.FC = () => {
       <div className="flex items-center bg-base-whites-var-1">
         <input
           type="email"
-          className="[border:none] [outline:none] font-wide-screen-heading text-3xl bg-[transparent] self-stretch flex-1 flex flex-row items-center justify-start py-2.5 px-[15px] text-base-blacks-var-1 sm:px-[0px]"
+          className="[border:none] [outline:none] Poppinsg text-3xl bg-[transparent] self-stretch flex-1 flex flex-row items-center justify-start py-2.5 px-[15px] text-base-blacks-var-1 sm:px-[0px]"
           placeholder="Enter your email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}

@@ -41,7 +41,7 @@ const Header: FunctionComponent = () => {
         <div className="self-stretch flex-1 flex flex-row items-center justify-start relative gap-[10px]">
           <div className="flex-1 flex flex-row items-center justify-center z-[0]">
             <nav
-              className="m-0 flex-1 flex flex-row items-center justify-center gap-[35px] text-left text-xl  font-wide-screen-heading sm:hidden md:hidden"
+              className="m-0 flex-1 flex flex-row items-center justify-center gap-[35px] text-left text-xl font-Poppins sm:hidden md:hidden"
               id="pagenavbar"
             >
               <Link className="cursor-pointer [text-decoration:none] relative text-[inherit]"
@@ -73,19 +73,15 @@ const Header: FunctionComponent = () => {
                 href="https://www.tiktok.com/@luna4africa" target="_blank"/>
             </div>
             <button className="cursor-pointer [border:none] py-[5px] px-2.5 bg-primary-pallete-primary flex flex-row items-center justify-center sm:hidden" id="consultNow">
-              <span className="relative text-xl font-wide-screen-heading text-base-black-secondary text-left">Consult now</span>
+              <a className="[text-decoration:none] relative text-xl font-Poppins text-base-blacks-var-1 text-left" href="https://lunahealth.co/">Consult now</a>
             </button>
           </div>
           <LUNALOGO />
-          <button
-            className="cursor-pointer [border:none] p-2.5 bg-[transparent] hidden flex-row items-center justify-start z-[3] sm:flex md:flex"
-            onClick={openSideBar}
-          >
-            <img
-              className="relative w-[27px] h-[18px] sm:flex md:flex"
-              alt=""
-              src="/images/icons/menu.svg"
-            />
+          <button className="cursor-pointer [border:none] p-2.5 bg-[transparent] hidden flex-row items-center justify-start z-[3] sm:flex md:flex"
+            onClick={openSideBar}>
+            <img className="relative w-[27px] h-[18px] sm:flex md:flex"
+                  alt=""
+                  src="/images/icons/menu.svg"/>
           </button>
         </div>
       </header>

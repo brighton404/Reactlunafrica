@@ -3,13 +3,14 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import TeamMember from "../components/Team";
 import AdvisorCard from "../components/Advisors";
+import LocationMap from "../components/locations";
 
 const About: FunctionComponent = () => {
   return (
-    <div className="relative bg-base-blacks-var-2 w-full overflow-hidden flex flex-col items-start justify-start text-left text-xl text-contemporary-var-2 font-wide-screen-body-small">
+    <div className="relative bg-base-blacks-var-2 w-full overflow-hidden flex flex-col items-start justify-start text-left text-xl text-contemporary-var-2 font-Poppins">
       <Header />
       <section className="self-stretch flex flex-col items-start justify-center pt-[50px] px-5 pb-5">
-        <article className="self-stretch flex flex-col items-start justify-start p-5 gap-[20px] text-left text-7xl text-base-whites-var-1 font-wide-screen-body-small">
+        <article className="self-stretch flex flex-col items-start justify-start p-5 gap-[20px] text-left text-7xl text-base-whites-var-1 font-Poppins">
           <h1 className="m-0 relative text-53xl font-normal font-inherit">
             about LUNA
           </h1>
@@ -21,13 +22,13 @@ const About: FunctionComponent = () => {
           </p>
         </article>
       </section>
-      <section className="self-stretch overflow-x-auto flex flex-col items-start justify-start pt-0 px-0 pb-10 text-left text-13xl text-base-whites-var-1 font-wide-screen-body-small">
+      <section className="self-stretch overflow-x-auto flex flex-col items-start justify-start pt-0 px-0 pb-10 text-left text-13xl text-base-whites-var-1 font-Poppins">
         <div className="self-stretch flex flex-row items-center justify-start py-0 px-[30px]">
           <h2 className="m-0 flex-1 relative text-inherit font-normal font-inherit">
             Meet the Team
           </h2>
         </div>
-        <div className="self-stretch bg-base-blacks-var-2 flex flex-row">
+        <div className="self-stretch bg-base-blacks-var-2 flex flex-row p-[20px]">
           <TeamMember team="berabose"/>
           <TeamMember team="chibudu"/>
           <TeamMember team="dusabimana"/>
@@ -35,13 +36,13 @@ const About: FunctionComponent = () => {
           <TeamMember team="glory"/>
         </div>
       </section>
-      <section className="self-stretch overflow-x-auto flex flex-col items-start justify-start py-10 px-0 text-left text-13xl text-base-whites-var-1 font-wide-screen-body-small">
+      <section className="self-stretch overflow-x-auto flex flex-col items-start justify-start py-10 px-0 text-left text-13xl text-base-whites-var-1 font-Poppins">
         <div className="self-stretch flex flex-row items-center justify-start py-0 px-[30px]">
           <h2 className="m-0 flex-1 relative text-inherit font-normal font-inherit">
             Meet our advisors
           </h2>
         </div>
-        <div className="self-stretch bg-base-blacks-var-2 flex flex-row">
+        <div className="self-stretch bg-base-blacks-var-2 flex flex-row p-[20px]">
           <AdvisorCard advisor="michael"/>
           <AdvisorCard advisor="warren"/>
           <AdvisorCard advisor="james"/>
@@ -50,7 +51,7 @@ const About: FunctionComponent = () => {
           <AdvisorCard advisor="chandini"/>
         </div>
       </section>
-      <section className="self-stretch bg-base-whites-var-2 flex flex-col items-start justify-center py-5 px-[30px] gap-[20px] text-left text-29xl text-base-blacks-var-1 font-wide-screen-body-small">
+      <section className="self-stretch bg-base-whites-var-2 flex flex-col items-start justify-center py-5 px-[30px] gap-[20px] text-left text-29xl text-base-blacks-var-1 font-Poppins">
         <h2 className="m-0 self-stretch relative text-inherit font-normal font-inherit">
           <span>{`We are serving women from `}</span>
           <span className="text-firebrick">period</span>
@@ -103,10 +104,12 @@ const About: FunctionComponent = () => {
             </div>
           </div>
           <div className="self-stretch flex flex-row items-center justify-end py-2.5 px-0">
-            <div className="self-stretch flex-1 border-[1px] border-solid border-base-blacks-var-1" />
+            <div className="self-stretch h-[40vh] flex-1 border-[1px] border-solid border-base-blacks-var-1">
+            <LocationMap />
+          </div>
           </div>
         </div>
-      </section>
+      </section>    
       <Footer />
     </div>
   );
