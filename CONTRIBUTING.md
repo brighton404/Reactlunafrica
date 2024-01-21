@@ -1,4 +1,4 @@
-# Contributing to [Your Company] Website
+# Contributing to [LUNA] Website
 
 Thank you for your interest in contributing to [LUNA] Website! We appreciate your help in making this project better.
 
@@ -28,11 +28,7 @@ We encourage you to contribute enhancements and bug fixes by submitting pull req
 
 ### Development Setup
 
-To set up the project locally for development:
-
-1. Clone your fork of the repository: `git clone https://github.com/brighton404/Reactlunafrica.git`
-2. Install dependencies: `npm install`
-3. Run the development server: `npm start`
+To setup into development please check the [Readme](README.md).
 
 ## Coding Standards
 
@@ -42,4 +38,4 @@ Please follow our coding standards when contributing to this project. Make sure 
 
 By contributing to this project, you agree that your contributions will be licensed under the [MIT License](LICENSE).
 
-Thank you for contributing!
+Thank you for your contribution!
