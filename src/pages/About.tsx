@@ -59,57 +59,8 @@ const About: FunctionComponent = () => {
           <span className="text-blueviolet">menopause</span>
           <span>.</span>
         </h2>
-        <div className="self-stretch flex flex-col items-start justify-start text-13xl">
-          <div className="self-stretch flex flex-row items-center justify-start py-[5px] px-5 gap-[30px] border-[1px] border-solid border-base-blacks-var-1">
-            <h2 className="m-0 relative text-inherit font-normal font-inherit">
-              our locations
-            </h2>
-            <div className="flex-1 flex flex-row flex-wrap items-start justify-start gap-[10px] text-lg">
-              <div className="bg-contemporary-var-2 flex flex-row items-center justify-start py-[5px] px-5 gap-[20px]">
-                <div className="flex flex-row items-center justify-start gap-[10px]">
-                  <img
-                    className="relative w-[18px] h-5"
-                    alt=""
-                    src="/images/icons/home.svg"
-                  />
-                  <div className="relative">NORRSKEN HOUSE KIGALI</div>
-                </div>
-                <div className="flex flex-row items-center justify-start gap-[10px]">
-                  <img
-                    className="relative w-[18px] h-[22px]"
-                    alt=""
-                    src="/images/icons/location.svg"
-                  />
-                  <div className="relative">1 KN 78 st, Kigali, Rwanda</div>
-                </div>
-              </div>
-              <div className="bg-base-whites-var-1 flex flex-row items-center justify-start py-[5px] px-5 gap-[20px]">
-                <div className="flex flex-row items-center justify-start gap-[10px]">
-                  <img
-                    className="relative w-[18px] h-5"
-                    alt=""
-                    src="/images/icons/home.svg"
-                  />
-                  <div className="relative">Nairobi Garage</div>
-                </div>
-                <div className="flex flex-row items-center justify-start gap-[10px]">
-                  <img
-                    className="relative w-[18px] h-[22px]"
-                    alt=""
-                    src="/images/icons/location.svg"
-                  />
-                  <div className="relative">PRM2+RG Nairobi, Kenya</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="self-stretch flex flex-row items-center justify-end py-2.5 px-0">
-            <div className="self-stretch h-[40vh] flex-1 border-[1px] border-solid border-base-blacks-var-1">
-            <LocationMap />
-          </div>
-          </div>
-        </div>
-      </section>    
+        </section>
+        <LocationMap />
       <Footer />
     </div>
   );

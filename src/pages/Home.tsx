@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Banner from "../components/Banner";
 import FAQAccordion from "../components/Accordion";
 import PartnerSection from "../components/HomePartner";
+import Mentioned from "../components/HomeMentions";
 
 const Home: FunctionComponent = () => {
   return (
@@ -151,21 +152,7 @@ const Home: FunctionComponent = () => {
           </article>
         </div>
       </section>
-      <div className="self-stretch flex flex-row items-center justify-start py-[5px] px-2.5 gap-[10px]" id="mentions">
-        <div className="flex flex-row items-start justify-start py-[5px] px-2.5">
-          <h3 className="m-0 relative text-inherit font-semibold font-inherit">
-            As seen in
-          </h3>
-        </div>
-        <div className="flex-1 overflow-hidden flex flex-row items-center justify-start text-base-whites-var-1">
-          <div className="h-10 overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 box-border gap-[10px]">
-            <img className="self-stretch relative max-h-full w-[55px] object-cover"
-                  alt=""
-                  src="/images/partners/partner01@2x.png"/>
-            <span className="relative">company logo</span>
-          </div>
-        </div>
-      </div>
+      <Mentioned />
       <section
         className="self-stretch flex flex-col items-start justify-start pt-[30px] px-5 pb-2.5 gap-[10px] text-left text-13xl text-base-whites-var-1 font-Poppins" id="impact">
         <div className="self-stretch flex flex-col items-start justify-start pt-0 px-2.5 pb-2.5">
