@@ -1,6 +1,4 @@
 import { FunctionComponent } from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import BlogPostForm from "../components/Blog/Blogcreator";
 import { useState, useEffect, useRef } from "react";
 
@@ -32,7 +30,6 @@ const Dashblog: FunctionComponent = () => {
           <div className="bg-base-blacks-var-4 flex-1 overflow-auto font-Poppins text-base-whites-var-1">
             <div className="bg-base-blacks-var-6 py-1 px-2 flex w-fit text-wide-screen-body-4x">Blog Preview Window</div>
           </div>
-          {/* Blog Creator */}
           <div className="bg-base-whites-var-1 flex-1 flex flex-col font-Poppins text-base-whites-var-1">
             <div className="bg-base-blacks-var-6 py-1 px-2 flex w-fit text-wide-screen-body-4x">Blog Creator Window</div>
             <div className="flex-1 bg-white mt-4">
@@ -44,5 +41,4 @@ const Dashblog: FunctionComponent = () => {
     </div>
   );
 };
-
 export default Dashblog;
