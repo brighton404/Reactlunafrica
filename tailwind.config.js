@@ -4,14 +4,25 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "base-whites-var-1": "#fff",
-        "base-blacks-var-2": "#101010",
+        "base-none": "#ffffff00",
         "base-blacks-var-1": "#000",
+        "base-blacks-var-2": "#101010",
+        "base-blacks-var-3": "#0A0A0A",
+        "base-blacks-var-4": "#1E1F23",
+        "base-blacks-var-5": "#19191D",
+        "base-blacks-var-6": "#343539",
+
+        "base-whites-var-1": "#fff",
+        "base-whites-var-2": "#eaeaea",
+
+        "contemporary-var-1": "#DA2E39",
         "contemporary-var-2": "#c9f292",
+
         "base-greys-var-1": "#777",
         "base-greys-var-2": "#a1a1a1",
-        "base-whites-var-2": "#eaeaea",
+
         "brand-health": "#42c0de",
+        "brand-shop": "#9ACB53",
         blueviolet: "#9622f1",
         firebrick: "#c00000",
       },

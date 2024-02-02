@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import Flow from "./pages/Flow";
 import About from "./pages/About";
+import Dashblog from "./pages/DashBlog";
 
 function App() {
   const action = useNavigationType();
@@ -42,6 +43,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/BlogDashboard":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -64,6 +69,7 @@ function App() {
       <Route path="/blog" element={<Blog />} />
       <Route path="/flow" element={<Flow />} />
       <Route path="/about" element={<About />} />
+      <Route path="/dashblog" element={<Dashblog />} />
     </Routes>
   );
 }
