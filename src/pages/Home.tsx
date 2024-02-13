@@ -10,7 +10,6 @@ import Mentioned from "../components/HomeMentions";
 const Home: FunctionComponent = () => {
   return (
     <div className="relative bg-base-blacks-var-2 w-full overflow-hidden flex flex-col items-center justify-start text-left text-xl font-font-Poppins">
-      <Header />
       <section className="self-stretch h-[85vh] flex flex-col items-center justify-end py-[30px] px-[50px] sm:px-[10px] box-border bg-[url('/public/heroBackground.png')] bg-cover bg-no-repeat bg-[top] text-center text-[49px] text-base-whites-var-1 font-Poppins" id="hero">
         <div className="m-0 bg-gradient-to-r from-[#00000000] from-20% via-[#00000031] to-[#00000000] to-80% backdrop-blur-sm border-none w-[50%] flex flex-col items-center justify-center py-[15px] px-5 box-border gap-[50px] sm:self-stretch sm:w-auto">
           <div className="self-stretch flex flex-col items-center justify-center gap-[15px] sm:items-start sm:justify-center">

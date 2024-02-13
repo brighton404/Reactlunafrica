@@ -1,21 +1,19 @@
 import { useEffect } from "react";
-import { HashRouter as Router, Routes, Route, useNavigationType, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import Flow from "./pages/Flow";
 import About from "./pages/About";
 import Dashblog from "./pages/DashBlog";
+import Header from "./components/Header";
 
 function App() {
-  const action = useNavigationType();
   const location = useLocation();
   const pathname = location.pathname;
 
   useEffect(() => {
-    if (action !== "POP") {
-      window.scrollTo(0, 0);
-    }
-  }, [action, pathname]);
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   useEffect(() => {
     let title = "";
@@ -38,13 +36,19 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/BlogDashboard":
+      case "/dashblog":
+        title = "";
+        metaDescription = "";
+        break;
+      default:
         title = "";
         metaDescription = "";
         break;
     }
 
-    if (title) {       document.title = title;    }
+    if (title) {
+      document.title = title;
+    }
 
     if (metaDescription) {
       const metaDescriptionTag: HTMLMetaElement | null = document.querySelector(
@@ -57,15 +61,18 @@ function App() {
   }, [pathname]);
 
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/flow" element={<Flow />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/dashblog" element={<Dashblog />} />
-      </Routes>
-    </Router>
+    <>
+      <Header />
+      <>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/flow" element={<Flow />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/dashblog" element={<Dashblog />} />
+        </Routes>
+        </>
+    </>
   );
 }
 export default App;
