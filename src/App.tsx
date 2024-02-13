@@ -1,10 +1,5 @@
 import { useEffect } from "react";
-import {
-  Routes,
-  Route,
-  useNavigationType,
-  useLocation,
-} from "react-router-dom";
+import { HashRouter as Router, Routes, Route, useNavigationType, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import Flow from "./pages/Flow";
@@ -49,9 +44,7 @@ function App() {
         break;
     }
 
-    if (title) {
-      document.title = title;
-    }
+    if (title) {       document.title = title;    }
 
     if (metaDescription) {
       const metaDescriptionTag: HTMLMetaElement | null = document.querySelector(
@@ -64,13 +57,15 @@ function App() {
   }, [pathname]);
 
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/blog" element={<Blog />} />
-      <Route path="/flow" element={<Flow />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/dashblog" element={<Dashblog />} />
-    </Routes>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/flow" element={<Flow />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/dashblog" element={<Dashblog />} />
+      </Routes>
+    </Router>
   );
 }
 export default App;

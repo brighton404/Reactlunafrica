@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Banner from "../components/Banner";
 import FAQAccordion from "../components/Accordion";
 import PartnerSection from "../components/HomePartner";
+import Demotext from "../components/demotext";
 import Mentioned from "../components/HomeMentions";
 
 const Home: FunctionComponent = () => {
@@ -215,28 +216,7 @@ const Home: FunctionComponent = () => {
           </div>
         </div>
       </section>
-      <div className="self-stretch bg-contemporary-var-2 overflow-hidden flex flex-row items-center justify-start py-2.5 pr-[50px] pl-0 gap-[20px] text-7xl text-base-blacks-var-2 horizontal-scroll-text"> {/* To be modified to a component*/}
-        <div className="flex flex-row gap-[20px] cursor-pointer font-Poppins">
-          <div className="flex flex-row gap-[10px]">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div>
-          <div className="flex flex-row gap-[10px]">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div>
-          <div className="flex flex-row gap-[10px]">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div>
-          <div className="flex flex-row gap-[10px]">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div>
-          <div className="flex flex-row gap-[10px]">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div>
-          <div className="flex flex-row gap-[10px]">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div>
-          <div className="flex flex-row gap-[10px]">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div>
-          <div className="flex flex-row gap-[10px]">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div>          
-          <div className="flex flex-row gap-[10px]">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div>&nbsp;
-          <div className="flex flex-row gap-[10px]">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div>
-          <div className="flex flex-row gap-[10px]">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div>
-          <div className="flex flex-row gap-[10px]">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div>
-          <div className="flex flex-row gap-[10px]">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div>
-          <div className="flex flex-row gap-[10px]">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div>
-          <div className="flex flex-row gap-[10px]">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div>
-          <div className="flex flex-row gap-[10px]">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div>
-          <div className="flex flex-row gap-[10px]">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div>
-          <div className="flex flex-row gap-[10px]">GET A DEMO <img src="/images/icons/arrow-right.svg"/></div>&nbsp;
-        </div>
-      </div>
+      <Demotext />
       <section className="self-stretch bg-base-whites-var-2 flex flex-col items-start justify-start p-5 gap-[20px] text-left text-13xl text-base-blacks-var-1 font-Poppins" id="faq">
         <span className="self-stretch relative">
           Find the answers to all of our most frequently asked questions.
