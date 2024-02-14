@@ -1,11 +1,11 @@
 import { FunctionComponent } from "react";
-import Banner from "../components/Banner";
-import FAQAccordion from "../components/Accordion";
-import PartnerSection from "../components/HomePartner";
-import Demotext from "../components/demotext";
-import Mentioned from "../components/HomeMentions";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Banner from "../components/Banners/Banner";
+import FAQAccordion from "../components/Forms/Accordion";
+import PartnerSection from "../components/AnimatedSections/HomePartner";
+import Demotext from "../components/AnimatedSections/demotext";
+import Mentioned from "../components/AnimatedSections/HomeMentions";
+import Header from "../components/Nav/Header";
+import Footer from "../components/Nav/Footer";
 
 const Home: FunctionComponent = () => {
   return (
@@ -14,10 +14,10 @@ const Home: FunctionComponent = () => {
       <section className="self-stretch h-[95vh] flex flex-col items-center justify-end py-[30px] px-[50px] sm:px-[10px] box-border bg-[url('/public/heroBackground.png')] bg-cover bg-no-repeat bg-[top] text-center text-[49px] text-base-whites-var-1 font-Poppins" id="hero">
         <div className="m-0 bg-gradient-to-r from-[#00000000] from-20% via-[#00000031] to-[#00000000] to-80% backdrop-blur-sm border-none w-[50%] flex flex-col items-center justify-center py-[15px] px-5 box-border gap-[50px] sm:self-stretch sm:w-auto md:w-[80%]">
           <div className="self-stretch flex flex-col items-center justify-center gap-[15px] sm:items-start sm:justify-center">
-            <h1 className="m-0 self-stretch relative text-inherit font-bold font-inherit sm:text-left sm:text-small-screen-title">
+            <h1 className="m-0 self-stretch relative text-inherit font-bold font-inherit sm:text-left sm:text-title">
               WELCOME TO LUNA
             </h1>
-            <i className="self-stretch relative text-lg sm:font-small-screen-body sm:text-left">
+            <i className="self-stretch relative text-lg sm:font-body sm:text-left">
               For Every Woman, Every Phase"
             </i>
           </div>

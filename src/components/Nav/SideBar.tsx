@@ -37,6 +37,10 @@ const SideBar: FunctionComponent<SideBarType> = ({ onClose }) => {
     };
   }, []);
 
+  const onWhoWeAre = useCallback(() => {
+    navigate("/About");
+  }, [navigate]);
+
   const onHowItWorksClick = useCallback(() => {
     navigate("/flow");
   }, [navigate]);
@@ -52,7 +56,8 @@ const SideBar: FunctionComponent<SideBarType> = ({ onClose }) => {
     >
       <div className="self-stretch flex flex-col items-start justify-start gap-[20px]">
         <div className="flex-1 flex flex-col items-start justify-start gap-[35px]">
-          <div className="relative">Who we are</div>
+          <div className="relative cursor-pointer" onClick={onWhoWeAre}>
+            Who we are</div>
           <div className="relative cursor-pointer" onClick={onHowItWorksClick}>
             How it works
           </div>

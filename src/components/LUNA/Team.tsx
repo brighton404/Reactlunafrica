@@ -14,8 +14,8 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
   case 'berabose':
     content = 
     <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-Poppins">
-      <div className="flex flex-col items-start justify-start">
-        <img className="relative w-[200px] h-[250px] object-cover"
+      <div className="flex flex-col items-start justify-start flex-1">
+        <img className="w-[200px] h-[200px] object-contain bg-white"
           alt=""
           src=".\images\team\berabose-joyce.png"
         />
@@ -24,10 +24,10 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
         <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-whites-var-1" />
         <div className="self-stretch flex flex-col items-start justify-start">
           <div className="flex flex-row items-start justify-start">
-            <div className="relative">Berabose A. Joyce</div>
+            <span className="text-body-4x">Berabose A. Joyce</span>
           </div>
           <div className="flex flex-row items-start justify-start text-base-greys-var-1">
-            <div className="relative">CEO</div>
+            <span className="text-body-4x">CEO</span>
           </div>
         </div>
       </div>
@@ -37,7 +37,7 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
     content = 
     <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-Poppins">
       <div className="flex flex-col items-start justify-start">
-        <img className="relative w-[200px] h-[250px] object-cover"
+        <img className="relative w-[200px] h-[200px] object-cover bg-white"
           alt=""
           src=".\images\team\chibudu-nyiro.png"
         />
@@ -47,10 +47,10 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
           <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-whites-var-1" />
         <div className="self-stretch flex flex-col items-start justify-start">
           <div className="flex flex-row items-start justify-start">
-            <div className="relative">Chibudu S. Nyiro</div>
+            <span className="text-body-4x">Chibudu S. Nyiro</span>
           </div>
           <div className="flex flex-row items-start justify-start text-base-greys-var-1">
-            <div className="relative">COO</div>
+            <span className="text-body-4x">COO</span>
           </div>
         </div>
       </div>
@@ -60,7 +60,7 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
     content = 
     <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-Poppins">
       <div className="flex flex-col items-start justify-start">
-        <img className="relative w-[200px] h-[250px] object-cover"
+        <img className="relative w-[250px] h-[200px] object-cover bg-white"
           alt=""
           src=".\images\team\dusabimana-ange.png"
         />
@@ -70,10 +70,10 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
         <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-whites-var-1" />
         <div className="self-stretch flex flex-col items-start justify-start">
           <div className="flex flex-row items-start justify-start">
-            <div className="relative">Dusabimana Ange</div>
+            <span className="text-body-4x">Dusabimana Ange</span>
           </div>
           <div className="flex flex-row items-start justify-start text-base-greys-var-1">
-            <div className="relative">Medical Project Manager</div>
+            <span className="text-body-4x">Medical Project Manager</span>
           </div>
         </div>
       </div>
@@ -83,9 +83,9 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
     content = 
     <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-Poppins">
       <div className="flex flex-col items-start justify-start">
-        <img className="relative w-[200px] h-[250px] object-cover"
+        <img className="relative w-[210px] h-[200px] object-cover bg-white"
           alt=""
-          src=".\images\team\julius-brighton.png"
+          src=".\images\team\julius-brighton.jpg"
         />
       </div>
       <div
@@ -93,10 +93,10 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
         <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-whites-var-1" />
         <div className="self-stretch flex flex-col items-start justify-start">
           <div className="flex flex-row items-start justify-start">
-            <div className="relative">Julius Brighton</div>
+            <span className="text-body-4x">Julius Brighton</span>
           </div>
           <div className="flex flex-row items-start justify-start text-base-greys-var-1">
-            <div className="relative">UI/UX Project Manager</div>
+            <span className="text-body-4x">UI/UX Project Manager</span>
           </div>
         </div>
       </div>
@@ -106,7 +106,7 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
     content = 
     <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-Poppins">
       <div className="flex flex-col items-start justify-start">
-        <img className="relative w-[200px] h-[250px] object-cover"
+        <img className="relative w-[210px] h-[200px] object-cover bg-white"
           alt=""
           src=".\images\team\glory-alphonsus.png"
         />
@@ -116,10 +116,10 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
         <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-whites-var-1" />
         <div className="self-stretch flex flex-col items-start justify-start">
           <div className="flex flex-row items-start justify-start">
-            <div className="relative">Glory Alphonsus</div>
+            <span className="text-body-4x">Glory Alphonsus</span>
           </div>
           <div className="flex flex-row items-start justify-start text-base-greys-var-1">
-            <div className="relative">Backend Developer</div>
+            <span className="text-body-4x">Backend Developer</span>
           </div>
         </div>
       </div>

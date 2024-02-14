@@ -13,9 +13,9 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
  switch (advisor) {
   case 'michael':
     content = 
-    <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-wide-screen-body-small">
+    <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-body-small">
       <div className="flex flex-col items-start justify-start">
-        <img className="relative w-[200px] h-[250px] object-cover"
+        <img className="relative w-[200px] h-[200px] object-cover"
           alt=""
           src=".\images\advisors\michael-szymanski.png"
         />
@@ -24,10 +24,10 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
         <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-whites-var-1" />
         <div className="self-stretch flex flex-col items-start justify-start">
           <div className="flex flex-row items-start justify-start">
-            <div className="relative">Michael Szymanski</div>
+            <span className="text-body-4x">Michael Szymanski</span>
           </div>
           <div className="flex flex-row items-start justify-start text-base-greys-var-1">
-            <div className="relative">Business development</div>
+            <span className="text-body-4x">Business development</span>
           </div>
         </div>
       </div>
@@ -35,9 +35,9 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
   break;
   case 'warren':
     content = 
-    <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-wide-screen-body-small">
+    <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-body-small">
       <div className="flex flex-col items-start justify-start">
-        <img className="relative w-[200px] h-[250px] object-cover"
+        <img className="relative w-[200px] h-[200px] object-cover"
           alt=""
           src=".\images\advisors\warren-cronje.png"
         />
@@ -47,10 +47,10 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
           <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-whites-var-1" />
         <div className="self-stretch flex flex-col items-start justify-start">
           <div className="flex flex-row items-start justify-start">
-            <div className="relative">Warren Cronje</div>
+            <span className="text-body-4x">Warren Cronje</span>
           </div>
           <div className="flex flex-row items-start justify-start text-base-greys-var-1">
-            <div className="relative">Investment</div>
+            <span className="text-body-4x">Investment</span>
           </div>
         </div>
       </div>
@@ -58,11 +58,11 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
   break;
   case 'james':
     content = 
-    <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-wide-screen-body-small">
+    <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-body-small">
       <div className="flex flex-col items-start justify-start">
-        <img className="relative w-[200px] h-[250px] object-cover"
+        <img className="relative w-[200px] h-[200px] object-cover"
           alt=""
-          src=".\images\advisors\warren-cronje.png"
+          src=".\images\advisors\james-brown.png"
         />
       </div>
       <div
@@ -70,10 +70,10 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
         <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-whites-var-1" />
         <div className="self-stretch flex flex-col items-start justify-start">
           <div className="flex flex-row items-start justify-start">
-            <div className="relative">James Brown</div>
+            <div className="text-body-4x">James Brown</div>
           </div>
           <div className="flex flex-row items-start justify-start text-base-greys-var-1">
-            <div className="relative">Womens Health</div>
+            <div className="text-body-4x">Womens Health</div>
           </div>
         </div>
       </div>
@@ -81,9 +81,9 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
   break;
   case 'fredeline':
     content = 
-    <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-wide-screen-body-small">
+    <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-body-small">
       <div className="flex flex-col items-start justify-start">
-        <img className="relative w-[200px] h-[250px] object-cover"
+        <img className="relative w-[200px] h-[200px] object-cover"
           alt=""
           src=".\images\advisors\fredeline-muller.png"
         />
@@ -93,10 +93,10 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
         <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-whites-var-1" />
         <div className="self-stretch flex flex-col items-start justify-start">
           <div className="flex flex-row items-start justify-start">
-            <div className="relative">Fredeline Muller</div>
+            <div className="text-body-4x">Fredeline Muller</div>
           </div>
           <div className="flex flex-row items-start justify-start text-base-greys-var-1">
-            <div className="relative">Finance</div>
+            <div className="text-body-4x">Finance</div>
           </div>
         </div>
       </div>
@@ -104,9 +104,9 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
   break;
   case 'chidi':
     content = 
-    <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-wide-screen-body-small">
+    <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-body-small">
       <div className="flex flex-col items-start justify-start">
-        <img className="relative w-[200px] h-[250px] object-cover"
+        <img className="relative w-[200px] h-[200px] object-cover"
           alt=""
           src=".\images\advisors\chidi-afulezi.png"
         />
@@ -116,10 +116,10 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
         <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-whites-var-1" />
         <div className="self-stretch flex flex-col items-start justify-start">
           <div className="flex flex-row items-start justify-start">
-            <div className="relative">Chidi Afulezi</div>
+            <div className="text-body-4x">Chidi Afulezi</div>
           </div>
           <div className="flex flex-row items-start justify-start text-base-greys-var-1">
-            <div className="relative">Leadership</div>
+            <div className="text-body-4x">Leadership</div>
           </div>
         </div>
       </div>
@@ -127,9 +127,9 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
   break;
   case 'chandini':
     content = 
-    <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-wide-screen-body-small">
+    <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-body-small">
       <div className="flex flex-col items-start justify-start">
-        <img className="relative w-[200px] h-[250px] object-cover"
+        <img className="relative w-[200px] h-[200px] object-cover"
           alt=""
           src=".\images\advisors\chandini-sood.png"
         />
@@ -139,10 +139,10 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
         <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-whites-var-1" />
         <div className="self-stretch flex flex-col items-start justify-start">
           <div className="flex flex-row items-start justify-start">
-            <div className="relative">chandini sood</div>
+            <span className="text-body-4x">chandini sood</span>
           </div>
           <div className="flex flex-row items-start justify-start text-base-greys-var-1">
-            <div className="relative">Funding readiness</div>
+            <span className="text-body-4x">Funding readiness</span>
           </div>
         </div>
       </div>
@@ -150,7 +150,7 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
   break;
   default:
     content = 
-    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-lg text-base-whites-var-1 font-wide-screen-body-small">
+    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-lg text-base-whites-var-1 font-body-small">
     <LUNALOGO />
     <div className="flex flex-row items-start justify-start">
       <span className="relative">LUNA PARTNER</span>

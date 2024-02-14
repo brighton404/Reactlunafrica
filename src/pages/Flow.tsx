@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "../components/Nav/Header";
+import Footer from "../components/Nav/Footer";
 
 const Flow: FunctionComponent = () => {
   return (

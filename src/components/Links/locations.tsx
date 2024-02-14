@@ -13,17 +13,11 @@ const LocationMap: React.FC = () => {
 
   return (
     <div className='bg-base-whites-var-2 w-full'>
-    <section className="self-stretch flex flex-col items-start justify-start text-13xl text-base-blacks-var-1 p-[20px] gap-[20px]">
-        <div className="self-stretch flex flex-row items-center justify-start py-[5px] px-5 gap-[30px] border-[1px] border-solid border-base-blacks-var-1">
-          <h2 className="m-0 relative font-normal text-wide-screen-body text-base-blacks-var-1"> our locations </h2>
-          <div className="flex-1 flex flex-row flex-wrap items-start justify-start gap-[10px] text-lg">
-            <div className="bg-contemporary-var-2 flex flex-row items-center justify-start py-[5px] px-5 gap-[20px] cursor-pointer">
-              <div className="flex flex-row items-center justify-start gap-[10px]">
-                <div className="relative" onClick={toggleMap}>Norrsken House Kigali</div>
-                <div>&</div>
-                <div className="relative" onClick={toggleMap}>Nairobi Garage</div>
-              </div>                
-            </div>
+    <section className="self-stretch flex flex-col items-start justify-start text-nowrap text-base-blacks-var-1 p-[20px] gap-[20px]">
+        <div className="flex-1 self-stretch flex items-center justify-start py-[5px] px-5 gap-[20px] md:gap-[10px] sm:px-2 border-[1px] border-solid border-base-blacks-var-1">
+          <h2 className="m-0 relative font-normal text-body text-base-blacks-var-1 sm:text-body"> our locations </h2>
+          <div className=" absolute right-[25px] bg-contemporary-var-2 flex flex-row items-center justify-start py-[5px] px-5 gap-[20px]">
+              <span className="relative sm:text-body-medium cursor-pointer" onClick={toggleMap}>See Next location</span>              
           </div>
         </div>
       <iframe

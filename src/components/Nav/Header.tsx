@@ -2,7 +2,7 @@ import { FunctionComponent, useState, useCallback } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import SideBar from "./SideBar";
 import PortalDrawer from "./PortalDrawer";
-import LUNALOGO from "../components/LUNALOGO";
+import LUNALOGO from "../LUNA/LUNALOGO";
 
 const Header: FunctionComponent = () => {
   const navigate = useNavigate();
@@ -49,14 +49,14 @@ const Header: FunctionComponent = () => {
                 onClick={onWhoWeAreClick}>
                 Who we are
               </Link>
-              <Link className="cursor-pointer [text-decoration:none] relative text-[inherit]"
+              <Link className="cursor-not-allowed [text-decoration:none] relative text-[inherit]"
                 to="/Flow"
-                onClick={onHowItWorksClick}>
+                onClick={onHome}>
                 How it works
               </Link>
-              <Link className="cursor-pointer [text-decoration:none] relative text-[inherit]"
+              <Link className="cursor-not-allowed [text-decoration:none] relative text-[inherit]"
                 to="/Blog"
-                onClick={onResourcesClick}>
+                onClick={onHome}>
                 Resources
               </Link>
             </nav>

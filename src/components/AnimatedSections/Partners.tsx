@@ -1,5 +1,5 @@
 import { FunctionComponent, useState, useMemo, type CSSProperties } from "react";
-import LUNALOGO from "./LUNALOGO";
+import LUNALOGO from "../LUNA/LUNALOGO";
 
 type Partners = 'default' | 'Tamu' | 'Ikunde' | 'ALU' | 'Vuki' | 'Femtech lab' | 'Jasiri' | 'Eves Apple' | 'Allan & Gray' | 'YWCA';
 

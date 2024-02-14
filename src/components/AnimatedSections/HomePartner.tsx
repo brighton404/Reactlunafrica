@@ -1,5 +1,5 @@
 import React from 'react';
-import PartnerCard from "../components/Partners";
+import PartnerCard from "./Partners";
 
 const PartnerSection: React.FC = () => {
   return (
