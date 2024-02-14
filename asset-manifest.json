@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Reactlunafrica/static/css/main.d49e31c3.css",
-    "main.js": "/Reactlunafrica/static/js/main.d1aa7159.js",
-    "static/js/787.446676b1.chunk.js": "/Reactlunafrica/static/js/787.446676b1.chunk.js",
-    "static/media/heroBackground.png": "/Reactlunafrica/static/media/heroBackground.044f999614267ff0c317.png",
-    "static/media/instagram.svg": "/Reactlunafrica/static/media/instagram.ebd4e5768ff591f55503.svg",
-    "index.html": "/Reactlunafrica/index.html",
-    "static/media/tiktok.svg": "/Reactlunafrica/static/media/tiktok.803da71321f88a74a927.svg",
-    "static/media/twitter.svg": "/Reactlunafrica/static/media/twitter.9be7bd62536169fb8c8c.svg",
-    "static/media/linkedin.svg": "/Reactlunafrica/static/media/linkedin.4eee9158b5d91b9a5c75.svg",
-    "static/media/paperclip.svg": "/Reactlunafrica/static/media/paperclip.3e4d194932c0719e70c6.svg",
-    "static/media/user.svg": "/Reactlunafrica/static/media/user.23d17caa3fafd72bfbd0.svg",
-    "static/media/save.svg": "/Reactlunafrica/static/media/save.77b0868a24508e0ce218.svg",
-    "static/media/file-text.svg": "/Reactlunafrica/static/media/file-text.ce2507e3488135141fd1.svg",
-    "static/media/monitor.svg": "/Reactlunafrica/static/media/monitor.8fd879afbeb467b82a8d.svg",
-    "main.d49e31c3.css.map": "/Reactlunafrica/static/css/main.d49e31c3.css.map",
-    "main.d1aa7159.js.map": "/Reactlunafrica/static/js/main.d1aa7159.js.map",
-    "787.446676b1.chunk.js.map": "/Reactlunafrica/static/js/787.446676b1.chunk.js.map"
+    "main.css": "/static/css/main.c98e6191.css",
+    "main.js": "/static/js/main.e7a0df36.js",
+    "static/js/787.446676b1.chunk.js": "/static/js/787.446676b1.chunk.js",
+    "static/media/heroBackground.png": "/static/media/heroBackground.044f999614267ff0c317.png",
+    "static/media/instagram.svg": "/static/media/instagram.ebd4e5768ff591f55503.svg",
+    "index.html": "/index.html",
+    "static/media/tiktok.svg": "/static/media/tiktok.803da71321f88a74a927.svg",
+    "static/media/twitter.svg": "/static/media/twitter.9be7bd62536169fb8c8c.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.4eee9158b5d91b9a5c75.svg",
+    "static/media/paperclip.svg": "/static/media/paperclip.3e4d194932c0719e70c6.svg",
+    "static/media/user.svg": "/static/media/user.23d17caa3fafd72bfbd0.svg",
+    "static/media/save.svg": "/static/media/save.77b0868a24508e0ce218.svg",
+    "static/media/file-text.svg": "/static/media/file-text.ce2507e3488135141fd1.svg",
+    "static/media/monitor.svg": "/static/media/monitor.8fd879afbeb467b82a8d.svg",
+    "main.c98e6191.css.map": "/static/css/main.c98e6191.css.map",
+    "main.e7a0df36.js.map": "/static/js/main.e7a0df36.js.map",
+    "787.446676b1.chunk.js.map": "/static/js/787.446676b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d49e31c3.css",
-    "static/js/main.d1aa7159.js"
+    "static/css/main.c98e6191.css",
+    "static/js/main.e7a0df36.js"
   ]
 }
