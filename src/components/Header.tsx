@@ -35,7 +35,7 @@ const Header: FunctionComponent = () => {
   return (
     <>
       <header
-        className="fixed top-0 z-50 bg-base-blacks-var-1 w-full h-[70px] overflow-hidden flex flex-row items-center justify-center py-0 px-[50px] box-border text-left text-[11.2px] text-base-whites-var-1 font-Poppins"
+        className="fixed top-0 z-50 bg-base-blacks-var-1 w-full h-[70px] overflow-hidden flex flex-row items-center justify-center py-0 px-[30px] box-border text-left text-[11.2px] text-base-whites-var-1 font-Poppins"
         id="header"
       >
         <div className="self-stretch flex-1 flex flex-row items-center justify-start relative gap-[10px]">
@@ -61,8 +61,8 @@ const Header: FunctionComponent = () => {
               </Link>
             </nav>
           </div>
-          <div className="my-0 mx-[!important] absolute top-[0px] right-[20px] flex flex-row items-center justify-start gap-[10px] z-[1] md:hidden">
-            <div className="h-[70px] flex flex-row items-center justify-start gap-[10px] sm:hidden">
+          <div className="h-[70px] my-0 mx-[!important] absolute top-px right-px flex flex-row items-center justify-start gap-[10px] z-[1] md:hidden">
+            <div className="h-[70px] flex flex-row items-center justify-start gap-[10px] sm:hidden lg:hidden">
               <a className="[text-decoration:none] relative w-[25px] h-[25px] bg-[url('/public/images/icons/instagram.svg')] bg-contain bg-no-repeat bg-center"
                 href="https://www.instagram.com/luna4africa/" target="_blank"/>
               <a className="[text-decoration:none] relative w-[25px] h-[25px] bg-[url('/public/images/icons/twitter.svg')] bg-contain bg-no-repeat bg-center"
@@ -76,7 +76,7 @@ const Header: FunctionComponent = () => {
               <a className="[text-decoration:none] relative text-xl font-Poppins text-base-blacks-var-1 text-left" href="https://lunahealth.co/">Consult now</a>
             </button>
           </div>
-          <LUNALOGO />
+          <div className="absolute left-px top-px"><LUNALOGO /></div>
           <button className="cursor-pointer [border:none] p-2.5 bg-[transparent] hidden flex-row items-center justify-start z-[3] sm:flex md:flex"
             onClick={openSideBar}>
             <img className="relative w-[27px] h-[18px] sm:flex md:flex"

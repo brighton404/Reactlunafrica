@@ -8,6 +8,7 @@ import LocationMap from "../components/locations";
 const About: FunctionComponent = () => {
   return (
     <div className="relative bg-base-blacks-var-2 w-full overflow-hidden flex flex-col items-start justify-start text-left text-xl text-contemporary-var-2 font-Poppins">
+      <Header />
       <section className="self-stretch flex flex-col items-start justify-center pt-[50px] px-5 pb-5">
         <article className="self-stretch flex flex-col items-start justify-start p-5 gap-[20px] text-left text-7xl text-base-whites-var-1 font-Poppins">
           <h1 className="m-0 relative text-53xl font-normal font-inherit">

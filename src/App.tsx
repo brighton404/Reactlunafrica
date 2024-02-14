@@ -6,6 +6,7 @@ import Flow from "./pages/Flow";
 import About from "./pages/About";
 import Dashblog from "./pages/DashBlog";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   const location = useLocation();
@@ -61,18 +62,13 @@ function App() {
   }, [pathname]);
 
   return (
-    <>
-      <Header />
-      <>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/flow" element={<Flow />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/dashblog" element={<Dashblog />} />
-        </Routes>
-        </>
-    </>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/flow" element={<Flow />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/dashblog" element={<Dashblog />} />
+      </Routes>
   );
 }
 export default App;

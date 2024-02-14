@@ -47,7 +47,7 @@ const SideBar: FunctionComponent<SideBarType> = ({ onClose }) => {
 
   return (
     <div
-      className="bg-base-blacks-var-1 h-full overflow-hidden flex flex-row items-start justify-start p-5 box-border [&.animate]:animate-[0.25s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0] max-w-[90%] text-left text-xl text-base-whites-var-1 Poppins"
+      className="bg-base-blacks-var-1 h-full overflow-hidden flex flex-row items-start justify-start p-5 box-border [&.animate]:animate-[0.25s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0] max-w-[90%] text-left text-xl text-base-whites-var-1 font-Poppins"
       data-animate-on-scroll
     >
       <div className="self-stretch flex flex-col items-start justify-start gap-[20px]">

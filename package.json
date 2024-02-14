@@ -2,9 +2,9 @@
   "name": "lunafrica",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://brighton404.github.io/Reactlunafrica",
   "dependencies": {
     "@react-google-maps/api": "^2.19.2",
+    "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -12,6 +12,7 @@
     "@types/node": "^16.11.14",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
+    "postcss-nesting": "^12.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-markdown": "^9.0.1",

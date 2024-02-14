@@ -1,17 +1,18 @@
 import { FunctionComponent } from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import Banner from "../components/Banner";
 import FAQAccordion from "../components/Accordion";
 import PartnerSection from "../components/HomePartner";
 import Demotext from "../components/demotext";
 import Mentioned from "../components/HomeMentions";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const Home: FunctionComponent = () => {
   return (
     <div className="relative bg-base-blacks-var-2 w-full overflow-hidden flex flex-col items-center justify-start text-left text-xl font-font-Poppins">
-      <section className="self-stretch h-[85vh] flex flex-col items-center justify-end py-[30px] px-[50px] sm:px-[10px] box-border bg-[url('/public/heroBackground.png')] bg-cover bg-no-repeat bg-[top] text-center text-[49px] text-base-whites-var-1 font-Poppins" id="hero">
-        <div className="m-0 bg-gradient-to-r from-[#00000000] from-20% via-[#00000031] to-[#00000000] to-80% backdrop-blur-sm border-none w-[50%] flex flex-col items-center justify-center py-[15px] px-5 box-border gap-[50px] sm:self-stretch sm:w-auto">
+      <Header />
+      <section className="self-stretch h-[95vh] flex flex-col items-center justify-end py-[30px] px-[50px] sm:px-[10px] box-border bg-[url('/public/heroBackground.png')] bg-cover bg-no-repeat bg-[top] text-center text-[49px] text-base-whites-var-1 font-Poppins" id="hero">
+        <div className="m-0 bg-gradient-to-r from-[#00000000] from-20% via-[#00000031] to-[#00000000] to-80% backdrop-blur-sm border-none w-[50%] flex flex-col items-center justify-center py-[15px] px-5 box-border gap-[50px] sm:self-stretch sm:w-auto md:w-[80%]">
           <div className="self-stretch flex flex-col items-center justify-center gap-[15px] sm:items-start sm:justify-center">
             <h1 className="m-0 self-stretch relative text-inherit font-bold font-inherit sm:text-left sm:text-small-screen-title">
               WELCOME TO LUNA
@@ -46,7 +47,7 @@ const Home: FunctionComponent = () => {
         </div>
         <div className="self-stretch bg-base-blacks-var-2 flex flex-col items-start justify-start py-0 px-2.5">
           <div className="self-stretch flex flex-row items-start justify-start py-0 px-2.5 gap-[20px] sm:flex-col">
-            <article className="flex-1 box-border h-[315px] flex flex-col items-start justify-start p-[15px] text-left text-3xl text-brand-health font-Poppins border-[2px] border-solid border-base-greys-var-1 sm:flex-[unset] sm:self-stretch">
+            <article className="flex-1 box-border h-[315px] flex flex-col items-start justify-start p-[15px] text-left text-3xl text-brand-health font-Poppins border-[2px] border-solid border-base-greys-var-1 sm:flex-[unset] sm:self-stretch lg:h-fit">
               <div className="self-stretch flex-1 flex flex-col items-start justify-start gap-[15px]">
                 <h3 className="m-0 relative text-inherit font-semibold font-inherit">
                   Health
@@ -70,7 +71,7 @@ const Home: FunctionComponent = () => {
                 </button>
               </div>
             </article>
-            <article className="flex-1 box-border h-[315px] flex flex-col items-start justify-start p-[15px] text-left text-3xl text-contemporary-var-2 font-Poppins border-[2px] border-solid border-base-greys-var-1 sm:flex-[unset] sm:self-stretch">
+            <article className="flex-1 box-border h-[315px] flex flex-col items-start justify-start p-[15px] text-left text-3xl text-contemporary-var-2 font-Poppins border-[2px] border-solid border-base-greys-var-1 sm:flex-[unset] sm:self-stretch lg:h-fit">
               <div className="self-stretch flex-1 flex flex-col items-start justify-start gap-[15px]">
                 <h3 className="m-0 relative text-inherit font-semibold font-inherit">
                   Shop
@@ -94,7 +95,7 @@ const Home: FunctionComponent = () => {
                 </button>
               </div>
             </article>
-            <article className="flex-1 box-border h-[315px] flex flex-col items-start justify-start p-[15px] text-left text-3xl text-base-whites-var-1 font-Poppins border-[2px] border-solid border-base-greys-var-1 sm:flex-[unset] sm:self-stretch">
+            <article className="flex-1 box-border h-[315px] flex flex-col items-start justify-start p-[15px] text-left text-3xl text-base-whites-var-1 font-Poppins border-[2px] border-solid border-base-greys-var-1 sm:flex-[unset] sm:self-stretch lg:h-fit">
               <div className="self-stretch flex-1 flex flex-col items-start justify-start gap-[15px]">
                 <h3 className="m-0 relative text-inherit font-semibold font-inherit">
                   Community
@@ -128,27 +129,27 @@ const Home: FunctionComponent = () => {
             Our Packages
           </h2>
         </div>
-        <div className="self-stretch flex flex-row items-start justify-start py-0 px-2.5 gap-[30px] sm:flex-col">
-          <article className="flex-1 bg-base-whites-var-2 shadow-[8px_8px_0px_#000] box-border h-[420px] flex flex-col items-start justify-start p-5 gap-[20px] text-left text-lg text-base-blacks-var-2 font-Poppins border-[3px] border-solid border-base-blacks-var-2 sm:flex-[unset] sm:self-stretch">
+        <div className="self-stretch flex flex-row items-start justify-start py-0 px-2.5 gap-[30px] md:flex-col">
+          <article className="flex-1 bg-base-whites-var-2 shadow-[8px_8px_0px_#000] box-border h-[420px] flex flex-col items-start justify-start p-5 gap-[20px] text-left text-lg text-base-blacks-var-2 font-Poppins border-[3px] border-solid border-base-blacks-var-2 sm:flex-[unset] sm:self-stretch lg:h-fit">
             <span className="relative">-10$</span>
             <h3 className="m-0 self-stretch relative text-3xl font-semibold font-inherit">
               Mental health at your workspace
             </h3>
-            <p className="m-0 self-stretch flex-1 relative">{`ut labore et dolore magna aliqua. Orci a scelerisque purus semper eget duis at tellus. Sed nisi lacus sed viverra. Metus dictum at tempor commodo ullamcorper a lacus vestibulum. `}</p>
+            <p className="m-0 self-stretch flex-1 relative">Elevate workplace well-being with our package offering in-person and online consultations, mindfulness sessions, and stress management workshops. Designed to foster a positive work environment, this package empowers your team to thrive. Contact us to initiate a positive change in your workspace</p>
           </article>
-          <article className="flex-1 bg-base-whites-var-2 shadow-[8px_8px_0px_#000] box-border h-[420px] flex flex-col items-start justify-start p-5 gap-[20px] text-left text-lg text-base-blacks-var-2 font-Poppins border-[3px] border-solid border-base-blacks-var-2 sm:flex-[unset] sm:self-stretch">
+          <article className="flex-1 bg-base-whites-var-2 shadow-[8px_8px_0px_#000] box-border h-[420px] flex flex-col items-start justify-start p-5 gap-[20px] text-left text-lg text-base-blacks-var-2 font-Poppins border-[3px] border-solid border-base-blacks-var-2 sm:flex-[unset] sm:self-stretch lg:h-fit">
             <span className="relative">-10$</span>
             <h3 className="m-0 self-stretch relative text-3xl font-semibold font-inherit">
               Get the PCOS Deal
             </h3>
-            <p className="m-0 self-stretch flex-1 relative">{`ut labore et dolore magna aliqua. Orci a scelerisque purus semper eget duis at tellus. Sed nisi lacus sed viverra. Metus dictum at tempor commodo ullamcorper a lacus vestibulum. `}</p>
+            <p className="m-0 self-stretch flex-1 relative">Take charge of your health journey with our exclusive PCOS Deal package. Tailored for those dealing with Polycystic Ovary Syndrome (PCOS), this comprehensive offering provides personalized guidance, nutrition plans, and fitness routines to effectively manage symptoms. Empower yourself with tools for a healthier lifestyle.</p>
           </article>
-          <article className="flex-1 bg-base-whites-var-2 shadow-[8px_8px_0px_#000] box-border h-[420px] flex flex-col items-start justify-start p-5 gap-[20px] text-left text-lg text-base-blacks-var-2 font-Poppins border-[3px] border-solid border-base-blacks-var-2 sm:flex-[unset] sm:self-stretch">
+          <article className="flex-1 bg-base-whites-var-2 shadow-[8px_8px_0px_#000] box-border h-[420px] flex flex-col items-start justify-start p-5 gap-[20px] text-left text-lg text-base-blacks-var-2 font-Poppins border-[3px] border-solid border-base-blacks-var-2 sm:flex-[unset] sm:self-stretch lg:h-fit">
             <span className="relative">-10$</span>
             <h3 className="m-0 self-stretch relative text-3xl font-semibold font-inherit">
               Go premium to access Full LUNA services
             </h3>
-            <p className="m-0 self-stretch flex-1 relative">{`ut labore et dolore magna aliqua. Orci a scelerisque purus semper eget duis at tellus. Sed nisi lacus sed viverra. Metus dictum at tempor commodo ullamcorper a lacus vestibulum. `}</p>
+            <p className="m-0 self-stretch flex-1 relative">Unleash your online potential with our Go Premium - Full LUNA Services package. Elevate your digital presence with free assessments, limitless consultations with top professionals, and customized product deals. Transform your online experience and access premium features to enhance your digital journey.</p>
           </article>
         </div>
       </section>
@@ -160,7 +161,7 @@ const Home: FunctionComponent = () => {
             Our Impact
           </h2>
         </div>
-        <div className="self-stretch flex flex-row items-start justify-start gap-[20px] text-3xl text-base-blacks-var-2 sm:flex-col">
+        <div className="self-stretch flex flex-row items-start justify-start gap-[20px] text-3xl text-base-blacks-var-2 md:flex-col">
           <div className="flex-1 flex flex-col items-start justify-start p-[15px] gap-[25px] border-[1px] border-solid border-base-greys-var-1 sm:flex-[unset] sm:self-stretch">
             <div className="bg-contemporary-var-2 flex flex-row items-start justify-start p-2.5">
               <h3 className="m-0 relative text-inherit font-semibold font-inherit">
@@ -173,14 +174,14 @@ const Home: FunctionComponent = () => {
               </p>
             </div>
           </div>
-          <div className="self-stretch flex flex-row items-start justify-start gap-[7.85px]">
-            <img className="relative w-[184px] h-[184px] object-cover"
+          <div className="self-stretch flex flex-row sm:flex-col items-start justify-start gap-[7.85px]">
+            <img className="relative w-[184px] h-[184px] object-cover md:w-full sm:w-full md:object-contain bg-[#51a136]"
                   alt="sdg number 3: good health and well being"
                   src="/images/sdg/SDG-3.png"/>
-            <img className="relative w-[184px] h-[184px] object-cover"
+            <img className="relative w-[184px] h-[184px] object-cover md:w-full sm:w-full md:object-contain bg-[#f5342a]"
                   alt="sdg number 5: gender equality"
                   src="/images/sdg/SDG-5.png"/>
-            <img className="relative w-[184px] h-[182px] object-cover"
+            <img className="relative w-[184px] h-[182px] object-cover md:w-full sm:w-full md:object-contain bg-[#d50069]"
                   alt="sdg number 10: reduced inequalities"
                   src="/images/sdg/SDG-10.png"/>
           </div>
@@ -221,13 +222,37 @@ const Home: FunctionComponent = () => {
           Find the answers to all of our most frequently asked questions.
         </span>
         <div className="flex flex-col self-stretch gap-[10px]">
-              <FAQAccordion
-                question="What is React?"
-                answer="React is a JavaScript library for building user interfaces."/>
-              <FAQAccordion
-                question="What is Tailwind CSS?"
-                answer="Tailwind CSS is a utility-first CSS framework for rapidly building custom designs."/>
-              {/* Add more FAQ as needed */}
+          <FAQAccordion
+            question="What is LUNA and what does it stand for?"
+            answer="LUNA is a women's health and wellness platform. The name LUNA comes from LUNAR like the Moon because of women’s cycle association to the moon"/>
+          <FAQAccordion
+            question="What services does LUNA offer?"
+            answer="LUNA provides a range of services, including safe chatrooms, therapy sessions, doctor consultations, corporate packages, and the option to ask LUNA for personalized advice."/>
+          <FAQAccordion 
+            question="How can I become a member of LUNA?"
+            answer="Becoming a member is easy! Visit our website and follow the simple steps to register. Once registered, you'll have access to all our services and community features. We also have a whatsapp community to Join Here"/>
+          <FAQAccordion 
+            question="Is LUNA only for women?"
+            answer="While our primary focus is on women's health, LUNA welcomes everyone who supports our mission and values, regardless of gender. You can actually reach out to us as a man if You need services that we offer or asking for someone."/>
+          <FAQAccordion 
+            question="How can I get involved with LUNA as a volunteer?"
+            answer="We appreciate your interest in contributing to LUNA! Please Email us on info@lunahealth.co. with your CV and how you can make a difference."/>
+          <FAQAccordion 
+            question="What makes LUNA different from other health platforms?"
+            answer="LUNA is committed to providing a holistic approach to women's health, combining professional services with a supportive community. Our focus on diversity and inclusivity sets us apart."/>
+          <FAQAccordion 
+            question="How can I schedule a therapy session or consultation?"
+            answer="Members can easily schedule therapy sessions or consultations through their LUNA accounts. Choose your preferred professional, date, and time that suits you best."/>
+          <FAQAccordion 
+            question="Are my interactions on LUNA private and secure?"
+            answer="Yes, we take privacy seriously. Your interactions, conversations, and personal information are encrypted and kept confidential."/>
+          <FAQAccordion 
+            question="Does LUNA have a mobile app?"
+            answer="Yes, you can download the LUNA mobile app from [insert app store links] for easy access to our services and community on your mobile device."/>
+          <FAQAccordion 
+            question="How can I share my feedback or suggestions with LUNA?"
+            answer="We appreciate your feedback! You can share your thoughts, suggestions, or concerns by contacting our support team through the website or sending an email to info@lunahealth.co "/>
+          {/* Add more FAQ as needed */}
         </div>
       </section>
       <Banner />
