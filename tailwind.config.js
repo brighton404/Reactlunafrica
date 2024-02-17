@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "base-none": "#ffffff00",
+        "base-none": "#ffffff00", /*transparent*/
         "base-blacks-var-1": "#000",
         "base-blacks-var-2": "#101010",
         "base-blacks-var-3": "#0A0A0A",
@@ -51,7 +51,7 @@ module.exports = {
 
       /*sizing from design board that needs to be implemented*/
       /*wide screen */
-      "title": "72px",
+      "title": "66px",
       "heading": "62px",
       "heading-x": "60px",
       "heading-2x": "56px",

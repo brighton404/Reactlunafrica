@@ -12,24 +12,24 @@ const Home: FunctionComponent = () => {
     <div className="relative bg-base-blacks-var-2 w-full overflow-hidden flex flex-col items-center justify-start text-left text-xl font-font-Poppins">
       <Header />
       <section className="self-stretch h-[95vh] flex flex-col items-center justify-end py-[30px] px-[50px] sm:px-[10px] box-border bg-[url('/public/heroBackground.png')] bg-cover bg-no-repeat bg-[top] text-center text-[49px] text-base-whites-var-1 font-Poppins" id="hero">
-        <div className="m-0 bg-gradient-to-r from-[#00000000] from-20% via-[#00000031] to-[#00000000] to-80% backdrop-blur-sm border-none w-[50%] flex flex-col items-center justify-center py-[15px] px-5 box-border gap-[50px] sm:self-stretch sm:w-auto md:w-[80%]">
+        <div className="m-0 bg-gradient-to-r from-[#00000000] from-20% via-[#00000031] to-[#00000000] to-80% backdrop-blur-sm border-none w-[50%] flex flex-col items-center justify-center py-[15px] px-5 box-border gap-[50px] sm:gap-5 sm:self-stretch sm:w-auto md:w-[80%]">
           <div className="self-stretch flex flex-col items-center justify-center gap-[15px] sm:items-start sm:justify-center">
-            <h1 className="m-0 self-stretch relative text-inherit font-bold font-inherit sm:text-left sm:text-title">
+            <h1 className="m-0 self-stretch relative text-title font-bold font-inherit sm:text-left sm:text-body text-base-whites-var-1">
               WELCOME TO LUNA
             </h1>
-            <i className="self-stretch relative text-lg sm:font-body sm:text-left">
-              For Every Woman, Every Phase"
+            <i className="self-stretch relative text-body-4x sm:text-small sm:text-left text-base-whites-var-1">
+              "For Every Woman, Every Phase"
             </i>
           </div>
           <div className="self-stretch flex flex-col items-center justify-center py-2.5 px-0 gap-[10px] text-lg sm:items-start sm:justify-center sm:justify-left">
-            <span className="self-stretch relative whitespace-pre-wrap sm:text-left text-base-whites-var-">
+            <span className="self-stretch relative whitespace-pre-wrap sm:text-left text-base-whites-var-1 text-body-3x sm:text-small">
               We are happy you're here. Would you like to join our FREE
               community group of women across the globe for breaking
               conversations on health?
             </span>
             <button
               className="cursor-pointer [border:none] py-[5px] px-5 bg-base-whites-var-1 flex flex-row items-center justify-center" id="JoinUs">
-              <a className="[text-decoration:none] relative text-xl font-semibold font-Poppins text-base-blacks-var-1 text-left" href="https://lunahealth.co/consult/signup">
+              <a className="[text-decoration:none] relative text-body-4x sm:text-small font-semibold font-Poppins text-base-blacks-var-1 text-left" href="https://lunahealth.co/consult/signup">
                 Join Us
               </a>
             </button>
