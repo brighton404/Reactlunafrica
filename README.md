@@ -37,7 +37,7 @@ alterntively
 - NB: Bun only requires Node package manager for its initial installation
 <details>
    <summary>Please follow the tutorial below if you wish to install bun</summary>
-   <iframe width="777" height="480" src="https://www.youtube.com/embed/uCMFaLyOk3U" title="Easy Way How To Install Bun js On Windows (Step by Step)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <p>[![youtube](https://i.ytimg.com/an_webp/uCMFaLyOk3U/mqdefault_6s.webp?du=3000&sqp=CM2dzK4G&rs=AOn4CLCtlSCRXKy7qT0uc3H9K_mwp61WLw)](https://www.youtube.com/embed/uCMFaLyOk3U)</p>
 </details>
 
 ### Installation
