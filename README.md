@@ -80,7 +80,9 @@ alterntively
    ```
    bunx --bun vite
    ```
-Visit `http://localhost:3000` in your browser to view the application.
+
+Node packagae Manager - Visit `http://localhost:3000` in your browser to view the application.
+Bun - Visit `http://localhost:5173` in your browser to view the application.
 
 ## Contributing
 
