@@ -6,8 +6,8 @@
 [LUNA]:https://www.lunafrica.com
 Welcome to the repository for [LUNA] website built with React.
 
-| Table of Contents |
-| :-------------- | :-------------------: | :---------------------------------: | :---------------------------: | :-----------------: |
+| Table of Contents | | | | |
+| :-- | :--: | :---: | :----: | :----: |
 | [About](#about) | [Features](#features) | [Getting Started](#getting-started) | [Contributing](#contributing) | [License](#license) |
 
 ## About
