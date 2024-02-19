@@ -37,7 +37,7 @@ alterntively
 - NB: Bun only requires Node package manager for its initial installation
 <details>
    <summary>Please follow the tutorial below if you wish to install bun</summary>
-   <p><a href="https://youtu.be/uCMFaLyOk3U"><img src="[Public/LOGO.png](https://i.ytimg.com/an_webp/uCMFaLyOk3U/mqdefault_6s.webp?du=3000&sqp=CM2dzK4G&rs=AOn4CLCtlSCRXKy7qT0uc3H9K_mwp61WLw)" width="47.5px"><a/></p>
+   <p><a href="https://youtu.be/uCMFaLyOk3U"><img src="[Public/LOGO.png](https://i.ytimg.com/an_webp/uCMFaLyOk3U/mqdefault_6s.webp?du=3000&sqp=CM2dzK4G&rs=AOn4CLCtlSCRXKy7qT0uc3H9K_mwp61WLw)" width="100%" h="400px"><a/></p>
 </details>
 
 ### Installation
