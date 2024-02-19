@@ -29,35 +29,59 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) installed on your machine.
+- [Node.js](https://nodejs.org/) installed on your machine. 
 - [npm](https://www.npmjs.com/) (Node Package Manager) installed.
+
+alterntively
+- [Bun](https://bun.sh/)
+- NB: Bun only requires Node package manager for its initial installation
+<details>
+   <summary>Please follow the tutorial below if you wish to install bun</summary>
+   <p>
+      <iframe width="777" height="480" src="https://www.youtube.com/embed/uCMFaLyOk3U" title="Easy Way How To Install Bun js On Windows (Step by Step)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   </p>
+</details>
 
 ### Installation
 
 1. Clone the repository:
 
-   ```bash
+   ```
    git clone https://github.com/brighton404/Reactlunafrica.git
    ```
 
 2. Navigate to the project directory:
 
-   ```bash
+   ```
    cd Reactlunafrica
    ```
 
 3. Install dependencies:
-
-   ```bash
+   Node package Manager
+   ```
    npm install
    ```
 
-4. To run the development server:
-
-   ```bash
+   Bun
+   ```
+   bun install
+   ```
+   
+5. To run the development server:
+   Node Package Manager
+   ```
    npm start
    ```
+   
+   Bun
+   ```
+   bun dev
+   ```
 
+   Bun in a Vite App (not in this repository version)
+   ```
+   bunx --bun vite
+   ```
 Visit `http://localhost:3000` in your browser to view the application.
 
 ## Contributing
