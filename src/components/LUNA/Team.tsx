@@ -17,7 +17,7 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
       <div className="flex flex-col items-start justify-start flex-1">
         <img className="w-[200px] h-[200px] object-contain bg-white"
           alt=""
-          src=".\images\team\berabose-joyce.png"
+          src="images/team/berabose-joyce.png"
         />
       </div>
       <div   className="flex flex-col items-start justify-start py-2.5 px-0 gap-[10px]">
@@ -39,7 +39,7 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
       <div className="flex flex-col items-start justify-start">
         <img className="relative w-[200px] h-[200px] object-cover bg-white"
           alt=""
-          src=".\images\team\chibudu-nyiro.png"
+          src="images/team/chibudu-nyiro.png"
         />
       </div>
       <div
@@ -62,7 +62,7 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
       <div className="flex flex-col items-start justify-start">
         <img className="relative w-[250px] h-[200px] object-cover bg-white"
           alt=""
-          src=".\images\team\dusabimana-ange.png"
+          src="images/team/dusabimana-ange.png"
         />
       </div>
       <div
@@ -85,7 +85,7 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
       <div className="flex flex-col items-start justify-start">
         <img className="relative w-[210px] h-[200px] object-cover bg-white"
           alt=""
-          src=".\images\team\juliusBrighton.png"
+          src="images/team/juliusBrighton.png"
         />
       </div>
       <div
@@ -108,7 +108,7 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
       <div className="flex flex-col items-start justify-start">
         <img className="relative w-[210px] h-[200px] object-cover bg-white"
           alt=""
-          src=".\images\team\glory-alphonsus.png"
+          src="images/team/glory-alphonsus.png"
         />
       </div>
       <div

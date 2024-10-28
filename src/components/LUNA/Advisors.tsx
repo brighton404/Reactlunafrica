@@ -17,7 +17,7 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
       <div className="flex flex-col items-start justify-start">
         <img className="relative w-[200px] h-[200px] object-cover"
           alt=""
-          src=".\images\advisors\michael-szymanski.png"
+          src="images/advisors/michael-szymanski.png"
         />
       </div>
       <div   className="flex flex-col items-start justify-start py-2.5 px-0 gap-[10px]">
@@ -39,7 +39,7 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
       <div className="flex flex-col items-start justify-start">
         <img className="relative w-[200px] h-[200px] object-cover"
           alt=""
-          src=".\images\advisors\warren-cronje.png"
+          src="images/advisors/warren-cronje.png"
         />
       </div>
       <div
@@ -62,7 +62,7 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
       <div className="flex flex-col items-start justify-start">
         <img className="relative w-[200px] h-[200px] object-cover"
           alt=""
-          src=".\images\advisors\james-brown.png"
+          src="images/advisors/james-brown.png"
         />
       </div>
       <div
@@ -85,7 +85,7 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
       <div className="flex flex-col items-start justify-start">
         <img className="relative w-[200px] h-[200px] object-cover"
           alt=""
-          src=".\images\advisors\fredeline-muller.png"
+          src="images/advisors/fredeline-muller.png"
         />
       </div>
       <div
@@ -108,7 +108,7 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
       <div className="flex flex-col items-start justify-start">
         <img className="relative w-[200px] h-[200px] object-cover"
           alt=""
-          src=".\images\advisors\chidi-afulezi.png"
+          src="images/advisors/chidi-afulezi.png"
         />
       </div>
       <div
@@ -131,7 +131,7 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
       <div className="flex flex-col items-start justify-start">
         <img className="relative w-[200px] h-[200px] object-cover"
           alt=""
-          src=".\images\advisors\chandini-sood.png"
+          src="images/advisors/chandini-sood.png"
         />
       </div>
       <div

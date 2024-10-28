@@ -11,7 +11,7 @@ const About: FunctionComponent = () => {
       <Header />
       <section className="self-stretch flex flex-col items-start justify-center pt-[50px] px-5 pb-5">
         <article className="self-stretch flex flex-col items-start justify-start p-5 gap-[20px] text-left text-7xl text-base-whites-var-1 font-Poppins">
-          <h1 className="m-0 relative text-53xl font-normal font-inherit text-heading sm:text-small-screen-heading">
+          <h1 className="m-0 relative font-normal font-inherit text-heading sm:text-small-screen-heading">
             about LUNA
           </h1>
           <p className="m-0 self-stretch relative text-body-2x font-light sm:text-small-x">LUNA's mission has been to change the way women receive, seek, and experience services and products since its inception. LUNA offers our members a secure and private way to work with verified professionals. Furthermore, they have access to a free community platform where they can communicate anonymously with other women and experts about topics of interest such as Mental Health, Sexual & Menstrual Health, Motherhood, and many others.</p>
