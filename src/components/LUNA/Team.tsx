@@ -85,7 +85,7 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
       <div className="flex flex-col items-start justify-start">
         <img className="relative w-[210px] h-[200px] object-cover bg-white"
           alt=""
-          src=".\images\team\julius-brighton.jpg"
+          src=".\images\team\juliusBrighton.png"
         />
       </div>
       <div

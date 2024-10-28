@@ -1,11 +1,4 @@
-import {
-  CSSProperties,
-  FunctionComponent,
-  ReactNode,
-  useMemo,
-  useCallback,
-} from "react";
-
+import {  CSSProperties,  FunctionComponent,  ReactNode,  useMemo,  useCallback,} from "react";
 import { createPortal } from "react-dom";
 
 type DrawerProps = {
@@ -65,11 +58,7 @@ const PortalDrawer: FunctionComponent<DrawerProps> = ({
 
   return (
     <DrawerContainer>
-      <div
-        className="flex flex-col fixed inset-0 portalPopupOverlay"
-        style={drawerStyle}
-        onClick={onOverlayClick}
-      >
+      <div className="flex flex-col fixed inset-0 portalPopupOverlay" style={drawerStyle} onClick={onOverlayClick}>
         {children}
       </div>
     </DrawerContainer>

@@ -5,8 +5,6 @@ import Blog from "./pages/Blog";
 import Flow from "./pages/Flow";
 import About from "./pages/About";
 import Dashblog from "./pages/DashBlog";
-import Header from "./components/Nav/Header";
-import Footer from "./components/Nav/Footer";
 
 function App() {
   const location = useLocation();

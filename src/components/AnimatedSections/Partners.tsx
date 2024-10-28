@@ -13,8 +13,8 @@ const PartnerCard: React.FC<PartnerProps> = ({ partners = 'default' }) => {
  switch (partners) {
   case 'Tamu':
     content = 
-    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-lg text-base-whites-var-1 font-Poppins">
-    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="./images/partners/partner01@2x.png"/>
+    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-small  font-Poppins">
+    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="/images/partners/partner01@2x.png"/>
     <div className="flex flex-row items-start justify-start">
       <span className="relative">Tamu</span>
     </div>
@@ -22,8 +22,8 @@ const PartnerCard: React.FC<PartnerProps> = ({ partners = 'default' }) => {
   break;
   case 'Ikunde':
     content = 
-    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-lg text-base-whites-var-1 font-Poppins">
-    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="./images/partners/partner02@2x.png"/>
+    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-small  font-Poppins">
+    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="/images/partners/partner02@2x.png"/>
     <div className="flex flex-row items-start justify-start">
       <span className="relative">Ikunde</span>
     </div>
@@ -31,8 +31,8 @@ const PartnerCard: React.FC<PartnerProps> = ({ partners = 'default' }) => {
   break;
   case 'ALU':
     content = 
-    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-lg text-base-whites-var-1 font-Poppins">
-    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="./images/partners/images/partners/partner03@2x.png"/>
+    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-small  font-Poppins">
+    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="/images/partners/images/partners/partner03@2x.png"/>
     <div className="flex flex-row items-start justify-start">
       <span className="relative">ALU</span>
     </div>
@@ -40,8 +40,8 @@ const PartnerCard: React.FC<PartnerProps> = ({ partners = 'default' }) => {
   break;
   case 'Vuki':
     content = 
-    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-lg text-base-whites-var-1 font-Poppins">
-    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="./images/partners/partner04@2x.png"/>
+    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-small  font-Poppins">
+    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="/images/partners/partner04@2x.png"/>
     <div className="flex flex-row items-start justify-start">
       <span className="relative">Vuki</span>
     </div>
@@ -49,8 +49,8 @@ const PartnerCard: React.FC<PartnerProps> = ({ partners = 'default' }) => {
   break;
   case 'Femtech lab':
     content = 
-    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-lg text-base-whites-var-1 font-Poppins">
-    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="./images/partners/partner05@2x.png"/>
+    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-small  font-Poppins">
+    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="/images/partners/partner05@2x.png"/>
     <div className="flex flex-row items-start justify-start">
       <span className="relative">Femtech lab</span>
     </div>
@@ -58,8 +58,8 @@ const PartnerCard: React.FC<PartnerProps> = ({ partners = 'default' }) => {
   break;
   case 'Jasiri':
     content = 
-    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-lg text-base-whites-var-1 font-Poppins">
-    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="./images/partners/partner06@2x.png"/>
+    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-small  font-Poppins">
+    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="/images/partners/partner06@2x.png"/>
     <div className="flex flex-row items-start justify-start">
       <span className="relative">Jasiri</span>
     </div>
@@ -67,8 +67,8 @@ const PartnerCard: React.FC<PartnerProps> = ({ partners = 'default' }) => {
   break;
   case 'Eves Apple':
     content = 
-    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-lg text-base-whites-var-1 font-Poppins">
-    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="./images/partners/partner07@2x.png"/>
+    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-small  font-Poppins">
+    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="/images/partners/partner07@2x.png"/>
     <div className="flex flex-row items-start justify-start">
       <span className="relative">Eve's Apple</span>
     </div>
@@ -76,8 +76,8 @@ const PartnerCard: React.FC<PartnerProps> = ({ partners = 'default' }) => {
   break;
   case 'Allan & Gray':
     content = 
-    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-lg text-base-whites-var-1 font-Poppins">
-    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="./images/partners/partner08@2x.png"/>
+    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-small  font-Poppins">
+    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="/images/partners/partner08@2x.png"/>
     <div className="flex flex-row items-start justify-start">
       <span className="relative">Allan & Gray</span>
     </div>
@@ -85,8 +85,8 @@ const PartnerCard: React.FC<PartnerProps> = ({ partners = 'default' }) => {
   break;
   case 'YWCA':
     content = 
-    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-lg text-base-whites-var-1 font-Poppins">
-    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="./images/partners/partner09@2x.png"/>
+    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-small  font-Poppins">
+    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="/images/partners/partner09@2x.png"/>
     <div className="flex flex-row items-start justify-start">
       <span className="relative">YWCA</span>
     </div>
@@ -94,7 +94,7 @@ const PartnerCard: React.FC<PartnerProps> = ({ partners = 'default' }) => {
   break;
   default:
     content = 
-    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-lg text-base-whites-var-1 font-Poppins">
+    <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-small  font-Poppins">
     <LUNALOGO />
     <div className="flex flex-row items-start justify-start">
       <span className="relative">LUNA PARTNER</span>

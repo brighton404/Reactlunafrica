@@ -1,226 +1,105 @@
-import { FunctionComponent } from "react";
-import Banner from "../components/Banners/Banner";
+import { FunctionComponent } from "react"; import Banner from "../components/Banners/Banner";
 import FAQAccordion from "../components/Forms/Accordion";
 import PartnerSection from "../components/AnimatedSections/HomePartner";
 import Demotext from "../components/AnimatedSections/demotext";
-import Mentioned from "../components/AnimatedSections/HomeMentions";
-import Header from "../components/Nav/Header";
+import Header from "../components/Nav/Header"; 
 import Footer from "../components/Nav/Footer";
+import { Solutions, Pricing } from "../components/Banners/cards";
+import PartnerCard from "../components/AnimatedSections/Partners";
 
 const Home: FunctionComponent = () => {
   return (
-    <div className="relative bg-base-blacks-var-2 w-full overflow-hidden flex flex-col items-center justify-start text-left text-xl font-font-Poppins">
+    <div className="relative bg-base-blacks-var-2 w-full overflow-hidden flex flex-col items-center justify-start text-left text-xl font-Poppins text-gray-100">
       <Header />
-      <section className="self-stretch h-[95vh] flex flex-col items-center justify-end py-[30px] px-[50px] sm:px-[10px] box-border bg-[url('/public/heroBackground.png')] bg-cover bg-no-repeat bg-[top] text-center text-[49px] text-base-whites-var-1 font-Poppins" id="hero">
+      <section className="self-stretch h-[95vh] flex flex-col items-center justify-end py-[30px] px-[50px] sm:px-[10px] box-border bg-[url('/heroBackground.png')] bg-cover bg-no-repeat bg-[top] text-center text-[49px] text-base-whites-var-1" id="hero">
         <div className="m-0 bg-gradient-to-r from-[#00000000] from-20% via-[#00000031] to-[#00000000] to-80% backdrop-blur-sm border-none w-[50%] flex flex-col items-center justify-center py-[15px] px-5 box-border gap-[50px] sm:gap-5 sm:self-stretch sm:w-auto md:w-[80%]">
           <div className="self-stretch flex flex-col items-center justify-center gap-[15px] sm:items-start sm:justify-center">
-            <h1 className="m-0 self-stretch relative text-title font-bold font-inherit sm:text-left sm:text-body text-base-whites-var-1">
-              WELCOME TO LUNA
+            <h1 className="m-0 self-stretch relative text-title font-bold font-inherit sm:text-left sm:text-body text-base-whites-var-1"> WELCOME TO LUNA
             </h1>
-            <i className="self-stretch relative text-body-4x sm:text-small sm:text-left text-base-whites-var-1">
-              "For Every Woman, Every Phase"
+            <i className="self-stretch relative text-body-4x sm:text-small sm:text-left text-base-whites-var-1">   "For Every Woman, Every Phase"
             </i>
           </div>
           <div className="self-stretch flex flex-col items-center justify-center py-2.5 px-0 gap-[10px] text-lg sm:items-start sm:justify-center sm:justify-left">
-            <span className="self-stretch relative whitespace-pre-wrap sm:text-left text-base-whites-var-1 text-body-3x sm:text-small">
-              We are happy you're here. Would you like to join our FREE
-              community group of women across the globe for breaking
-              conversations on health?
+            <span className="self-stretch relative whitespace-pre-wrap sm:text-left text-base-whites-var-1 text-body-3x sm:text-small">  We are happy you're here. <br /> Would you like to join our FREE community group of women across the globe for breaking conversations on health?
             </span>
-            <button
-              className="cursor-pointer [border:none] py-[5px] px-5 bg-base-whites-var-1 flex flex-row items-center justify-center" id="JoinUs">
-              <a className="[text-decoration:none] relative text-body-4x sm:text-small font-semibold font-Poppins text-base-blacks-var-1 text-left" href="https://lunahealth.co/consult/signup">
-                Join Us
-              </a>
+            <button className="cursor-pointer [border:none] py-[5px] px-5 bg-base-whites-var-1 flex flex-row items-center justify-center" id="JoinUs">
+              <a className="[text-decoration:none] relative text-body-4x sm:text-small font-semibold  text-base-blacks-var-1 text-left" href="https://lunahealth.co/consult/signup">Join Us</a>
             </button>
           </div>
         </div>
       </section>
       <PartnerSection />
-      <section className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-5 text-left text-13xl text-base-whites-var-1 font-Poppins" id="solutions">
-        <div className="self-stretch flex flex-row items-start justify-start py-2.5 px-5">
-          <div className="self-stretch flex-1 flex flex-col items-start justify-center">
-            <h2 className="m-0 self-stretch relative text-inherit font-semibold font-inherit">
-              Our Solutions
-            </h2>
-          </div>
-        </div>
-        <div className="self-stretch bg-base-blacks-var-2 flex flex-col items-start justify-start py-0 px-2.5">
-          <div className="self-stretch flex flex-row items-start justify-start py-0 px-2.5 gap-[20px] sm:flex-col">
-            <article className="flex-1 box-border h-[315px] flex flex-col items-start justify-start p-[15px] text-left text-3xl text-brand-health font-Poppins border-[2px] border-solid border-base-greys-var-1 sm:flex-[unset] sm:self-stretch lg:h-fit">
-              <div className="self-stretch flex-1 flex flex-col items-start justify-start gap-[15px]">
-                <h3 className="m-0 relative text-inherit font-semibold font-inherit">
-                  Health
-                </h3>
-                <div className="self-stretch flex-1 flex flex-col items-start justify-start gap-[10px] text-base-whites-var-1">
-                  <span className="self-stretch relative">
-                    Services offered:
-                  </span>
-                  <div className="self-stretch relative text-lg">
-                    <ul className="m-0 font-inherit text-inherit pl-6">
-                      <li>Teleconsultation</li>
-                      <li>Talk to our range of professionals, experts and specialists from all backgrounds and experiences</li>
-                      <li>Anywhere in the world</li>
-                    </ul>
-                  </div>
-                </div>
-                <button className="cursor-pointer [border:none] p-0 bg-base-blacks-var-2 flex flex-row items-center justify-start">
-                  <span className="relative text-lg [text-decoration:underline] font-Poppins text-base-whites-var-1 text-left">
-                    Learn More
-                  </span>
-                </button>
-              </div>
-            </article>
-            <article className="flex-1 box-border h-[315px] flex flex-col items-start justify-start p-[15px] text-left text-3xl text-contemporary-var-2 font-Poppins border-[2px] border-solid border-base-greys-var-1 sm:flex-[unset] sm:self-stretch lg:h-fit">
-              <div className="self-stretch flex-1 flex flex-col items-start justify-start gap-[15px]">
-                <h3 className="m-0 relative text-inherit font-semibold font-inherit">
-                  Shop
-                </h3>
-                <div className="self-stretch flex-1 flex flex-col items-start justify-start gap-[10px] text-base-whites-var-1">
-                  <span className="self-stretch relative">
-                    Tailored Features:
-                  </span>
-                  <div className="self-stretch relative text-lg">
-                    <ul className="m-0 font-inherit text-inherit pl-6">
-                      <li className="mb-0">subscribe to monthly delivery</li>
-                      <li className="mb-0">build your own need box</li>
-                      <li>safe and trusted delievery</li>
-                    </ul>
-                  </div>
-                </div>
-                <button className="cursor-pointer [border:none] p-0 bg-base-blacks-var-2 flex flex-row items-center justify-start">
-                  <span className="relative text-lg [text-decoration:underline] font-Poppins text-base-whites-var-1 text-left">
-                    Learn More
-                  </span>
-                </button>
-              </div>
-            </article>
-            <article className="flex-1 box-border h-[315px] flex flex-col items-start justify-start p-[15px] text-left text-3xl text-base-whites-var-1 font-Poppins border-[2px] border-solid border-base-greys-var-1 sm:flex-[unset] sm:self-stretch lg:h-fit">
-              <div className="self-stretch flex-1 flex flex-col items-start justify-start gap-[15px]">
-                <h3 className="m-0 relative text-inherit font-semibold font-inherit">
-                  Community
-                </h3>
-                <div className="self-stretch flex-1 flex flex-col items-start justify-start gap-[10px]">
-                  <span className="self-stretch relative">
-                    User engagements:
-                  </span>
-                  <div className="self-stretch relative text-lg">
-                    <ul className="m-0 font-inherit text-inherit pl-6">
-                      <li className="mb-0">Anonymous questions</li>
-                      <li className="mb-0">WhatsApp Group</li>
-                      <li>Events and Webinars</li>
-                    </ul>
-                  </div>
-                </div>
-                <button className="cursor-pointer [border:none] p-0 bg-base-blacks-var-2 flex flex-row items-center justify-start">
-                  <span className="relative text-lg [text-decoration:underline] font-Poppins text-base-whites-var-1 text-left">
-                    Learn More
-                  </span>
-                </button>
-              </div>
-            </article>
+      <section className="self-stretch flex relative flex-col items-start justify-start text-left text-13xl text-base-whites-var-1 py-10 px-[12vw] sm:p-4 gap-4">
+        <h2 className="m-0 font-semibold text-body">Our Solutions</h2>
+        <div className="self-stretch bg-base-blacks-var-2 flex flex-col">
+          <div className="self-stretch flex py-2 gap-5 sm:flex-col">
+            <Solutions button={"Health"} header={"Services offered "} subtext={"Teleconsultation <br /> Talk to our range of professionals, experts and specialists from all backgrounds and experiences from anywhere in the world."} image={"/images/nurse.jpg"} imgDesc={"nurse holding a paper cardboard"} />
+            <Solutions button={"Community"} header={"User engagements"} subtext={"Anonymous questions <br /> WhatsApp Group <br /> Events and Webinars <br />"} image={"/images/community.jpg"} imgDesc={""} />
+            <Solutions button={"Shop"} header={"Tailored features"} subtext={"subscribe to monthly delivery <br /> build your own need box <br /> safe and trusted delievery"} image={"/images/shop.jpg"} imgDesc={""} />
           </div>
         </div>
       </section>
-      <section
-        className="self-stretch bg-base-whites-var-2 flex flex-col items-start justify-center pt-0 px-2.5 pb-[30px] text-left text-13xl text-base-blacks-var-2 font-Poppins" id="packages">
-        <div className="self-stretch flex flex-col items-start justify-start pt-5 px-2.5 pb-2.5">
-          <h2 className="m-0 relative text-inherit font-semibold font-inherit">
-            Our Packages
-          </h2>
+      <section className="self-stretch flex flex-col items-start p-10 px-[12vw] relative">
+        <div className="self-stretch flex flex-col px-4 py-4">
+          <div className="flex items-center gap-6">
+          <span className="bg-purple-500 px-3 py-2 rounded">Our Packages</span>
+          <h2 className="font-semibold">Pricing</h2>
+          </div>
+          <p className="m-0 text-small ">At our Platform, we believe in providing flexibility and personalized options of all levels. <br /> Our tiered pricing plans are designed to cater to diverse needs, ensuring that every woman can find the perfect fit in her session.</p>
         </div>
-        <div className="self-stretch flex flex-row items-start justify-start py-0 px-2.5 gap-[30px] md:flex-col">
-          <article className="flex-1 bg-base-whites-var-2 shadow-[8px_8px_0px_#000] box-border h-[420px] flex flex-col items-start justify-start p-5 gap-[20px] text-left text-lg text-base-blacks-var-2 font-Poppins border-[3px] border-solid border-base-blacks-var-2 sm:flex-[unset] sm:self-stretch lg:h-fit">
-            <span className="relative">-10$</span>
-            <h3 className="m-0 self-stretch relative text-3xl font-semibold font-inherit">
-              Mental health at your workspace
-            </h3>
-            <p className="m-0 self-stretch flex-1 relative">Elevate workplace well-being with our package offering in-person and online consultations, mindfulness sessions, and stress management workshops. Designed to foster a positive work environment, this package empowers your team to thrive. Contact us to initiate a positive change in your workspace</p>
-          </article>
-          <article className="flex-1 bg-base-whites-var-2 shadow-[8px_8px_0px_#000] box-border h-[420px] flex flex-col items-start justify-start p-5 gap-[20px] text-left text-lg text-base-blacks-var-2 font-Poppins border-[3px] border-solid border-base-blacks-var-2 sm:flex-[unset] sm:self-stretch lg:h-fit">
-            <span className="relative">-10$</span>
-            <h3 className="m-0 self-stretch relative text-3xl font-semibold font-inherit">
-              Get the PCOS Deal
-            </h3>
-            <p className="m-0 self-stretch flex-1 relative">Take charge of your health journey with our exclusive PCOS Deal package. Tailored for those dealing with Polycystic Ovary Syndrome (PCOS), this comprehensive offering provides personalized guidance, nutrition plans, and fitness routines to effectively manage symptoms. Empower yourself with tools for a healthier lifestyle.</p>
-          </article>
-          <article className="flex-1 bg-base-whites-var-2 shadow-[8px_8px_0px_#000] box-border h-[420px] flex flex-col items-start justify-start p-5 gap-[20px] text-left text-lg text-base-blacks-var-2 font-Poppins border-[3px] border-solid border-base-blacks-var-2 sm:flex-[unset] sm:self-stretch lg:h-fit">
-            <span className="relative">-10$</span>
-            <h3 className="m-0 self-stretch relative text-3xl font-semibold font-inherit">
-              Go premium to access Full LUNA services
-            </h3>
-            <p className="m-0 self-stretch flex-1 relative">Unleash your online potential with our Go Premium - Full LUNA Services package. Elevate your digital presence with free assessments, limitless consultations with top professionals, and customized product deals. Transform your online experience and access premium features to enhance your digital journey.</p>
-          </article>
+        <div className="flex flex-row gap-4  pb-20 md:flex-col">
+          <div className="flex flex-1">
+          <Pricing image={"/images/gradient.png"} imgDesc={""} button={"Package"} header={"Go premium to access Full LUNA services"} subtext={"Unleash your online potential with our Go Premium - Full LUNA Services package. Elevate your digital presence with free assessments, limitless consultations with top professionals, and customized product deals. <br /> <br /> Transform your online experience and access premium features to enhance your digital journey."}/>
+          </div>
+          <div className="flex flex-1 gap-4 flex-col">
+            <Pricing image={""} imgDesc={""} button={"Package"} header={"Mental health at your workspace"} subtext={"Elevate workplace well-being with our package offering in-person and online consultations, mindfulness sessions, and stress management workshops. <br /> <br /> Designed to foster a positive work environment, this package empowers your team to thrive. Contact us to initiate a positive change in your workspace"} />
+            <Pricing image={""} imgDesc={""} button={"Package"} header={"Get the PCOS Deal"} subtext={"Take charge of your health journey with our exclusive PCOS Deal package. <br /> <br /> Tailored for those dealing with Polycystic Ovary Syndrome (PCOS), this comprehensive offering provides personalized guidance, nutrition plans, and fitness routines to effectively manage symptoms. Empower yourself with tools for a healthier lifestyle."} />
+          </div>
         </div>
       </section>
-      <Mentioned />
-      <section
-        className="self-stretch flex flex-col items-start justify-start pt-[30px] px-5 pb-2.5 gap-[10px] text-left text-13xl text-base-whites-var-1 font-Poppins" id="impact">
-        <div className="self-stretch flex flex-col items-start justify-start pt-0 px-2.5 pb-2.5">
-          <h2 className="m-0 relative text-inherit font-semibold font-inherit">
-            Our Impact
-          </h2>
+      <section className="flex flex-col items-center justify-center px-20 pt-[15vh] pb-20 gap-10 bg-base-whites-var-2 text-base-whites-var-1">
+        <div className="flex flex-col items-center justify-center gap-20">
+          <span className="flex w-fit items-center justify-center px-3 py-1 bg-base-whites-var-1 text-base-blacks-var-1 rounded text-small font-semibold">As Seen In</span>
+          <div className="flex flex-wrap items-center justify-center gap-20 p-4 pb-10 invert">
+            <PartnerCard partners="Tamu" /><PartnerCard partners="Ikunde" /><PartnerCard partners="ALU" /><PartnerCard partners="Vuki" /><PartnerCard partners="Femtech lab" /><PartnerCard partners="Jasiri" /><PartnerCard partners="Eves Apple" /><PartnerCard partners="Allan & Gray" /><PartnerCard partners="YWCA" />
+          </div>
         </div>
-        <div className="self-stretch flex flex-row items-start justify-start gap-[20px] text-3xl text-base-blacks-var-2 md:flex-col">
-          <div className="flex-1 flex flex-col items-start justify-start p-[15px] gap-[25px] border-[1px] border-solid border-base-greys-var-1 sm:flex-[unset] sm:self-stretch">
-            <div className="bg-contemporary-var-2 flex flex-row items-start justify-start p-2.5">
-              <h3 className="m-0 relative text-inherit font-semibold font-inherit">
-                SUSTAINABLE DEVELOPMENT GOALS
-              </h3>
+        <div className="flex flex-col items-center justify-center gap-10 py-10">
+          <span className="flex w-fit items-center justify-center px-3 py-1 text-base-blacks-var-1 rounded text-body bg-sky-400 font-semibold">Our Impact</span>
+            <div className="self-stretch flex flex-col items-center justify-start gap-4 text-3xl text-base-blacks-var-2 md:flex-col">
+                <h3 className="m-0 text-inherit font-semibold font-inherit">SUSTAINABLE DEVELOPMENT GOALS</h3>
+                <p className="m-0">We align our vision with Global goals. Here are the areas we are contributing to</p>
             </div>
-            <div className="self-stretch flex flex-col items-start justify-start text-7xl text-base-whites-var-1">
-              <p className="m-0 self-stretch relative">
-                We align our vision with Global goals. Here are the areas we are contributing to:
-              </p>
+            <div className="self-stretch flex flex-row sm:flex-col items-start justify-center p-20 gap-20">
+              <img className="relative w-[300px] h-[300px] object-cover md:w-full sm:w-full md:object-contain bg-[#51a136] drop-shadow-[9px_6px_0px_black] rotate-6" alt="sdg number 3: good health and well being" src="/images/sdg/SDG-3.png"/>
+              <img className="relative w-[300px] h-[300px] object-cover md:w-full sm:w-full md:object-contain bg-[#f5342a] drop-shadow-[9px_6px_0px_black] rotate-[-6deg]" alt="sdg number 5: gender equality" src="/images/sdg/SDG-5.png"/>
+              <img className="relative w-[300px] h-[300px] object-cover md:w-full sm:w-full md:object-contain bg-[#d50069] drop-shadow-[9px_6px_0px_black] rotate-3" alt="sdg number 10: reduced inequalities" src="/images/sdg/SDG-10.png"/>
             </div>
           </div>
-          <div className="self-stretch flex flex-row sm:flex-col items-start justify-start gap-[7.85px]">
-            <img className="relative w-[184px] h-[184px] object-cover md:w-full sm:w-full md:object-contain bg-[#51a136]"
-                  alt="sdg number 3: good health and well being"
-                  src="/images/sdg/SDG-3.png"/>
-            <img className="relative w-[184px] h-[184px] object-cover md:w-full sm:w-full md:object-contain bg-[#f5342a]"
-                  alt="sdg number 5: gender equality"
-                  src="/images/sdg/SDG-5.png"/>
-            <img className="relative w-[184px] h-[182px] object-cover md:w-full sm:w-full md:object-contain bg-[#d50069]"
-                  alt="sdg number 10: reduced inequalities"
-                  src="/images/sdg/SDG-10.png"/>
+          <div  className="self-stretch flex flex-col items-center justify-center py-2.5 px-5 text-left text-heading text-base-blacks-var-1">
+            <div className="self-stretch flex flex-row items-center justify-center py-px px-0 gap-20 sm:flex-col">
+              <div className="flex flex-col items-center justify-center gap-[5px] sm:flex-[unset] sm:self-stretch">
+                <b>500+</b>
+                <span className="text-small text-base-greys-var-1">Registered Members</span>
+              </div>
+              <div className="flex flex-col items-center justify-center gap-[5px]sm:flex-[unset] sm:self-stretch">
+                <b>450+</b>
+                <span className="text-small text-base-greys-var-1">Services delivered</span>
+              </div>
+              <div className="flex flex-col items-center justify-center gap-[5px] sm:flex-[unset] sm:self-stretch">
+                <b>13+</b>
+                <span className="text-small text-base-greys-var-1">Conferences/ Webinars</span>
+              </div>
+              <div className="flex flex-col items-center justify-center gap-[5px] sm:flex-[unset] sm:self-stretch">
+                <b>1.5+</b>
+                <span className="text-small text-base-greys-var-1">Years Active</span>
+              </div>
+            </div>
           </div>
-        </div>
-      </section>
-      <section
-        className="self-stretch flex flex-col items-center justify-center py-2.5 px-5 text-left text-53xl text-base-whites-var-2 font-Poppins" id="stats">
-        <div className="self-stretch flex flex-row items-center justify-center py-px px-0 gap-[10px] sm:flex-col">
-          <div className="flex-1 flex flex-col items-center justify-center p-[5px] gap-[5px] border-[1px] border-solid border-base-greys-var-1 sm:flex-[unset] sm:self-stretch">
-            <b className="relative">500+</b>
-            <span className="relative text-3xl text-base-greys-var-1">
-              Registered Members
-            </span>
-          </div>
-          <div className="flex-1 flex flex-col items-center justify-center p-[5px] gap-[5px] border-[1px] border-solid border-base-greys-var-1 sm:flex-[unset] sm:self-stretch">
-            <b className="relative">450+</b>
-            <span className="relative text-3xl text-base-greys-var-1">
-              Services delivered
-            </span>
-          </div>
-          <div className="flex-1 flex flex-col items-center justify-center p-[5px] gap-[5px] border-[1px] border-solid border-base-greys-var-1 sm:flex-[unset] sm:self-stretch">
-            <b className="relative">13+</b>
-            <span className="relative text-3xl text-base-greys-var-1">
-              Conferences/ webinars
-            </span>
-          </div>
-          <div className="flex-1 flex flex-col items-center justify-center p-[5px] gap-[5px] border-[1px] border-solid border-base-greys-var-1 sm:flex-[unset] sm:self-stretch">
-            <b className="relative">1.5+</b>
-            <span className="relative text-3xl text-base-greys-var-1">
-              Years Active
-            </span>
-          </div>
-        </div>
       </section>
       <Demotext />
-      <section className="self-stretch bg-base-whites-var-2 flex flex-col items-start justify-start p-5 gap-[20px] text-left text-13xl text-base-blacks-var-1 font-Poppins" id="faq">
-        <span className="self-stretch relative">
-          Find the answers to all of our most frequently asked questions.
-        </span>
+      <section className="self-stretch bg-base-whites-var-2 flex flex-col items-center justify-center px-[15vw] p-20 gap-10 text-left text-13xl text-base-blacks-var-1">
+        <span>Find the answers to all of our most frequently asked questions.</span>
         <div className="flex flex-col self-stretch gap-[10px]">
           <FAQAccordion
             question="What is LUNA and what does it stand for?"
@@ -252,7 +131,6 @@ const Home: FunctionComponent = () => {
           <FAQAccordion 
             question="How can I share my feedback or suggestions with LUNA?"
             answer="We appreciate your feedback! You can share your thoughts, suggestions, or concerns by contacting our support team through the website or sending an email to info@lunahealth.co "/>
-          {/* Add more FAQ as needed */}
         </div>
       </section>
       <Banner />
