@@ -33,9 +33,9 @@ const Home: FunctionComponent = () => {
         <h2 className="m-0 font-semibold text-body">Our Solutions</h2>
         <div className="self-stretch bg-base-blacks-var-2 flex flex-col">
           <div className="self-stretch flex py-2 gap-5 sm:flex-col">
-            <Solutions button={"Health"} header={"Services offered "} subtext={"Teleconsultation <br /> Talk to our range of professionals, experts and specialists from all backgrounds and experiences from anywhere in the world."} image={"/images/nurse.jpg"} imgDesc={"nurse holding a paper cardboard"} />
-            <Solutions button={"Community"} header={"User engagements"} subtext={"Anonymous questions <br /> WhatsApp Group <br /> Events and Webinars <br />"} image={"/images/community.jpg"} imgDesc={""} />
-            <Solutions button={"Shop"} header={"Tailored features"} subtext={"subscribe to monthly delivery <br /> build your own need box <br /> safe and trusted delievery"} image={"/images/shop.jpg"} imgDesc={""} />
+            <Solutions button={"Health"} header={"Services offered "} subtext={"Teleconsultation <br /> Talk to our range of professionals, experts and specialists from all backgrounds and experiences from anywhere in the world."} image={'images/nurse.jpg'} imgDesc={"nurse holding a paper cardboard"} />
+            <Solutions button={"Community"} header={"User engagements"} subtext={"Anonymous questions <br /> WhatsApp Group <br /> Events and Webinars <br />"} image={'images/community.jpg'} imgDesc={""} />
+            <Solutions button={"Shop"} header={"Tailored features"} subtext={"subscribe to monthly delivery <br /> build your own need box <br /> safe and trusted delievery"} image={'images/shop.jpg'} imgDesc={""} />
           </div>
         </div>
       </section>
@@ -49,7 +49,7 @@ const Home: FunctionComponent = () => {
         </div>
         <div className="flex flex-row gap-4  pb-20 md:flex-col">
           <div className="flex flex-1">
-          <Pricing image={"/images/gradient.png"} imgDesc={""} button={"Package"} header={"Go premium to access Full LUNA services"} subtext={"Unleash your online potential with our Go Premium - Full LUNA Services package. Elevate your digital presence with free assessments, limitless consultations with top professionals, and customized product deals. <br /> <br /> Transform your online experience and access premium features to enhance your digital journey."}/>
+          <Pricing image={"images/gradient.png"} imgDesc={""} button={"Package"} header={"Go premium to access Full LUNA services"} subtext={"Unleash your online potential with our Go Premium - Full LUNA Services package. Elevate your digital presence with free assessments, limitless consultations with top professionals, and customized product deals. <br /> <br /> Transform your online experience and access premium features to enhance your digital journey."}/>
           </div>
           <div className="flex flex-1 gap-4 flex-col">
             <Pricing image={""} imgDesc={""} button={"Package"} header={"Mental health at your workspace"} subtext={"Elevate workplace well-being with our package offering in-person and online consultations, mindfulness sessions, and stress management workshops. <br /> <br /> Designed to foster a positive work environment, this package empowers your team to thrive. Contact us to initiate a positive change in your workspace"} />
@@ -71,9 +71,9 @@ const Home: FunctionComponent = () => {
                 <p className="m-0">We align our vision with Global goals. Here are the areas we are contributing to</p>
             </div>
             <div className="self-stretch flex flex-row sm:flex-col items-start justify-center p-20 gap-20">
-              <img className="relative w-[300px] h-[300px] object-cover md:w-full sm:w-full md:object-contain bg-[#51a136] drop-shadow-[9px_6px_0px_black] rotate-6" alt="sdg number 3: good health and well being" src="/images/sdg/SDG-3.png"/>
-              <img className="relative w-[300px] h-[300px] object-cover md:w-full sm:w-full md:object-contain bg-[#f5342a] drop-shadow-[9px_6px_0px_black] rotate-[-6deg]" alt="sdg number 5: gender equality" src="/images/sdg/SDG-5.png"/>
-              <img className="relative w-[300px] h-[300px] object-cover md:w-full sm:w-full md:object-contain bg-[#d50069] drop-shadow-[9px_6px_0px_black] rotate-3" alt="sdg number 10: reduced inequalities" src="/images/sdg/SDG-10.png"/>
+              <img className="relative w-[300px] h-[300px] object-cover md:w-full sm:w-full md:object-contain bg-[#51a136] drop-shadow-[9px_6px_0px_black] rotate-6" alt="sdg number 3: good health and well being" src="images/sdg/SDG-3.png"/>
+              <img className="relative w-[300px] h-[300px] object-cover md:w-full sm:w-full md:object-contain bg-[#f5342a] drop-shadow-[9px_6px_0px_black] rotate-[-6deg]" alt="sdg number 5: gender equality" src="images/sdg/SDG-5.png"/>
+              <img className="relative w-[300px] h-[300px] object-cover md:w-full sm:w-full md:object-contain bg-[#d50069] drop-shadow-[9px_6px_0px_black] rotate-3" alt="sdg number 10: reduced inequalities" src="images/sdg/SDG-10.png"/>
             </div>
           </div>
           <div  className="self-stretch flex flex-col items-center justify-center py-2.5 px-5 text-left text-heading text-base-blacks-var-1">
