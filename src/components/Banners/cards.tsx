@@ -22,7 +22,9 @@ export const Solutions: FunctionComponent<CardProps> = ({ button, header, subtex
         </div>
         <div className="flex flex-col p-4 gap-2">
             <h3 className="text-body-4x m-0 font-semibold">{header}</h3>
-            <p className="text-small text-gray-400 m-0 selection:bg-fuchsia-300 selection:text-black font-light"><div dangerouslySetInnerHTML={{ __html: subtext }} /></p>
+            <div className="text-small text-gray-400 m-0 selection:bg-fuchsia-300 selection:text-black font-light">
+                <div dangerouslySetInnerHTML={{ __html: subtext }} />
+            </div>
         </div>
     </div>
     );
@@ -40,7 +42,9 @@ export const Pricing: FunctionComponent<CardProps> = ({ button, header, subtext,
             <div className={`rounded flex flex-1 sm:h-[400px] ${styles.background}`} style={backgroundImageStyle}></div>
             <div className="flex flex-col p-4 gap-2">
                 <h3 className="text-body-4x m-0 font-semibold">{header}</h3>
-                <p className="text-small text-gray-400 selection:bg-fuchsia-300 selection:text-black m-0 font-light"><div dangerouslySetInnerHTML={{ __html: subtext }} /></p>
+                <div className="text-small text-gray-400 selection:bg-fuchsia-300 selection:text-black m-0 font-light">
+                    <div dangerouslySetInnerHTML={{ __html: subtext }} />
+                </div>
             </div>
         </div>
         <div className="flex gap-2">
