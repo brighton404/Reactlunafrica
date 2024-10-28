@@ -15,7 +15,7 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
     content = 
     <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-body-small">
       <div className="flex flex-col items-start justify-start">
-        <img className="relative w-[200px] h-[200px] object-cover" alt="" src='../Reactlunafrica/images/advisors/michael-szymanski.png'/>
+        <img className="relative w-[200px] h-[200px] object-cover" alt="" src='images/advisors/michael-szymanski.png'/>
       </div>
       <div   className="flex flex-col items-start justify-start py-2.5 px-0 gap-[10px]">
         <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-whites-var-1" />
@@ -34,7 +34,7 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
     content = 
     <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-body-small">
       <div className="flex flex-col items-start justify-start">
-        <img className="relative w-[200px] h-[200px] object-cover" alt="" src='../Reactlunafrica/images/advisors/warren-cronje.png'/>
+        <img className="relative w-[200px] h-[200px] object-cover" alt="" src='images/advisors/warren-cronje.png'/>
       </div>
       <div
         className="flex flex-col items-start justify-start py-2.5 px-0 gap-[10px]">
@@ -54,7 +54,7 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
     content = 
     <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-body-small">
       <div className="flex flex-col items-start justify-start">
-        <img className="relative w-[200px] h-[200px] object-cover" alt="" src='../Reactlunafrica/images/advisors/james-brown.png'/>
+        <img className="relative w-[200px] h-[200px] object-cover" alt="" src='images/advisors/james-brown.png'/>
       </div>
       <div
         className="flex flex-col items-start justify-start py-2.5 px-0 gap-[10px]">
@@ -74,7 +74,7 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
     content = 
     <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-body-small">
       <div className="flex flex-col items-start justify-start">
-        <img className="relative w-[200px] h-[200px] object-cover"  alt="" src='../Reactlunafrica/images/advisors/fredeline-muller.png'/>
+        <img className="relative w-[200px] h-[200px] object-cover"  alt="" src='images/advisors/fredeline-muller.png'/>
       </div>
       <div
         className="flex flex-col items-start justify-start py-2.5 px-0 gap-[10px]">
@@ -94,7 +94,7 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
     content = 
     <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-body-small">
       <div className="flex flex-col items-start justify-start">
-        <img className="relative w-[200px] h-[200px] object-cover" alt="" src='../Reactlunafrica/images/advisors/chidi-afulezi.png'/>
+        <img className="relative w-[200px] h-[200px] object-cover" alt="" src='images/advisors/chidi-afulezi.png'/>
       </div>
       <div
         className="flex flex-col items-start justify-start py-2.5 px-0 gap-[10px]">
@@ -114,7 +114,7 @@ const AdvisorCard: FunctionComponent<AdvisorProps> = ({ advisor = 'default' }) =
     content = 
     <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-body-small">
       <div className="flex flex-col items-start justify-start">
-        <img className="relative w-[200px] h-[200px] object-cover" alt="" src='../Reactlunafrica/images/advisors/chandini-sood.png'/>
+        <img className="relative w-[200px] h-[200px] object-cover" alt="" src='images/advisors/chandini-sood.png'/>
       </div>
       <div
         className="flex flex-col items-start justify-start py-2.5 px-0 gap-[10px]">

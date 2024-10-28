@@ -61,7 +61,6 @@ function App() {
   return (
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="Reactlunafrica/" element={<Home />} /> {/** Resolves CNAME domain routing not finding files */}
         <Route path="/about" element={<About />} />
         {/** 
         <Route path="/blog" element={<Blog />} />
