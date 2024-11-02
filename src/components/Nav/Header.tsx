@@ -5,18 +5,14 @@ import PortalDrawer from "./PortalDrawer";
 import LUNALOGO from "../LUNA/LUNALOGO";
 import './header.css';
 
-function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(' ')
-}
-
 const Header: FunctionComponent = () => {
   const navigate = useNavigate();
   const [isSideBarOpen, setSideBarOpen] = useState(false);
 
   const onHome = useCallback(() => {    navigate("/");  }, [navigate]);
-  const onWhoWeAreClick = useCallback(() => {    navigate("../About");  }, [navigate]);
-  const onHowItWorksClick = useCallback(() => {    navigate("../Flow");  }, [navigate]);
-  const onResourcesClick = useCallback(() => {    navigate("../Blog");  }, [navigate]);
+  const onWhoWeAreClick = useCallback(() => {    navigate("Reactlunafrica/About");  }, [navigate]);
+  const onHowItWorksClick = useCallback(() => {    navigate("Reactlunafrica/Flow");  }, [navigate]);
+  const onResourcesClick = useCallback(() => {    navigate("Reactlunafrica/Blog");  }, [navigate]);
   const openSideBar = useCallback(() => {    setSideBarOpen(true);  }, []);
   const closeSideBar = useCallback(() => {    setSideBarOpen(false);  }, []);
   return (
@@ -26,7 +22,7 @@ const Header: FunctionComponent = () => {
         <div className="flex items-center justify-center cursor-pointer" onClick={onHome}><LUNALOGO logoVar="1"/></div>
         <div className="flex items-center gap-[10px] md:hidden">
             <div className="flex items-center justify-center px-4">
-              <nav className="m-0 flex-1 flex items-center justify-center gap-[35px] text-left text-small sm:hidden md:hidden">
+              <nav className="m-0 flex-1 flex items-center justify-center gap-[35px] text-left text-small sm:hidden md:hidden text-white">
                 <Link className="cursor-pointer [text-decoration:none] visited:text-white" to="/About" onClick={onWhoWeAreClick}> Who we are </Link>
                 <Link className="cursor-not-allowed [text-decoration:none] visited:text-white" to="" onClick={onHowItWorksClick}> How it works</Link>
                 <Link className="cursor-not-allowed [text-decoration:none] visited:text-white" to="" onClick={onResourcesClick}> Resources</Link>

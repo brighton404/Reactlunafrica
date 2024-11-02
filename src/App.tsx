@@ -35,7 +35,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "Reactlunafrica/about":
+      case "Reactlunafrica/About":
         title = "";
         metaDescription = "";
         break;
@@ -62,7 +62,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="Reactlunafrica/" element={<Home />} /> {/** supporting github routing */}
-        <Route path="Reactlunafrica/about" element={<About />} />
+        <Route path="Reactlunafrica/About" element={<About />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/flow" element={<Flow />} />
         <Route path="/dashblog" element={<Dashblog />} />
