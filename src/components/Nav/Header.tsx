@@ -10,9 +10,6 @@ const Header: FunctionComponent = () => {
   const [isSideBarOpen, setSideBarOpen] = useState(false);
 
   const onHome = useCallback(() => {    navigate("/");  }, [navigate]);
-  const onWhoWeAreClick = useCallback(() => {    navigate("Reactlunafrica/About");  }, [navigate]);
-  const onHowItWorksClick = useCallback(() => {    navigate("Reactlunafrica/Flow");  }, [navigate]);
-  const onResourcesClick = useCallback(() => {    navigate("Reactlunafrica/Blog");  }, [navigate]);
   const openSideBar = useCallback(() => {    setSideBarOpen(true);  }, []);
   const closeSideBar = useCallback(() => {    setSideBarOpen(false);  }, []);
   return (
@@ -23,9 +20,9 @@ const Header: FunctionComponent = () => {
         <div className="flex items-center gap-[10px] md:hidden">
             <div className="flex items-center justify-center px-4">
               <nav className="m-0 flex-1 flex items-center justify-center gap-[35px] text-left text-small sm:hidden md:hidden text-white">
-                <Link className="cursor-pointer [text-decoration:none] visited:text-white" to="/About" onClick={onWhoWeAreClick}> Who we are </Link>
-                <Link className="cursor-not-allowed [text-decoration:none] visited:text-white" to="" onClick={onHowItWorksClick}> How it works</Link>
-                <Link className="cursor-not-allowed [text-decoration:none] visited:text-white" to="" onClick={onResourcesClick}> Resources</Link>
+                <Link className="cursor-pointer [text-decoration:none] visited:text-white" to="../Reactlunafrica/About"> Who we are </Link>
+                <Link className="cursor-not-allowed [text-decoration:none] visited:text-white" to=""> How it works</Link>
+                <Link className="cursor-not-allowed [text-decoration:none] visited:text-white" to=""> Resources</Link>
               </nav>
             </div>
             {/**  <div className="h-[70px] flex flex-row items-center justify-start gap-[10px] sm:hidden lg:hidden"><a className="[text-decoration:none] relative w-[25px] h-[25px] bg-[url('/images/icons/instagram.svg')] bg-contain bg-no-repeat bg-center" href="https://www.instagram.com/luna4africa/" target="_blank"/> <a className="[text-decoration:none] relative w-[25px] h-[25px] bg-[url('/images/icons/twitter.svg')] bg-contain bg-no-repeat bg-center" href="https://twitter.com/luna4africa" target="_blank"/> <a className="[text-decoration:none] relative w-[25px] h-[25px] bg-[url('/images/icons/linkedin.svg')] bg-contain bg-no-repeat bg-center" href="https://www.linkedin.com/company/luna4africa/" target="_blank"/> <a className="[text-decoration:none] relative w-[25px] h-[25px] bg-[url('/images/icons/tiktok.svg')] bg-contain bg-no-repeat bg-center" href="https://www.tiktok.com/@luna4africa" target="_blank"/>  </div>   */}
