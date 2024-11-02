@@ -61,6 +61,7 @@ function App() {
   return (
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="Reactlunafrica/" element={<Home />} /> {/** supporting github routing */}
         <Route path="/about" element={<About />} />
         {/** 
         <Route path="/blog" element={<Blog />} />
