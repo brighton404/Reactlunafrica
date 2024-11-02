@@ -15,7 +15,7 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
     content = 
     <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-Poppins">
       <div className="flex flex-col items-start justify-start flex-1">
-        <img className="w-[200px] h-[200px] object-contain bg-white" src="images/team/berabose-joyce.png"/>
+        <img className="w-[200px] h-[200px] object-contain bg-white" src="../Reactlunafricaimages/team/berabose-joyce.png"/>
       </div>
       <div className="flex flex-col items-start justify-start py-2.5 px-0 gap-[10px]">
         <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-whites-var-1" />
@@ -34,7 +34,7 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
     content = 
     <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-Poppins">
       <div className="flex flex-col items-start justify-start">
-        <img className="relative w-[200px] h-[200px] object-cover bg-white" alt="" src="images/team/chibudu-nyiro.png"/>
+        <img className="relative w-[200px] h-[200px] object-cover bg-white" alt="" src="../Reactlunafricaimages/team/chibudu-nyiro.png"/>
       </div>
       <div className="flex flex-col items-start justify-start py-2.5 px-0 gap-[10px]">
           <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-whites-var-1" />
@@ -53,7 +53,7 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
     content = 
     <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-Poppins">
       <div className="flex flex-col items-start justify-start">
-        <img className="relative w-[250px] h-[200px] object-cover bg-white" alt="" src="images/team/dusabimana-ange.png" />
+        <img className="relative w-[250px] h-[200px] object-cover bg-white" alt="" src="../Reactlunafricaimages/team/dusabimana-ange.png" />
       </div>
       <div className="flex flex-col items-start justify-start py-2.5 px-0 gap-[10px]">
         <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-whites-var-1" />
@@ -72,7 +72,7 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
     content = 
     <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-Poppins">
       <div className="flex flex-col items-start justify-start">
-        <img className="relative w-[210px] h-[200px] object-cover bg-white" alt="" src="images/team/juliusBrighton.png"/>
+        <img className="relative w-[210px] h-[200px] object-cover bg-white" alt="" src="../Reactlunafricaimages/team/juliusBrighton.png"/>
       </div>
       <div className="flex flex-col items-start justify-start py-2.5 px-0 gap-[10px]">
         <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-whites-var-1" />
@@ -91,7 +91,7 @@ const TeamMember: FunctionComponent<PartnerProps> = ({ team = 'default' }) => {
     content = 
     <div className="bg-base-blacks-var-2 overflow-hidden flex flex-col items-start justify-center pt-2.5 px-2.5 pb-0 gap-[5px] text-left text-3xl text-base-whites-var-1 font-Poppins">
       <div className="flex flex-col items-start justify-start">
-        <img className="relative w-[210px] h-[200px] object-cover bg-white" alt="" src="images/team/glory-alphonsus.png"/>
+        <img className="relative w-[210px] h-[200px] object-cover bg-white" alt="" src="../Reactlunafricaimages/team/glory-alphonsus.png"/>
       </div>
       <div className="flex flex-col items-start justify-start py-2.5 px-0 gap-[10px]">
         <div className="relative box-border w-[111.9px] h-[2.8px] border-t-[2.8px] border-solid border-base-whites-var-1" />
