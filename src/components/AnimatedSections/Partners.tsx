@@ -68,7 +68,7 @@ const PartnerCard: React.FC<PartnerProps> = ({ partners = 'default' }) => {
   case 'Eves Apple':
     content = 
     <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-small  font-Poppins">
-    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="../Reactlunafricaimages/partners/partner07@2x.png"/>
+    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="../Reactlunafrica/images/partners/partner07@2x.png"/>
     <div className="flex flex-row items-start justify-start">
       <span className="relative">Eve's Apple</span>
     </div>
@@ -77,7 +77,7 @@ const PartnerCard: React.FC<PartnerProps> = ({ partners = 'default' }) => {
   case 'Allan & Gray':
     content = 
     <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-small  font-Poppins">
-    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="../Reactlunafricaimages/partners/partner08@2x.png"/>
+    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="../Reactlunafrica/images/partners/partner08@2x.png"/>
     <div className="flex flex-row items-start justify-start">
       <span className="relative">Allan & Gray</span>
     </div>
@@ -86,7 +86,7 @@ const PartnerCard: React.FC<PartnerProps> = ({ partners = 'default' }) => {
   case 'YWCA':
     content = 
     <div className="overflow-hidden flex flex-row items-center justify-center py-[5px] pr-5 pl-2.5 gap-[10px] text-left text-small  font-Poppins">
-    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="../Reactlunafricaimages/partners/partner09@2x.png"/>
+    <img className="relative w-[45x] h-[30px] object-cover" alt="" src="../Reactlunafrica/images/partners/partner09@2x.png"/>
     <div className="flex flex-row items-start justify-start">
       <span className="relative">YWCA</span>
     </div>
