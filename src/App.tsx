@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
-import Home from "./pages/Home";
-import Blog from "./pages/Blog";
-import Flow from "./pages/Flow";
-import About from "./pages/About";
-import Dashblog from "./pages/DashBlog";
+import Home from "@/pages/Home";
+import Blog from "@/pages/Blog";
+import Flow from "@/pages/Flow";
+import About from "@/pages/About";
+import Dashblog from "@/pages/DashBlog";
 
 function App() {
   const location = useLocation();
@@ -63,9 +63,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="Reactlunafrica/" element={<Home />} /> {/** supporting github routing */}
         <Route path="Reactlunafrica/About" element={<About />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/flow" element={<Flow />} />
-        <Route path="/dashblog" element={<Dashblog />} />
+        <Route path="Reactlunafrica/blog" element={<Blog />} />
+        <Route path="Reactlunafrica/flow" element={<Flow />} />
+        <Route path="Reactlunafrica/dashblog" element={<Dashblog />} />
       </Routes>
   );
 }

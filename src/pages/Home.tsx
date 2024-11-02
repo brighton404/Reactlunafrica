@@ -1,11 +1,11 @@
 import { FunctionComponent } from "react"; import Banner from "../components/Banners/Banner";
-import FAQAccordion from "../components/Forms/Accordion";
-import PartnerSection from "../components/AnimatedSections/HomePartner";
-import Demotext from "../components/AnimatedSections/demotext";
-import Header from "../components/Nav/Header"; 
-import Footer from "../components/Nav/Footer";
-import { Solutions, Pricing } from "../components/Banners/cards";
-import PartnerCard from "../components/AnimatedSections/Partners";
+import FAQAccordion from "@/components/Forms/Accordion";
+import PartnerSection from "@/components/AnimatedSections/HomePartner";
+import Demotext from "@/components/AnimatedSections/demotext";
+import Header from "@/components/Nav/Header"; 
+import Footer from "@/components/Nav/Footer";
+import { Solutions, Pricing } from "@/components/Banners/cards";
+import PartnerCard from "@/components/AnimatedSections/Partners";
 
 const Home: FunctionComponent = () => {
   return (
@@ -33,9 +33,9 @@ const Home: FunctionComponent = () => {
         <h2 className="m-0 font-semibold text-body">Our Solutions</h2>
         <div className="self-stretch bg-base-blacks-var-2 flex flex-col">
           <div className="self-stretch flex py-2 gap-5 sm:flex-col">
-            <Solutions button={"Health"} header={"Services offered "} subtext={"Teleconsultation <br /> Talk to our range of professionals, experts and specialists from all backgrounds and experiences from anywhere in the world."} image={'images/nurse.jpg'} imgDesc={"nurse holding a paper cardboard"} />
-            <Solutions button={"Community"} header={"User engagements"} subtext={"Anonymous questions <br /> WhatsApp Group <br /> Events and Webinars <br />"} image={'images/community.jpg'} imgDesc={""} />
-            <Solutions button={"Shop"} header={"Tailored features"} subtext={"subscribe to monthly delivery <br /> build your own need box <br /> safe and trusted delievery"} image={'images/shop.jpg'} imgDesc={""} />
+            <Solutions button={"Health"} header={"Services offered "} subtext={"Teleconsultation <br /> Talk to our range of professionals, experts and specialists from all backgrounds and experiences from anywhere in the world."} image={'../Reactlunafrica/images/gradient.pngimages/nurse.jpg'} imgDesc={"nurse holding a paper cardboard"} />
+            <Solutions button={"Community"} header={"User engagements"} subtext={"Anonymous questions <br /> WhatsApp Group <br /> Events and Webinars <br />"} image={'../Reactlunafrica/images/gradient.pngimages/community.jpg'} imgDesc={""} />
+            <Solutions button={"Shop"} header={"Tailored features"} subtext={"subscribe to monthly delivery <br /> build your own need box <br /> safe and trusted delievery"} image={'../Reactlunafrica/images/gradient.pngimages/shop.jpg'} imgDesc={""} />
           </div>
         </div>
       </section>
@@ -49,7 +49,7 @@ const Home: FunctionComponent = () => {
         </div>
         <div className="flex flex-row gap-4  pb-20 md:flex-col">
           <div className="flex flex-1">
-          <Pricing image={"images/gradient.png"} imgDesc={""} button={"Package"} header={"Go premium to access Full LUNA services"} subtext={"Unleash your online potential with our Go Premium - Full LUNA Services package. Elevate your digital presence with free assessments, limitless consultations with top professionals, and customized product deals. <br /> <br /> Transform your online experience and access premium features to enhance your digital journey."}/>
+          <Pricing image={"../Reactlunafrica/images/gradient.png"} imgDesc={""} button={"Package"} header={"Go premium to access Full LUNA services"} subtext={"Unleash your online potential with our Go Premium - Full LUNA Services package. Elevate your digital presence with free assessments, limitless consultations with top professionals, and customized product deals. <br /> <br /> Transform your online experience and access premium features to enhance your digital journey."}/>
           </div>
           <div className="flex flex-1 gap-4 flex-col">
             <Pricing image={""} imgDesc={""} button={"Package"} header={"Mental health at your workspace"} subtext={"Elevate workplace well-being with our package offering in-person and online consultations, mindfulness sessions, and stress management workshops. <br /> <br /> Designed to foster a positive work environment, this package empowers your team to thrive. Contact us to initiate a positive change in your workspace"} />
