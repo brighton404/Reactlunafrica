@@ -13,13 +13,12 @@ const Header: FunctionComponent = () => {
   const navigate = useNavigate();
   const [isSideBarOpen, setSideBarOpen] = useState(false);
 
-  const onWhoWeAreClick = useCallback(() => {    navigate("/Flow");  }, [navigate]);
+  const onWhoWeAreClick = useCallback(() => {    navigate("../Reactlunafrica/Flow");  }, [navigate]);
   const onHome = useCallback(() => {    navigate("/");  }, [navigate]);
-  const onHowItWorksClick = useCallback(() => {    navigate("/Flow");  }, [navigate]);
-  const onResourcesClick = useCallback(() => {    navigate("Reactlunafrica/Blog");  }, [navigate]);
+  const onHowItWorksClick = useCallback(() => {    navigate("../Reactlunafrica/Flow");  }, [navigate]);
+  const onResourcesClick = useCallback(() => {    navigate("../Reactlunafrica/Blog");  }, [navigate]);
   const openSideBar = useCallback(() => {    setSideBarOpen(true);  }, []);
   const closeSideBar = useCallback(() => {    setSideBarOpen(false);  }, []);
-  const items = ['Item 1', 'Item 2', 'Item 3'];
   return (
     <>
       <header className="fixed top-0 z-10 w-full h-14 bg-gradient-to-r from-[#00000000] via-[#ffffff31] to-[#00000000] backdrop-blur-sm flex px-10 box-border justify-center items-center  text-base-whites-var-1 font-Poppins">
