@@ -71,9 +71,9 @@ const Home: FunctionComponent = () => {
                 <p className="m-0">We align our vision with Global goals. Here are the areas we are contributing to</p>
             </div>
             <div className="self-stretch flex flex-row sm:flex-col items-start justify-center p-20 gap-20">
-              <img className="relative w-[300px] h-[300px] object-cover md:w-full sm:w-full md:object-contain bg-[#51a136] drop-shadow-[9px_6px_0px_black] rotate-6" alt="sdg number 3: good health and well being" src="images/sdg/SDG-3.png"/>
-              <img className="relative w-[300px] h-[300px] object-cover md:w-full sm:w-full md:object-contain bg-[#f5342a] drop-shadow-[9px_6px_0px_black] rotate-[-6deg]" alt="sdg number 5: gender equality" src="images/sdg/SDG-5.png"/>
-              <img className="relative w-[300px] h-[300px] object-cover md:w-full sm:w-full md:object-contain bg-[#d50069] drop-shadow-[9px_6px_0px_black] rotate-3" alt="sdg number 10: reduced inequalities" src="images/sdg/SDG-10.png"/>
+              <img className="relative w-[300px] h-[300px] object-cover md:w-full sm:w-full md:object-contain bg-[#51a136] drop-shadow-[9px_6px_0px_black] rotate-6" alt="sdg number 3: good health and well being" src="../Reactlunafrica/images/sdg/SDG-3.png"/>
+              <img className="relative w-[300px] h-[300px] object-cover md:w-full sm:w-full md:object-contain bg-[#f5342a] drop-shadow-[9px_6px_0px_black] rotate-[-6deg]" alt="sdg number 5: gender equality" src="../Reactlunafrica/images/sdg/SDG-5.png"/>
+              <img className="relative w-[300px] h-[300px] object-cover md:w-full sm:w-full md:object-contain bg-[#d50069] drop-shadow-[9px_6px_0px_black] rotate-3" alt="sdg number 10: reduced inequalities" src="../Reactlunafrica/images/sdg/SDG-10.png"/>
             </div>
           </div>
           <div  className="self-stretch flex flex-col items-center justify-center py-2.5 px-5 text-left text-heading text-base-blacks-var-1">
