@@ -20,7 +20,7 @@ const Header: FunctionComponent = () => {
         <div className="flex items-center gap-[10px] md:hidden">
             <div className="flex items-center justify-center px-4">
               <nav className="m-0 flex-1 flex items-center justify-center gap-[35px] text-left text-small sm:hidden md:hidden text-white">
-                <Link className="cursor-pointer [text-decoration:none] visited:text-white" to="../About"> Who we are </Link>
+                <Link className="cursor-pointer [text-decoration:none] visited:text-white" to="../Reactlunafrica/About"> Who we are </Link>
                 <Link className="cursor-not-allowed [text-decoration:none] visited:text-white" to=""> How it works</Link>
                 <Link className="cursor-not-allowed [text-decoration:none] visited:text-white" to=""> Resources</Link>
               </nav>
