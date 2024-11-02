@@ -13,10 +13,10 @@ const Header: FunctionComponent = () => {
   const navigate = useNavigate();
   const [isSideBarOpen, setSideBarOpen] = useState(false);
 
-  const onWhoWeAreClick = useCallback(() => {    navigate("../Reactlunafrica/Flow");  }, [navigate]);
   const onHome = useCallback(() => {    navigate("/");  }, [navigate]);
-  const onHowItWorksClick = useCallback(() => {    navigate("../Reactlunafrica/Flow");  }, [navigate]);
-  const onResourcesClick = useCallback(() => {    navigate("../Reactlunafrica/Blog");  }, [navigate]);
+  const onWhoWeAreClick = useCallback(() => {    navigate("../About");  }, [navigate]);
+  const onHowItWorksClick = useCallback(() => {    navigate("../Flow");  }, [navigate]);
+  const onResourcesClick = useCallback(() => {    navigate("../Blog");  }, [navigate]);
   const openSideBar = useCallback(() => {    setSideBarOpen(true);  }, []);
   const closeSideBar = useCallback(() => {    setSideBarOpen(false);  }, []);
   return (
