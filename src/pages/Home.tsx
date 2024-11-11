@@ -22,9 +22,7 @@ const Home: FunctionComponent = () => {
           <div className="self-stretch flex flex-col items-center justify-center py-2.5 px-0 gap-[10px] text-lg sm:items-start sm:justify-center sm:justify-left">
             <span className="self-stretch relative whitespace-pre-wrap sm:text-left text-base-whites-var-1 text-body-3x sm:text-small">  We are happy you're here. <br /> Would you like to join our FREE community group of women across the globe for breaking conversations on health?
             </span>
-            <button className="cursor-pointer [border:none] py-[5px] px-5 bg-base-whites-var-1 flex flex-row items-center justify-center" id="JoinUs">
-              <a className="[text-decoration:none] relative text-body-4x sm:text-small font-semibold  text-base-blacks-var-1 text-left" href="https://lunahealth.co/consult/signup">Join Us</a>
-            </button>
+              <a className=" cursor-pointer [border:none] py-[5px] px-5 bg-base-whites-var-1 flex flex-row items-center justify-center [text-decoration:none] relative text-body-4x sm:text-small font-semibold  text-base-blacks-var-1 text-left" href="https://lunahealth.co/consult/signup">Join Us</a>
           </div>
         </div>
       </section>
