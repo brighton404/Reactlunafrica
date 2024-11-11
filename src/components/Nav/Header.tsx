@@ -25,10 +25,9 @@ const Header: FunctionComponent = () => {
                 <Link className="cursor-not-allowed [text-decoration:none] visited:text-white" to="../Reactlunafrica/Resources"> Resources</Link>
               </nav>
             </div>
-            {/**  <div className="h-[70px] flex flex-row items-center justify-start gap-[10px] sm:hidden lg:hidden"><a className="[text-decoration:none] relative w-[25px] h-[25px] bg-[url('/images/icons/instagram.svg')] bg-contain bg-no-repeat bg-center" href="https://www.instagram.com/luna4africa/" target="_blank"/> <a className="[text-decoration:none] relative w-[25px] h-[25px] bg-[url('/images/icons/twitter.svg')] bg-contain bg-no-repeat bg-center" href="https://twitter.com/luna4africa" target="_blank"/> <a className="[text-decoration:none] relative w-[25px] h-[25px] bg-[url('/images/icons/linkedin.svg')] bg-contain bg-no-repeat bg-center" href="https://www.linkedin.com/company/luna4africa/" target="_blank"/> <a className="[text-decoration:none] relative w-[25px] h-[25px] bg-[url('/images/icons/tiktok.svg')] bg-contain bg-no-repeat bg-center" href="https://www.tiktok.com/@luna4africa" target="_blank"/>  </div>   */}
             <button className="cursor-pointer rounded-md border:none py-[5px] px-2.5 bg-base-whites-var-1 flex flex-row items-center justify-center text-small text-base-blacks-var-1 text-left sm:hidden" >Consult now</button>
         </div>
-        <button className="cursor-pointer border:none p-2.5 bg-[transparent] hidden flex-row items-center justify-start z-[3] sm:flex md:flex" onClick={openSideBar}> <img className="relative w-[27px] h-[18px] sm:flex md:flex"  alt="" src="/images/icons/menu.svg"/></button>
+        <button className="cursor-pointer border:none p-2.5 bg-[transparent] hidden flex-row items-center justify-start z-[3] sm:flex md:flex" onClick={openSideBar}> <img className="relative w-[27px] h-[18px] sm:flex md:flex"  alt="" src="../Reactlunafrica/images/icons/menu.svg"/></button>
         </div>
       </header>
       {isSideBarOpen && (
